@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.0.6] - 2026-03-22
+
+### Fixed
+
+- Fixed book background texture not being functional by splitting it in 2
+
 ## [1.0.5] - 2026-03-21
 
 ### Added

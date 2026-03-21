@@ -630,15 +630,27 @@
                 </Anchors>
                 <Layers>
                     <Layer level="BACKGROUND">
-                        <Texture name="IJ_EncounterPanelBookBackground"
-                            file="Interface\AddOns\InstanceJournal\media\ui\bg-book">
+                        <Texture name="IJ_EncounterPanelBookBackgroundLeft"
+                            file="Interface\AddOns\InstanceJournal\media\ui\bg-book-left">
                             <Size>
-                                <AbsDimension x="685" y="361" />
+                                <AbsDimension x="342" y="361" />
                             </Size>
                             <Anchors>
                                 <Anchor point="TOPLEFT" />
                             </Anchors>
-                            <TexCoords left="0" right="0.766601562" top="0" bottom="0.830078125" />
+                            <TexCoords left="0" right="0.771484375" top="0" bottom="0.83203125" />
+                        </Texture>
+                        <Texture name="IJ_EncounterPanelBookBackgroundRight"
+                            file="Interface\AddOns\InstanceJournal\media\ui\bg-book-right">
+                            <Size>
+                                <AbsDimension x="343" y="361" />
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT"
+                                    relativeTo="IJ_EncounterPanelBookBackgroundLeft"
+                                    relativePoint="TOPRIGHT" />
+                            </Anchors>
+                            <TexCoords left="0" right="0.763671875" top="0" bottom="0.83203125" />
                         </Texture>
                     </Layer>
                 </Layers>
