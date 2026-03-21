@@ -392,7 +392,7 @@ function IJ_ShowBossesIconFromInstance(instance)
 
                 bossPin:SetScript("OnMouseUp", function()
                     local pinScale = tonumber(this.instance.IconScale) or 1.0
-                    
+
                     this:SetWidth(32 * pinScale)
                     this:SetHeight(32 * pinScale)
                 end)
@@ -413,7 +413,9 @@ function IJ_ShowBossesIconFromInstance(instance)
                     IJ_ShowEncounter(this.instance)
                     IJ_ShowBoss(this.boss)
 
-                    WorldMapFrame:Hide()
+                    if WorldMapFrame:IsShown() then
+                        ToggleWorldMap()
+                    end
                 end)
 
                 table.insert(IJ_CreatedMapPins, bossPin)

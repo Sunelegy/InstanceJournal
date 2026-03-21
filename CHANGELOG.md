@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.0.7] - 2026-03-22
+
+### Fixed
+
+- Fixed the UI being fully hidden when pressing on a boss icon on the map
+
 ## [1.0.6] - 2026-03-22
 
 ### Fixed
