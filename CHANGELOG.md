@@ -2,6 +2,13 @@
 
 All changes to this project will be documented in this file.
 
+## [1.0.5] - 2026-03-21
+
+### Added
+
+- Added deDE, esES, frFR, ptBR, ruRU, and zhCN to the title of the toc file
+- Added deDE, esES, frFR, ptBR, ruRU, and zhCN to the notes of the toc file
+
 ## [1.0.4] - 2026-03-21
 
 ### Added
