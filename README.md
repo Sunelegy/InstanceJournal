@@ -7,6 +7,7 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 
 - Lists all dungeons and raids, including custom TurtleWoW content
 - Details every boss's abilities and loot
+- Allows linking abilities and loot in the chat
 - Provides a search bar for quickly finding any item, ability, instance, or boss
 - Integrates instance entrances and bosses onto the world map; click any boss to open their encounter in the journal
 - Improves the overall world map experience
