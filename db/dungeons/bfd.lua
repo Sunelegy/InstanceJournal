@@ -28,7 +28,7 @@ BFD.MaxLevel = 31
 BFD.Entrances = {
     [1] = {
         MapContinentId = IMI.Kalimdor,
-        MapZoneId = IZI.Azshara,
+        MapZoneId = IZI.Ashenvale,
         MapCoordinateX = 14.1,
         MapCoordinateY = 14.4,
     },
