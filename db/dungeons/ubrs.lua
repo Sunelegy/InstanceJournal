@@ -9,6 +9,8 @@ local IMPP = IJLib.MediaPathPortrait
 local IMPF = IJLib.MediaPathFrame
 local IMAF = IJLib.AbilityFlags
 local IMCL = IJLib.Classes
+local IMI = IJLib.MapId
+local IZI = IJLib.ZoneId
 
 local instanceMediaAcronym = "ubrs\\"
 
@@ -19,16 +21,16 @@ UBRS.Story = IJ_DB_DUNGEON_UBRS_STORY
 UBRS.Type = IJLib.InstanceType.Dungeon
 UBRS.Background = IMP .. IMPD .. instanceMediaAcronym .. "background"
 UBRS.GridBackground = IMP .. IMPD .. instanceMediaAcronym .. "grid-background"
-UBRS.MapId = "17"
-UBRS.IconScale = "0.8"
+UBRS.MapId = IMI.BlackrockSpire
+UBRS.IconScale = 0.8
 UBRS.MinLevel = 60
 UBRS.MaxLevel = 60
 UBRS.Entrances = {
     [1] = {
-        MapContinentId = "2",
-        MapZoneId = "6",
-        MapCoordinateX = "79.0",
-        MapCoordinateY = "33.0",
+        MapContinentId = IMI.EasternKingdoms,
+        MapZoneId = IZI.BlackrockMountain,
+        MapCoordinateX = 79.0,
+        MapCoordinateY = 33.0,
     },
 }
 UBRS.Bosses = {

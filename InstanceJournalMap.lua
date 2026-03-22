@@ -2,8 +2,8 @@ IJ_CreatedMapPins = {}
 IJ_CreatedMapInstanceEntrance = {}
 
 function IJ_ToggleWorldMap()
-    local mapId = IJ_SelectedInstance and tonumber(IJ_SelectedInstance.MapId)
-    local zoneId = IJ_SelectedInstance and tonumber(IJ_SelectedInstance.ZoneId) or 1
+    local mapId = IJ_SelectedInstance and IJ_SelectedInstance.MapId
+    local zoneId = IJ_SelectedInstance and IJ_SelectedInstance.ZoneId or 1
 
     if not mapId then
         return
@@ -40,8 +40,8 @@ function IJ_ShowInstanceEntrancesIcon(instance)
 
     for i, ent in pairs(instance.Entrances) do
         if tostring(ent.MapContinentId) == tostring(currentContinentId) and tostring(ent.MapZoneId) == tostring(currentZoneId) then
-            local x = (tonumber(ent.MapCoordinateX) or 0) / 100 * WorldMapButton:GetWidth()
-            local y = (tonumber(ent.MapCoordinateY) or 0) / 100 * WorldMapButton:GetHeight()
+            local x = (ent.MapCoordinateX or 0) / 100 * WorldMapButton:GetWidth()
+            local y = (ent.MapCoordinateY or 0) / 100 * WorldMapButton:GetHeight()
             local cleanName = string.gsub(instance.Name or IJ_ERROR_ZONENAMENOTFOUND, "%s+", "")
             local pinName = "IJ_EntrancePin_" .. cleanName .. "_" .. i
             local entrancePin = getglobal(pinName)
@@ -102,8 +102,8 @@ function IJ_ShowInstanceEntrancesIcon(instance)
                     end
 
                     local destZoneId = (this.ent and this.ent.MapDestinationZoneId) and
-                        tonumber(this.ent.MapDestinationZoneId) or 1
-                    SetMapZoom(tonumber(instance.MapId), destZoneId)
+                        this.ent.MapDestinationZoneId or 1
+                    SetMapZoom(instance.MapId, destZoneId)
                 end)
 
                 if instance.Type == IJLib.InstanceType.Dungeon then
@@ -147,8 +147,8 @@ function IJ_ShowPOIEntrancesIcon(poi)
 
     for i, ent in pairs(poi.Entrances) do
         if tostring(ent.MapContinentId) == tostring(currentContinentId) and tostring(ent.MapZoneId) == tostring(currentZoneId) then
-            local x = (tonumber(ent.MapCoordinateX) or 0) / 100 * WorldMapButton:GetWidth()
-            local y = (tonumber(ent.MapCoordinateY) or 0) / 100 * WorldMapButton:GetHeight()
+            local x = (ent.MapCoordinateX or 0) / 100 * WorldMapButton:GetWidth()
+            local y = (ent.MapCoordinateY or 0) / 100 * WorldMapButton:GetHeight()
             local cleanName = string.gsub(poi.Name or IJ_ERROR_ZONENAMENOTFOUND, "%s+", "")
             local pinName = "IJ_POIPin_" .. cleanName .. "_" .. i
             local entrancePin = getglobal(pinName)
@@ -203,7 +203,7 @@ function IJ_ShowPOIEntrancesIcon(poi)
                     end
 
                     if this.poi.MapContinentId and this.poi.MapZoneId then
-                        SetMapZoom(tonumber(this.poi.MapContinentId), tonumber(this.poi.MapZoneId))
+                        SetMapZoom(this.poi.MapContinentId, this.poi.MapZoneId)
                     end
                 end)
 
@@ -240,8 +240,8 @@ function IJ_ShowInstanceLinksIcon(instance)
 
     for i, link in pairs(instance.Links) do
         if tostring(link.OriginMapContinentId) == tostring(currentContinentId) and tostring(link.OriginMapZoneId) == tostring(currentZoneId) then
-            local x = (tonumber(link.OriginMapCoordinateX) or 0) / 100 * WorldMapButton:GetWidth()
-            local y = (tonumber(link.OriginMapCoordinateY) or 0) / 100 * WorldMapButton:GetHeight()
+            local x = (link.OriginMapCoordinateX or 0) / 100 * WorldMapButton:GetWidth()
+            local y = (link.OriginMapCoordinateY or 0) / 100 * WorldMapButton:GetHeight()
             local pinName = "IJ_LinkPin_" .. instance.MapId .. "_" .. i
             local linkPin = getglobal(pinName)
 
@@ -283,8 +283,7 @@ function IJ_ShowInstanceLinksIcon(instance)
                     end
 
                     if this.link.DestinationMapContinentId and this.link.DestinationMapZoneId then
-                        SetMapZoom(tonumber(this.link.DestinationMapContinentId),
-                            tonumber(this.link.DestinationMapZoneId))
+                        SetMapZoom(this.link.DestinationMapContinentId, this.link.DestinationMapZoneId)
                     end
                 end)
 
@@ -319,7 +318,7 @@ function IJ_ShowBossesIconFromInstance(instance)
         f:Show()
     end
 
-    local scale = tonumber(instance.IconScale) or 1.0
+    local scale = instance.IconScale or 1.0
 
     for _, boss in pairs(instance.Bosses) do
         local showBoss = false
@@ -339,8 +338,8 @@ function IJ_ShowBossesIconFromInstance(instance)
         end
 
         if showBoss then
-            local x = (tonumber(boss.MapCoordinateX) or 0) / 100 * WorldMapButton:GetWidth()
-            local y = (tonumber(boss.MapCoordinateY) or 0) / 100 * WorldMapButton:GetHeight()
+            local x = (boss.MapCoordinateX or 0) / 100 * WorldMapButton:GetWidth()
+            local y = (boss.MapCoordinateY or 0) / 100 * WorldMapButton:GetHeight()
             local pinName = "IJ_BossPin_" .. instance.MapId .. "_" .. boss.Id
             local bossPin = getglobal(pinName)
 
@@ -384,14 +383,14 @@ function IJ_ShowBossesIconFromInstance(instance)
                 end)
 
                 bossPin:SetScript("OnMouseDown", function()
-                    local pinScale = tonumber(this.instance.IconScale) or 1.0
+                    local pinScale = this.instance.IconScale or 1.0
 
                     this:SetWidth(30 * pinScale)
                     this:SetHeight(30 * pinScale)
                 end)
 
                 bossPin:SetScript("OnMouseUp", function()
-                    local pinScale = tonumber(this.instance.IconScale) or 1.0
+                    local pinScale = this.instance.IconScale or 1.0
 
                     this:SetWidth(32 * pinScale)
                     this:SetHeight(32 * pinScale)
@@ -498,7 +497,7 @@ function IJ_WorldMapButton_OnClick(arg1)
             local ent = instance.Entrances[1]
 
             if ent.MapContinentId and ent.MapZoneId then
-                SetMapZoom(tonumber(ent.MapContinentId), tonumber(ent.MapZoneId))
+                SetMapZoom(ent.MapContinentId, ent.MapZoneId)
 
                 return
             end
@@ -510,7 +509,7 @@ function IJ_WorldMapButton_OnClick(arg1)
                     if poi.Entrances and poi.Entrances[1] then
                         local ent = poi.Entrances[1]
 
-                        SetMapZoom(tonumber(ent.MapContinentId), tonumber(ent.MapZoneId))
+                        SetMapZoom(ent.MapContinentId, ent.MapZoneId)
 
                         return
                     end

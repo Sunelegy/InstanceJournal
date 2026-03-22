@@ -9,6 +9,8 @@ local IMPD = IJLib.MediaPathDungeons
 local IMPP = IJLib.MediaPathPortrait
 local IMPF = IJLib.MediaPathFrame
 local IMAF = IJLib.AbilityFlags
+local IMI = IJLib.MapId
+local IZI = IJLib.ZoneId
 
 local instanceMediaAcronym = "fh\\"
 
@@ -19,16 +21,16 @@ FH.Story = IJ_DB_DUNGEON_FH_STORY
 FH.Type = IJLib.InstanceType.Dungeon
 FH.Background = IMP .. IMPD .. instanceMediaAcronym .. "background"
 FH.GridBackground = IMP .. IMPD .. instanceMediaAcronym .. "grid-background"
-FH.MapId = "46"
-FH.IconScale = "1.0"
+FH.MapId = IMI.FrostmaneHollow
+FH.IconScale = 1.0
 FH.MinLevel = 13
 FH.MaxLevel = 20
 FH.Entrances = {
     [1] = {
-        MapContinentId = "2",
-        MapZoneId = "10",
-        MapCoordinateX = "66.9",
-        MapCoordinateY = "40.3",
+        MapContinentId = IMI.EasternKingdoms,
+        MapZoneId = IZI.DunMorogh,
+        MapCoordinateX = 66.9,
+        MapCoordinateY = 40.3,
     },
 }
 FH.Bosses = {
@@ -38,9 +40,37 @@ FH.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "tansha" .. IMPF,
         Name = IJ_DB_DUNGEON_FH_BOSS_NAME_tansha,
         Story = IJ_DB_DUNGEON_FH_BOSS_STORY_tansha,
-        MapCoordinateX = "16.2",
-        MapCoordinateY = "14.5",
-        MapId = "1",
+        MapCoordinateX = 16.2,
+        MapCoordinateY = 14.5,
+        Abilities = {
+            [1] = {
+                Id = "tansha",
+                Icon = "ability_mount_whitetiger",
+                Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha,
+                SubAbilities = {
+                    [1] = {
+                        Id = "tanshaintimidatingshout",
+                        Icon = "ability_golemthunderclap",
+                        Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout,
+                        Effect = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout,
+                        Flags = { IMAF.Important, },
+                    },
+                },
+            },
+            [2] = {
+                Id = "oboka",
+                Icon = "inv_ammo_arrow_02",
+                Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka,
+                SubAbilities = {
+                    [1] = {
+                        Id = "obokamendpet",
+                        Icon = "ability_hunter_mendpet",
+                        Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet,
+                        Effect = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet,
+                    },
+                },
+            },
+        },
         Loot = {
             [1] = {
                 Id = "162",
@@ -73,35 +103,6 @@ FH.Bosses = {
                 LevelRequirement = 13,
             },
         },
-        Abilities = {
-            [1] = {
-                Id = "tansha",
-                Icon = "ability_mount_whitetiger",
-                Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha,
-                SubAbilities = {
-                    [1] = {
-                        Id = "tanshaintimidatingshout",
-                        Icon = "ability_golemthunderclap",
-                        Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout,
-                        Effect = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout,
-                        Flags = { IMAF.Important, },
-                    },
-                },
-            },
-            [2] = {
-                Id = "oboka",
-                Icon = "inv_ammo_arrow_02",
-                Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka,
-                SubAbilities = {
-                    [1] = {
-                        Id = "obokamendpet",
-                        Icon = "ability_hunter_mendpet",
-                        Name = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet,
-                        Effect = IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet,
-                    },
-                },
-            },
-        },
     },
     [2] = { -- NOTE: Missing Loot
         Id = "ubukaz",
@@ -109,9 +110,8 @@ FH.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ubukaz" .. IMPF,
         Name = IJ_DB_DUNGEON_FH_BOSS_NAME_ubukaz,
         Story = IJ_DB_DUNGEON_FH_BOSS_STORY_ubukaz,
-        MapCoordinateX = "52.4",
-        MapCoordinateY = "39.4",
-        MapId = "1",
+        MapCoordinateX = 52.4,
+        MapCoordinateY = 39.4,
         Abilities = {
             [1] = {
                 Id = "enrage",
@@ -129,7 +129,27 @@ FH.Bosses = {
                 Quality = IQ.Uncommon,
                 ItemSlot = IS.Hands,
                 ItemType = IT.Mail,
-                DropChance = 100,
+                DropChance = 33,
+                LevelRequirement = 13,
+            },
+            [2] = {
+                Id = "134",
+                Icon = "INV_Boots_01",
+                Name = IJ_LOOT_NAME_134,
+                Quality = IQ.Uncommon,
+                ItemSlot = IS.Feet,
+                ItemType = IT.Mail,
+                DropChance = 33,
+                LevelRequirement = 13,
+            },
+            [3] = {
+                Id = "157",
+                Icon = "INV_Shield_10",
+                Name = IJ_LOOT_NAME_157,
+                Quality = IQ.Uncommon,
+                ItemSlot = IS.OffHand,
+                ItemType = IT.Shield,
+                DropChance = 33,
                 LevelRequirement = 13,
             },
         },
@@ -140,21 +160,8 @@ FH.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kanza" .. IMPF,
         Name = IJ_DB_DUNGEON_FH_BOSS_NAME_kanza,
         Story = IJ_DB_DUNGEON_FH_BOSS_STORY_kanza,
-        MapCoordinateX = "32.4",
-        MapCoordinateY = "45.8",
-        MapId = "1",
-        Loot = {
-            [1] = {
-                Id = "205",
-                Icon = "INV_Weapon_Shortblade_04",
-                Name = IJ_LOOT_NAME_205,
-                Quality = IQ.Uncommon,
-                ItemSlot = IS.OneHand,
-                ItemType = IT.Dagger,
-                DropChance = 100,
-                LevelRequirement = 13,
-            },
-        },
+        MapCoordinateX = 32.4,
+        MapCoordinateY = 45.8,
         Abilities = {
             [1] = {
                 Id = "kanzaadds",
@@ -187,6 +194,28 @@ FH.Bosses = {
                 Flags = { IMAF.Interruptible, },
             },
         },
+        Loot = {
+            [1] = {
+                Id = "205",
+                Icon = "INV_Weapon_Shortblade_04",
+                Name = IJ_LOOT_NAME_205,
+                Quality = IQ.Uncommon,
+                ItemSlot = IS.OneHand,
+                ItemType = IT.Dagger,
+                DropChance = 50,
+                LevelRequirement = 13,
+            },
+            [2] = {
+                Id = "241",
+                Icon = "INV_Pants_08",
+                Name = IJ_LOOT_NAME_241,
+                Quality = IQ.Uncommon,
+                ItemSlot = IS.Legs,
+                ItemType = IT.Cloth,
+                DropChance = 50,
+                LevelRequirement = 13,
+            },
+        },
     },
     [4] = { -- NOTE: Missing Loot
         Id = "hailar",
@@ -194,9 +223,8 @@ FH.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "hailar" .. IMPF,
         Name = IJ_DB_DUNGEON_FH_BOSS_NAME_hailar,
         Story = IJ_DB_DUNGEON_FH_BOSS_STORY_hailar,
-        MapCoordinateX = "30.5",
-        MapCoordinateY = "86.1",
-        MapId = "1",
+        MapCoordinateX = 30.5,
+        MapCoordinateY = 86.1,
         Abilities = {
             [1] = {
                 Id = "hailaradds",

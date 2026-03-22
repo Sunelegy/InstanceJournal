@@ -164,6 +164,9 @@ IJ_ITEMTYPE_TAILORING = "Tailoring"
 IJ_ITEMTYPE_BULLET = "Bullet"
 IJ_ITEMTYPE_ARROW = "Arrow"
 
+-- Spell Names
+IJ_SPELL_NAME_5503 = "Sense Undead"
+
 -- ==================
 -- ==   DUNGEONS   ==
 -- ==================
@@ -2172,7 +2175,51 @@ IJ_DB_DUNGEON_SFK_BOSS_NAME_4275 = "Archmage Arugal"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_4275 =
 "Archmage Arugal is a former mage of Dalaran who lived within the ruins of Shadowfang Keep and was later raised from the dead in the service of the Scourge. He is most notorious for having unleashed the worgen once more unto the world by freeing them from the Emerald Dream."
 
+-- SFK Quests
+IJ_QUEST_NAME_1654 = "The Test of Righteousness"
+IJ_QUEST_OBJECTIVE_1654 =
+"Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
+IJ_QUEST_NAME_1653 = "The Test of Righteousness"
+IJ_QUEST_OBJECTIVE_1653 = "Speak to Jordan Stilwell in Ironforge."
+IJ_QUEST_NAME_1652 = "The Tome of Valor"
+IJ_QUEST_OBJECTIVE_1652 = "Speak to Duthorian Rall in Stormwind."
+IJ_QUEST_NAME_1651 = "The Tome of Valor"
+IJ_QUEST_OBJECTIVE_1651 =
+"Defend Daphne Stilwell from the Defias attack.\n\nNeither of your spirits must be released from their mortal coils if you wish to succeed.\n\nAfter you are successful, speak to Daphne Stilwell again."
+IJ_QUEST_NAME_1650 = "The Tome of Valor"
+IJ_QUEST_OBJECTIVE_1650 = "Find Daphne Stilwell in Westfall."
+IJ_QUEST_NAME_1649 = "The Tome of Valor"
+IJ_QUEST_OBJECTIVE_1649 = "Speak to Duthorian Rall in Stormwind."
+IJ_QUEST_NAME_1793 = "The Tome of Valor"
+IJ_QUEST_NAME_1794 = "The Tome of Valor"
+IJ_QUEST_NAME_1806 = "The Test of Righteousness"
+IJ_QUEST_OBJECTIVE_1806 = "Wait for Jordan Stilwell to finish forging a weapon for you."
+IJ_QUEST_NAME_1740 = "The Orb of Soran'ruk"
+IJ_QUEST_OBJECTIVE_1740 =
+"Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
+IJ_QUEST_NAME_60108 = "Arugal's Folly"
+IJ_QUEST_OBJECTIVE_60108 =
+"High Sorcerer Andromath has tasked you with the death of Archmage Arugal. Return to him when you're done."
+IJ_QUEST_NAME_60109 = "The Missing Sorcerer"
+IJ_QUEST_OBJECTIVE_60109 =
+"High Sorcerer Andromath wants you to travel to Shadowfang Keep in Silverpine Forest and find out what happened to Sorcerer Ashcrombe."
+
+-- SFK Names
+IJ_NPC_NAME_3850 = "Sorcerer Ashcrombe"
+IJ_NPC_NAME_5694 = "High Sorcerer Andromath"
+IJ_NPC_NAME_6247 = "Doan Karhan"
+IJ_NPC_NAME_6181 = "Jordan Stilwell"
+IJ_NPC_NAME_6171 = "Duthorian Rall"
+IJ_NPC_NAME_6182 = "Daphne Stilwell"
+IJ_NPC_NAME_6179 = "Tiza Battleforge"
+
 -- SFK Loot
+IJ_LOOT_NAME_51805 = "Signet of Arugal"
+IJ_LOOT_NAME_15109 = "Staff of Soran'ruk"
+IJ_LOOT_NAME_6898 = "Orb of Soran'ruk"
+IJ_LOOT_NAME_6953 = "Verigan's Fist"
+IJ_LOOT_NAME_6776 = "Tome of Valor"
+IJ_LOOT_NAME_9607 = "Bastion of Stormwind"
 IJ_LOOT_NAME_80713 = "Padded Keeper Tunic"
 IJ_LOOT_NAME_80714 = "Binding Chain"
 IJ_LOOT_NAME_1292 = "Butcher's Cleaver"
@@ -2900,6 +2947,9 @@ IJ_LOOT_NAME_205 = "Frost Seer Dirk"
 IJ_LOOT_NAME_110 = "Rak'uhz the Coldbinder"
 IJ_LOOT_NAME_126 = "Band of Hailar"
 IJ_LOOT_NAME_116 = "Belt of Binding"
+IJ_LOOT_NAME_134 = "Frostmane Battle Boots"
+IJ_LOOT_NAME_157 = "Snowchilled Crest"
+IJ_LOOT_NAME_241 = "Windcrest Pants"
 
 -- WHC
 IJ_DB_DUNGEON_WHC_NAME = "Windhorn Canyon"
@@ -2967,6 +3017,7 @@ IJ_LOOT_NAME_70244 = "Plans: Ceremonial Belt Buckle"
 IJ_LOOT_NAME_33047 = "Ar'pora, the Chieftain's Judgement"
 IJ_LOOT_NAME_33046 = "Canyon's Barricade"
 IJ_LOOT_NAME_33045 = "The Blackwind Pillar"
+IJ_LOOT_NAME_42277 = "Hawkfeather Crown"
 
 -- ===============
 -- ==   RAIDS   ==

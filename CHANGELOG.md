@@ -2,6 +2,15 @@
 
 All changes to this project will be documented in this file.
 
+## [1.1.0] - 2026-03-22
+
+### Added
+
+- Added level requirement for Scaleshield of Obsidian Flight
+- Added the ability to link abilities directly into the chat
+- Added missing loot in Frostmane Hollow
+- Added missing loot in Windhorn Canyon
+
 ## [1.0.7] - 2026-03-22
 
 ### Fixed

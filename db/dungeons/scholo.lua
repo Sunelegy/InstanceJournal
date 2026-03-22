@@ -9,6 +9,8 @@ local IMPP = IJLib.MediaPathPortrait
 local IMPF = IJLib.MediaPathFrame
 local IMAF = IJLib.AbilityFlags
 local IMCL = IJLib.Classes
+local IMI = IJLib.MapId
+local IZI = IJLib.ZoneId
 
 local instanceMediaAcronym = "scholo\\"
 
@@ -19,16 +21,16 @@ SCHOLO.Story = IJ_DB_DUNGEON_SCHOLO_STORY
 SCHOLO.Type = IJLib.InstanceType.Dungeon
 SCHOLO.Background = IMP .. IMPD .. instanceMediaAcronym .. "background"
 SCHOLO.GridBackground = IMP .. IMPD .. instanceMediaAcronym .. "grid-background"
-SCHOLO.MapId = "25"
-SCHOLO.IconScale = "0.9"
+SCHOLO.MapId = IMI.Scholomance
+SCHOLO.IconScale = 0.9
 SCHOLO.MinLevel = 58
 SCHOLO.MaxLevel = 60
 SCHOLO.Entrances = {
     [1] = {
-        MapContinentId = "2",
-        MapZoneId = "37",
-        MapCoordinateX = "69.0",
-        MapCoordinateY = "74.9",
+        MapContinentId = IMI.EasternKingdoms,
+        MapZoneId = IZI.WesternPlaguelands,
+        MapCoordinateX = 69.0,
+        MapCoordinateY = 74.9,
     },
 }
 SCHOLO.Bosses = {

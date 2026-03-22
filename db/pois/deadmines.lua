@@ -1,18 +1,21 @@
 IJDB = IJDB or {}
 
+local IMI = IJLib.MapId
+local IZI = IJLib.ZoneId
+
 local DEADMINES = {}
 
 DEADMINES.Name = IJ_DB_POI_DEADMINES_NAME
-DEADMINES.MapContinentId = "2"
-DEADMINES.MapZoneId = "32"
+DEADMINES.MapContinentId = IMI.EasternKingdoms
+DEADMINES.MapZoneId = IZI.TheDeadmines
 DEADMINES.MinLevel = 16
 DEADMINES.MaxLevel = 24
 DEADMINES.Entrances = {
     [1] = {
-        MapContinentId = "2",
-        MapZoneId = "38",
-        MapCoordinateX = "42.5",
-        MapCoordinateY = "72.7",
+        MapContinentId = IMI.EasternKingdoms,
+        MapZoneId = IZI.Westfall,
+        MapCoordinateX = 42.5,
+        MapCoordinateY = 72.7,
         Type = IJLib.EntranceIconType.Down,
     },
 }

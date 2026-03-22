@@ -9,6 +9,9 @@ local IMPP = IJLib.MediaPathPortrait
 local IMPF = IJLib.MediaPathFrame
 local IMAF = IJLib.AbilityFlags
 local IMCL = IJLib.Classes
+local IMI = IJLib.MapId
+local IZI = IJLib.ZoneId
+local IF = IJLib.Factions
 
 local instanceMediaAcronym = "sfk\\"
 
@@ -19,16 +22,16 @@ SFK.Story = IJ_DB_DUNGEON_SFK_STORY
 SFK.Type = IJLib.InstanceType.Dungeon
 SFK.Background = IMP .. IMPD .. instanceMediaAcronym .. "background"
 SFK.GridBackground = IMP .. IMPD .. instanceMediaAcronym .. "grid-background"
-SFK.MapId = "26"
-SFK.IconScale = "1.0"
+SFK.MapId = IMI.ShadowfangKeep
+SFK.IconScale = 1.0
 SFK.MinLevel = 20
 SFK.MaxLevel = 28
 SFK.Entrances = {
     [1] = {
-        MapContinentId = "2",
-        MapZoneId = "27",
-        MapCoordinateX = "42.8",
-        MapCoordinateY = "67.5",
+        MapContinentId = IMI.EasternKingdoms,
+        MapZoneId = IZI.SilverpineForest,
+        MapCoordinateX = 42.8,
+        MapCoordinateY = 67.5,
     },
 }
 SFK.Bosses = {
@@ -38,9 +41,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "rethilgore" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_3914,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_3914,
-        MapCoordinateX = "82.7",
-        MapCoordinateY = "77.0",
-        MapId = "1",
+        MapCoordinateX = 82.7,
+        MapCoordinateY = 77.0,
         MapIsBelow = true,
         Loot = {
             [1] = {
@@ -71,9 +73,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "razorclaw" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_3886,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_3886,
-        MapCoordinateX = "45.7",
-        MapCoordinateY = "58.0",
-        MapId = "1",
+        MapCoordinateX = 45.7,
+        MapCoordinateY = 58.0,
         Loot = {
             [1] = {
                 Id = "1292",
@@ -113,9 +114,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "silverlaine" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_3887,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_3887,
-        MapCoordinateX = "37.2",
-        MapCoordinateY = "81.6",
-        MapId = "1",
+        MapCoordinateX = 37.2,
+        MapCoordinateY = 81.6,
         Loot = {
             [1] = {
                 Id = "6321",
@@ -154,9 +154,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ironmane" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_61969,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_61969,
-        MapCoordinateX = "12.1",
-        MapCoordinateY = "64.7",
-        MapId = "1",
+        MapCoordinateX = 12.1,
+        MapCoordinateY = 64.7,
         Loot = {
             [1] = {
                 Id = "55382",
@@ -204,9 +203,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "springvale" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_4278,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_4278,
-        MapCoordinateX = "47.0",
-        MapCoordinateY = "66.1",
-        MapId = "1",
+        MapCoordinateX = 47.0,
+        MapCoordinateY = 66.1,
         Loot = {
             [1] = {
                 Id = "3191",
@@ -246,9 +244,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "odo" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_4279,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_4279,
-        MapCoordinateX = "76.6",
-        MapCoordinateY = "70.9",
-        MapId = "1",
+        MapCoordinateX = 76.6,
+        MapCoordinateY = 70.9,
         Loot = {
             [1] = {
                 Id = "6318",
@@ -278,9 +275,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "deathsworn" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_3872,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_3872,
-        MapCoordinateX = "78.0",
-        MapCoordinateY = "51.0",
-        MapId = "1",
+        MapCoordinateX = 78.0,
+        MapCoordinateY = 51.0,
         IsRare = true,
         Loot = {
             [1] = {
@@ -311,9 +307,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "fenrus" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_4274,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_4274,
-        MapCoordinateX = "68.9",
-        MapCoordinateY = "34.3",
-        MapId = "1",
+        MapCoordinateX = 68.9,
+        MapCoordinateY = 34.3,
         MapIsBelow = true,
         Loot = {
             [1] = {
@@ -344,9 +339,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "nandos" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_3927,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_3927,
-        MapCoordinateX = "70.5",
-        MapCoordinateY = "28.9",
-        MapId = "1",
+        MapCoordinateX = 70.5,
+        MapCoordinateY = 28.9,
         Loot = {
             [1] = {
                 Id = "80716",
@@ -386,9 +380,8 @@ SFK.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "arugal" .. IMPF,
         Name = IJ_DB_DUNGEON_SFK_BOSS_NAME_4275,
         Story = IJ_DB_DUNGEON_SFK_BOSS_STORY_4275,
-        MapCoordinateX = "73.8",
-        MapCoordinateY = "6.9",
-        MapId = "1",
+        MapCoordinateX = 73.8,
+        MapCoordinateY = 6.9,
         Loot = {
             [1] = {
                 Id = "6220",
@@ -429,6 +422,444 @@ SFK.Bosses = {
                 DropChance = 1,
             },
         }
+    },
+}
+SFK.Quests = {
+    [1] = {
+        Id = "1654",
+        Name = IJ_QUEST_NAME_1654,
+        Objective = IJ_QUEST_OBJECTIVE_1654,
+        RequiredLevel = 20,
+        Level = 22,
+        StartingPoints = {
+            [1] = {
+                MapContinentId = IMI.EasternKingdoms,
+                MapZoneId = IZI.DunMorogh,
+                MapCoordinateX = 42.8,
+                MapCoordinateY = 67.5,
+                Name = IJ_NPC_NAME_6181,
+            },
+        },
+        EndingPoints = {
+            [1] = {
+                MapContinentId = IMI.EasternKingdoms,
+                MapZoneId = IZI.DunMorogh,
+                MapCoordinateX = 42.8,
+                MapCoordinateY = 67.5,
+                Name = IJ_NPC_NAME_6181,
+            },
+        },
+        RequiredClass = { IMCL.Paladin, },
+        RequiredFaction = { IF.Alliance, },
+        RequiredQuests = {
+            [1] = {
+                Id = "1653",
+                Name = IJ_QUEST_NAME_1653,
+                Objective = IJ_QUEST_OBJECTIVE_1653,
+                RequiredLevel = 20,
+                Level = 21,
+                StartingPoints = {
+                    [1] = {
+                        MapContinentId = IMI.EasternKingdoms,
+                        MapZoneId = IZI.StormwindCity,
+                        MapCoordinateX = 50.0,
+                        MapCoordinateY = 47.0,
+                        Name = IJ_NPC_NAME_6171,
+                    },
+                },
+                EndingPoints = {
+                    [1] = {
+                        MapContinentId = IMI.EasternKingdoms,
+                        MapZoneId = IZI.DunMorogh,
+                        MapCoordinateX = 42.8,
+                        MapCoordinateY = 67.5,
+                        Name = IJ_NPC_NAME_6181,
+                    },
+                },
+                RequiredClass = { IMCL.Paladin, },
+                RequiredFaction = { IF.Alliance, },
+                RequiredQuests = {
+                    [1] = {
+                        Id = "1652",
+                        Name = IJ_QUEST_NAME_1652,
+                        Objective = IJ_QUEST_OBJECTIVE_1652,
+                        RequiredLevel = 20,
+                        Level = 25,
+                        StartingPoints = {
+                            [1] = {
+                                MapContinentId = IMI.EasternKingdoms,
+                                MapZoneId = IZI.Westfall,
+                                MapCoordinateX = 42.2,
+                                MapCoordinateY = 88.6,
+                                Name = IJ_NPC_NAME_6182,
+                            },
+                        },
+                        EndingPoints = {
+                            [1] = {
+                                MapContinentId = IMI.EasternKingdoms,
+                                MapZoneId = IZI.StormwindCity,
+                                MapCoordinateX = 50.0,
+                                MapCoordinateY = 47.0,
+                                Name = IJ_NPC_NAME_6171,
+                            },
+                        },
+                        RequiredClass = { IMCL.Paladin, },
+                        RequiredFaction = { IF.Alliance, },
+                        RequiredQuests = {
+                            [1] = {
+                                Id = "1651",
+                                Name = IJ_QUEST_NAME_1651,
+                                Objective = IJ_QUEST_OBJECTIVE_1651,
+                                RequiredLevel = 20,
+                                Level = 25,
+                                StartingPoints = {
+                                    [1] = {
+                                        MapContinentId = IMI.EasternKingdoms,
+                                        MapZoneId = IZI.Westfall,
+                                        MapCoordinateX = 42.2,
+                                        MapCoordinateY = 88.6,
+                                        Name = IJ_NPC_NAME_6182,
+                                    },
+                                },
+                                EndingPoints = {
+                                    [1] = {
+                                        MapContinentId = IMI.EasternKingdoms,
+                                        MapZoneId = IZI.Westfall,
+                                        MapCoordinateX = 42.2,
+                                        MapCoordinateY = 88.6,
+                                        Name = IJ_NPC_NAME_6182,
+                                    },
+                                },
+                                RequiredClass = { IMCL.Paladin, },
+                                RequiredFaction = { IF.Alliance, },
+                                RequiredQuests = {
+                                    [1] = {
+                                        Id = "1650",
+                                        Name = IJ_QUEST_NAME_1650,
+                                        Objective = IJ_QUEST_OBJECTIVE_1650,
+                                        RequiredLevel = 20,
+                                        Level = 23,
+                                        IsSharable = true,
+                                        StartingPoints = {
+                                            [1] = {
+                                                MapContinentId = IMI.EasternKingdoms,
+                                                MapZoneId = IZI.StormwindCity,
+                                                MapCoordinateX = 50.0,
+                                                MapCoordinateY = 47.0,
+                                                Name = IJ_NPC_NAME_6171,
+                                            },
+                                        },
+                                        EndingPoints = {
+                                            [1] = {
+                                                MapContinentId = IMI.EasternKingdoms,
+                                                MapZoneId = IZI.Westfall,
+                                                MapCoordinateX = 42.2,
+                                                MapCoordinateY = 88.6,
+                                                Name = IJ_NPC_NAME_6182,
+                                            },
+                                        },
+                                        RequiredClass = { IMCL.Paladin, },
+                                        RequiredFaction = { IF.Alliance, },
+                                        RequiredQuests = {
+                                            [1] = {
+                                                Id = "1649",
+                                                Name = IJ_QUEST_NAME_1649,
+                                                Objective = IJ_QUEST_OBJECTIVE_1649,
+                                                RequiredLevel = 20,
+                                                Level = 20,
+                                                StartingPoints = {
+                                                    [1] = {
+                                                        Id = "6776",
+                                                        Icon = "inv_misc_book_07",
+                                                        Name = IJ_LOOT_NAME_6776,
+                                                        Quality = IQ.Common,
+                                                        ClassRestriction = { IMCL.Paladin, },
+                                                    },
+                                                },
+                                                EndingPoints = {
+                                                    [1] = {
+                                                        MapContinentId = IMI.EasternKingdoms,
+                                                        MapZoneId = IZI.StormwindCity,
+                                                        MapCoordinateX = 50.0,
+                                                        MapCoordinateY = 47.0,
+                                                        Name = IJ_NPC_NAME_6171,
+                                                    },
+                                                },
+                                                RequiredClass = { IMCL.Paladin, },
+                                                RequiredFaction = { IF.Alliance, },
+                                                RequiredQuests = {
+                                                    [1] = {
+                                                        Id = "1793",
+                                                        Name = IJ_QUEST_NAME_1793,
+                                                        RequiredLevel = 20,
+                                                        Level = 20,
+                                                        IsSharable = true,
+                                                        IsRepeatable = true,
+                                                        StartingPoints = {
+                                                            [1] = {
+                                                                MapContinentId = IMI.EasternKingdoms,
+                                                                MapZoneId = IZI.StormwindCity,
+                                                                MapCoordinateX = 50.0,
+                                                                MapCoordinateY = 47.0,
+                                                                Name = IJ_NPC_NAME_6171,
+                                                            },
+                                                        },
+                                                        EndingPoints = {
+                                                            [1] = {
+                                                                MapContinentId = IMI.EasternKingdoms,
+                                                                MapZoneId = IZI.StormwindCity,
+                                                                MapCoordinateX = 50.0,
+                                                                MapCoordinateY = 47.0,
+                                                                Name = IJ_NPC_NAME_6171,
+                                                            },
+                                                        },
+                                                        RequiredClass = { IMCL.Paladin, },
+                                                        RequiredFaction = { IF.Alliance, },
+                                                        RewardItems = {
+                                                            [1] = {
+                                                                Id = "6776",
+                                                                Icon = "inv_misc_book_07",
+                                                                Name = IJ_LOOT_NAME_6776,
+                                                                Quality = IQ.Common,
+                                                                Slot = IS.Quest,
+                                                                ClassRestriction = { IMCL.Paladin, },
+                                                                Tag = 0,
+                                                            },
+                                                        },
+                                                        Tag = 0,
+                                                    },
+                                                    [2] = {
+                                                        Id = "1794",
+                                                        Name = IJ_QUEST_NAME_1794,
+                                                        RequiredLevel = 20,
+                                                        Level = 20,
+                                                        IsSharable = true,
+                                                        IsRepeatable = true,
+                                                        StartingPoints = {
+                                                            [1] = {
+                                                                MapContinentId = IMI.EasternKingdoms,
+                                                                MapZoneId = IZI.Ironforge,
+                                                                MapCoordinateX = 27.4,
+                                                                MapCoordinateY = 12.0,
+                                                                Name = IJ_NPC_NAME_6179,
+                                                            },
+                                                        },
+                                                        EndingPoints = {
+                                                            [1] = {
+                                                                MapContinentId = IMI.EasternKingdoms,
+                                                                MapZoneId = IZI.Ironforge,
+                                                                MapCoordinateX = 27.4,
+                                                                MapCoordinateY = 12.0,
+                                                                Name = IJ_NPC_NAME_6179,
+                                                            },
+                                                        },
+                                                        RequiredClass = { IMCL.Paladin, },
+                                                        RequiredFaction = { IF.Alliance, },
+                                                        RewardItems = {
+                                                            [1] = {
+                                                                Id = "6776",
+                                                                Icon = "inv_misc_book_07",
+                                                                Name = IJ_LOOT_NAME_6776,
+                                                                Quality = IQ.Common,
+                                                                Slot = IS.Quest,
+                                                                ClassRestriction = { IMCL.Paladin, },
+                                                                Tag = 0,
+                                                            },
+                                                        },
+                                                        Tag = 0,
+                                                    },
+                                                },
+                                                RewardExperience = 390,
+                                            },
+                                        },
+                                        RewardExperience = 1850,
+                                    },
+                                },
+                                RewardExperience = 1000,
+                            },
+                        },
+                        RewardExperience = 2550,
+                        RewardItems = {
+                            [1] = {
+                                Id = "9607",
+                                Icon = "inv_shield_06",
+                                Name = IJ_LOOT_NAME_9607,
+                                Quality = IQ.Uncommon,
+                                ItemSlot = IS.OffHand,
+                                ItemType = IT.Shield,
+                                ClassRestriction = { IMCL.Paladin, },
+                                Tag = 0,
+                            },
+                        },
+                        RewardSpells = {
+                            [1] = {
+                                Id = "5503",
+                                Icon = "spell_holy_senseundead",
+                                Name = IJ_SPELL_NAME_5503,
+                                ClassRestriction = { IMCL.Paladin, },
+                            },
+                        },
+                    },
+                },
+                RewardExperience = 830,
+            },
+        },
+        FollowUpQuests = {
+            [1] = {
+                Id = "1806",
+                Name = IJ_QUEST_NAME_1806,
+                Objective = IJ_QUEST_OBJECTIVE_1806,
+                RequiredLevel = 20,
+                Level = 22,
+                StartingPoints = {
+                    [1] = {
+                        MapContinentId = IMI.EasternKingdoms,
+                        MapZoneId = IZI.StormwindCity,
+                        MapCoordinateX = 50.0,
+                        MapCoordinateY = 47.0,
+                        Name = IJ_NPC_NAME_6171,
+                    },
+                },
+                EndingPoints = {
+                    [1] = {
+                        MapContinentId = IMI.EasternKingdoms,
+                        MapZoneId = IZI.StormwindCity,
+                        MapCoordinateX = 50.0,
+                        MapCoordinateY = 47.0,
+                        Name = IJ_NPC_NAME_6171,
+                    },
+                },
+                RequiredClass = { IMCL.Paladin, },
+                RequiredFaction = { IF.Alliance, },
+                RewardExperience = 2200,
+                RewardItems = {
+                    [1] = {
+                        Id = "6953",
+                        Icon = "inv_hammer_05",
+                        Name = IJ_LOOT_NAME_6953,
+                        Quality = IQ.Rare,
+                        ItemSlot = IS.TwoHand,
+                        ItemType = IT.TwoHandedMace,
+                        ClassRestriction = { IMCL.Paladin, },
+                        Tag = 0,
+                    },
+                },
+            },
+        },
+        RewardExperience = 870,
+    },
+    [2] = {
+        Id = "1740",
+        Name = IJ_QUEST_NAME_1740,
+        Objective = IJ_QUEST_OBJECTIVE_1740,
+        RequiredLevel = 20,
+        Level = 25,
+        IsSharable = true,
+        StartingPoints = {
+            [1] = {
+                MapContinentId = IMI.Kalimdor,
+                MapZoneId = IZI.TheBarrens,
+                MapCoordinateX = 49.2,
+                MapCoordinateY = 57.2,
+                Name = IJ_NPC_NAME_6247,
+            },
+        },
+        EndingPoints = {
+            [1] = {
+                MapContinentId = IMI.Kalimdor,
+                MapZoneId = IZI.TheBarrens,
+                MapCoordinateX = 49.2,
+                MapCoordinateY = 57.2,
+                Name = IJ_NPC_NAME_6247,
+            },
+        },
+        RequiredClass = { IMCL.Warlock, },
+        RequiredFaction = { IF.Alliance, IF.Horde, },
+        RewardExperience = 2550,
+        RewardItems = {
+            [1] = {
+                Id = "6898",
+                Icon = "inv_misc_orb_03",
+                Name = IJ_LOOT_NAME_6898,
+                Quality = IQ.Uncommon,
+                ItemSlot = IS.HeldInOffHand,
+                ClassRestriction = { IMCL.Warlock, },
+                Tag = 0,
+            },
+            [2] = {
+                Id = "15109",
+                Icon = "inv_staff_09",
+                Name = IJ_LOOT_NAME_15109,
+                Quality = IQ.Uncommon,
+                ItemSlot = IS.TwoHand,
+                ItemType = IT.Staff,
+                ClassRestriction = { IMCL.Warlock, },
+                Tag = 0,
+            },
+        },
+    },
+    [3] = {
+        Id = "60108",
+        Name = IJ_QUEST_NAME_60108,
+        Objective = IJ_QUEST_OBJECTIVE_60108,
+        RequiredLevel = 22,
+        Level = 27,
+        IsSharable = true,
+        StartingPoints = {
+            [1] = {
+                MapContinentId = IMI.EasternKingdoms,
+                MapZoneId = IZI.StormwindCity,
+                MapCoordinateX = 48.9,
+                MapCoordinateY = 87.8,
+                Name = IJ_NPC_NAME_5694,
+            },
+        },
+        EndingPoints = {
+            [1] = {
+                MapContinentId = IMI.EasternKingdoms,
+                MapZoneId = IZI.StormwindCity,
+                MapCoordinateX = 48.9,
+                MapCoordinateY = 87.8,
+                Name = IJ_NPC_NAME_5694,
+            },
+        },
+        RequiredFaction = { IF.Alliance, },
+        RewardItems = {
+            [1] = {
+                Id = "51805",
+                Icon = "INV_Jewelry_Ring_24",
+                Name = IJ_LOOT_NAME_51805,
+                Quality = IQ.Rare,
+                ItemSlot = IS.Finger,
+                Tag = 0,
+            },
+        },
+    },
+    [4] = {
+        Id = "60109",
+        Name = IJ_QUEST_NAME_60109,
+        Objective = IJ_QUEST_OBJECTIVE_60109,
+        RequiredLevel = 22,
+        Level = 24,
+        IsSharable = true,
+        StartingPoints = {
+            [1] = {
+                MapContinentId = IMI.EasternKingdoms,
+                MapZoneId = IZI.StormwindCity,
+                MapCoordinateX = 48.9,
+                MapCoordinateY = 87.8,
+                Name = IJ_NPC_NAME_5694,
+            },
+        },
+        EndingPoints = {
+            [1] = {
+                MapContinentId = IMI.ShadowfangKeep,
+                MapCoordinateX = 82.6,
+                MapCoordinateY = 71.5,
+                Name = IJ_NPC_NAME_3850,
+            },
+        },
+        RequiredFaction = { IF.Alliance, },
     },
 }
 

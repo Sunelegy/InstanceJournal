@@ -63,10 +63,10 @@ Please report any issues you encounter through the `Issues` tab on this reposito
 
 ## Planned Features
 
-- Linking abilities into the chat
 - Finishing the abilities for every encounter
 - A tab listing of all the quests related to a specific instance
 - A marker for each boss in an instance on the world map indicating if they have already been killed or not
+- A companion addon that adds customization options, a minimap button, chat commands, and more
 
 ## Contributing
 

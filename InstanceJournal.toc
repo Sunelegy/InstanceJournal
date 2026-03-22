@@ -6,7 +6,7 @@
 ## Title-ptBR: Diário de Instância (|cffabd473TurtleWoW|r)
 ## Title-ruRU: Журнал Подземелий (|cffabd473TurtleWoW|r)
 ## Title-zhCN: 副本日志 (|cffabd473TurtleWoW|r)
-## Version: 1.0.7
+## Version: 1.1.0
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
 ## Notes-deDE: Eine Neuinterpretation des originalen Begegnungsjournals von World of Warcraft, entwickelt für |cffabd473TurtleWoW|r!
@@ -98,6 +98,15 @@ db\raids\th.lua
 
 # Main
 InstanceJournal.lua
+InstanceJournalFrameWidgets.lua
+InstanceJournalFrameFilters.lua
+InstanceJournalFrameSearch.lua
+InstanceJournalFrameTabs.lua
+InstanceJournalFrameEncounter.lua
+InstanceJournalFrameOverview.lua
+InstanceJournalFrameLoot.lua
+InstanceJournalFrameQuest.lua
 InstanceJournalFrame.lua
 InstanceJournalMap.lua
+InstanceJournalLink.lua
 InstanceJournal.xml
