@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.1.1] - 2026-03-23
+
+### Added
+
+- Added Lord Blackwald II's Riding Whistle to Lord Blackwald II
+
 ## [1.1.0] - 2026-03-22
 
 ### Added
