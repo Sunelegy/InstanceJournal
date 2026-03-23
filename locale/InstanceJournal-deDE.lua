@@ -2214,4 +2214,51 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Korruption"
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
     "Sturmhuf verdirbt einen zufälligen Feind und verursacht im Laufe der Zeit Schattenschaden."
+    IJ_SPELL_NAME_5503 = "Untote spüren"
+    IJ_QUEST_NAME_1654 = "Der Test der Gerechtigkeit"
+    IJ_QUEST_OBJECTIVE_1654 =
+    "Finden Sie mithilfe von Jordans Waffennotizen Weißstein-Eichenholz, Bailors raffinierte Erzlieferung, Jordans Schmiedehammer und einen Kor-Edelstein und bringen Sie sie zu Jordan Stilwell in Ironforge zurück."
+    IJ_QUEST_NAME_1653 = "Der Test der Gerechtigkeit"
+    IJ_QUEST_OBJECTIVE_1653 = "Sprecht mit Jordan Stilwell in Ironforge."
+    IJ_QUEST_NAME_1652 = "Der Wälzer der Tapferkeit"
+    IJ_QUEST_OBJECTIVE_1652 = "Sprecht mit Duthorian Rall in Sturmwind."
+    IJ_QUEST_NAME_1651 = "Der Wälzer der Tapferkeit"
+    IJ_QUEST_OBJECTIVE_1651 =
+    "Verteidige Daphne Stilwell vor dem Angriff der Defias.\n\nWenn Sie erfolgreich sein wollen, muss keiner Ihrer Geister aus seiner sterblichen Hülle befreit werden.\n\nWenn Sie erfolgreich sind, sprechen Sie erneut mit Daphne Stilwell."
+    IJ_QUEST_NAME_1650 = "Der Wälzer der Tapferkeit"
+    IJ_QUEST_OBJECTIVE_1650 = "Findet Daphne Stilwell in Westfall."
+    IJ_QUEST_NAME_1649 = "Der Wälzer der Tapferkeit"
+    IJ_QUEST_OBJECTIVE_1649 = "Sprecht mit Duthorian Rall in Sturmwind."
+    IJ_QUEST_NAME_1793 = "Der Wälzer der Tapferkeit"
+    IJ_QUEST_NAME_1794 = "Der Wälzer der Tapferkeit"
+    IJ_QUEST_NAME_1806 = "Der Test der Gerechtigkeit"
+    IJ_QUEST_OBJECTIVE_1806 = "Warten Sie, bis Jordan Stilwell eine Waffe für Sie geschmiedet hat."
+    IJ_QUEST_NAME_1740 = "Die Kugel von Soran'ruk"
+    IJ_QUEST_OBJECTIVE_1740 =
+    "Findet 3 Soran'ruk-Fragmente und 1 großes Soran'ruk-Fragment und bringt sie zu Doan Karhan im Brachland zurück."
+    IJ_QUEST_NAME_60108 = "Arugals Torheit"
+    IJ_QUEST_OBJECTIVE_60108 =
+    "Hoher Zauberer Andromath hat Sie mit dem Tod von Erzmagier Arugal beauftragt. Kehre zu ihm zurück, wenn du fertig bist."
+    IJ_QUEST_NAME_60109 = "Der verschwundene Zauberer"
+    IJ_QUEST_OBJECTIVE_60109 =
+    "Hoher Zauberer Andromath möchte, dass Ihr zur Burg Schattenfang im Silberwald reist und herausfindet, was mit Zauberer Ashcrombe passiert ist."
+    IJ_NPC_NAME_3850 = "Zauberer Ashcrombe"
+    IJ_NPC_NAME_5694 = "Hoher Zauberer Andromath"
+    IJ_NPC_NAME_6247 = "Doan Karhan"
+    IJ_NPC_NAME_6181 = "Jordan Stilwell"
+    IJ_NPC_NAME_6171 = "Duthorian Rall"
+    IJ_NPC_NAME_6182 = "Daphne Stilwell"
+    IJ_NPC_NAME_6179 = "Tiza Battleforge"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion = "Cindarion"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion =
+    "Als Onyxia abhebt, landet Cindarion. Er wird während der gesamten Phase aktiv sein, bis er getötet wird."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "Flammenatem"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath =
+    "Cindarion wirkt Flammenodem und fügt allen Feinden vor ihm Feuerschaden zu."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Onyxianischer Brüter"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
+    "Nachdem Onyxia wieder auf dem Boden gelandet ist, erscheinen zwei Onyxian Hatcher und unterstützen sie für den Rest des Kampfes."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Feuerregen"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
+    "Onyxian Hatcher wirft Feuerregen, die im Raum erscheinen und allen darin befindlichen Feinden schweren Feuerschaden zufügen."
 end

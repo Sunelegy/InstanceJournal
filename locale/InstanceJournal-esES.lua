@@ -2222,4 +2222,51 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Corrupción"
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
     "Stormhoof corrompe a un enemigo aleatorio y le inflige daño de las sombras con el tiempo."
+    IJ_SPELL_NAME_5503 = "Sentir no-muertos"
+    IJ_QUEST_NAME_1654 = "La prueba de la justicia"
+    IJ_QUEST_OBJECTIVE_1654 =
+    "Usando las notas de armas de Jordan, encuentra madera de roble de piedra blanca, el cargamento de mineral refinado de Bailor, el martillo de herrería de Jordan y una gema Kor, y devuélvelos a Jordan Stilwell en Forjaz."
+    IJ_QUEST_NAME_1653 = "La prueba de la justicia"
+    IJ_QUEST_OBJECTIVE_1653 = "Habla con Jordan Stilwell en Forjaz."
+    IJ_QUEST_NAME_1652 = "El tomo del valor"
+    IJ_QUEST_OBJECTIVE_1652 = "Habla con Duthorian Rall en Ventormenta."
+    IJ_QUEST_NAME_1651 = "El tomo del valor"
+    IJ_QUEST_OBJECTIVE_1651 =
+    "Defiende a Daphne Stilwell del ataque de los Defias. ||norte||  ||norte|| Ninguno de tus espíritus debe ser liberado de sus espirales mortales si deseas tener éxito. ||norte||  ||norte|| Una vez que tengas éxito, habla con Daphne Stilwell nuevamente."
+    IJ_QUEST_NAME_1650 = "El tomo del valor"
+    IJ_QUEST_OBJECTIVE_1650 = "Encuentra a Daphne Stilwell en Westfall."
+    IJ_QUEST_NAME_1649 = "El tomo del valor"
+    IJ_QUEST_OBJECTIVE_1649 = "Habla con Duthorian Rall en Ventormenta."
+    IJ_QUEST_NAME_1793 = "El tomo del valor"
+    IJ_QUEST_NAME_1794 = "El tomo del valor"
+    IJ_QUEST_NAME_1806 = "La prueba de la justicia"
+    IJ_QUEST_OBJECTIVE_1806 = "Espera a que Jordan Stilwell termine de forjar un arma para ti."
+    IJ_QUEST_NAME_1740 = "El orbe de Soran'ruk"
+    IJ_QUEST_OBJECTIVE_1740 =
+    "Encuentra 3 fragmentos de Soran'ruk y 1 fragmento de Soran'ruk grande y devuélvelos a Doan Karhan en Los Baldíos."
+    IJ_QUEST_NAME_60108 = "La locura de Arugal"
+    IJ_QUEST_OBJECTIVE_60108 =
+    "El Alto Hechicero Andromath te ha encargado la muerte del Archimago Arugal. Vuelve con él cuando hayas terminado."
+    IJ_QUEST_NAME_60109 = "El hechicero desaparecido"
+    IJ_QUEST_OBJECTIVE_60109 =
+    "El Alto Hechicero Andromath quiere que viajes a Shadowfang Keep en Silverpine Forest y descubras qué le pasó al Hechicero Ashcrombe."
+    IJ_NPC_NAME_3850 = "Hechicero Ashcrombe"
+    IJ_NPC_NAME_5694 = "Alto Hechicero Andrómata"
+    IJ_NPC_NAME_6247 = "Doan Karhan"
+    IJ_NPC_NAME_6181 = "Jordan Stilwell"
+    IJ_NPC_NAME_6171 = "Rall duthoriano"
+    IJ_NPC_NAME_6182 = "Daphne Stilwell"
+    IJ_NPC_NAME_6179 = "Forja de batalla de Tiza"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion = "Cindarión"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion =
+    "Cuando Onyxia despega, Cindarion aterriza. Estará activo durante todo el escenario hasta que lo maten."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "Aliento de llama"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath =
+    "Cindarion lanza aliento de llamas, lo que inflige daño de fuego a todos los enemigos frente a él."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Nacedor Onixiano"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
+    "Dos Onyxian Hatcher aparecen después de que Onyxia aterriza nuevamente en el suelo, ayudándola durante el resto de la pelea."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "lluvia de fuego"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
+    "Onyxian Hatcher lanza lluvias de fuego que aparecen alrededor de la habitación, causando un gran daño de fuego a los enemigos que se encuentren dentro."
 end

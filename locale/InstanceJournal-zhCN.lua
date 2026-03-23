@@ -2201,4 +2201,51 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "腐败"
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
     "暴蹄会腐化一名随机敌人，随着时间的推移造成暗影伤害。"
+    IJ_SPELL_NAME_5503 = "感应亡灵"
+    IJ_QUEST_NAME_1654 = "正义的考验"
+    IJ_QUEST_OBJECTIVE_1654 =
+    "使用乔丹的武器笔记，找到一些白石橡木、拜勒的精炼矿石货物、乔丹的锻造锤和一颗科尔宝石，然后将它们归还给铁炉堡的乔丹·史迪威。"
+    IJ_QUEST_NAME_1653 = "正义的考验"
+    IJ_QUEST_OBJECTIVE_1653 = "与铁炉堡的乔丹·史迪威交谈。"
+    IJ_QUEST_NAME_1652 = "勇气之书"
+    IJ_QUEST_OBJECTIVE_1652 = "与暴风城的杜索里安·拉尔交谈。"
+    IJ_QUEST_NAME_1651 = "勇气之书"
+    IJ_QUEST_OBJECTIVE_1651 =
+    "保护达芙妮·史迪威免受迪菲亚的攻击。\n \n如果你想成功，你们的灵魂都不能脱离凡人的束缚。\n \n成功后，再次与达芙妮·史迪威交谈。"
+    IJ_QUEST_NAME_1650 = "勇气之书"
+    IJ_QUEST_OBJECTIVE_1650 = "在西部荒野找到达芙妮·史迪威。"
+    IJ_QUEST_NAME_1649 = "勇气之书"
+    IJ_QUEST_OBJECTIVE_1649 = "与暴风城的杜索里安·拉尔交谈。"
+    IJ_QUEST_NAME_1793 = "勇气之书"
+    IJ_QUEST_NAME_1794 = "勇气之书"
+    IJ_QUEST_NAME_1806 = "正义的考验"
+    IJ_QUEST_OBJECTIVE_1806 = "等待乔丹·史迪威为你打造完武器。"
+    IJ_QUEST_NAME_1740 = "索兰鲁克宝珠"
+    IJ_QUEST_OBJECTIVE_1740 =
+    "找到 3 个索兰鲁克碎片和 1 个大型索兰鲁克碎片，然后将它们交给贫瘠之地的多安·卡汉。"
+    IJ_QUEST_NAME_60108 = "阿鲁高的愚蠢行为"
+    IJ_QUEST_OBJECTIVE_60108 =
+    "高阶魔法师安德洛玛斯给你的任务是杀死大法师阿鲁高。完成后回到他身边。"
+    IJ_QUEST_NAME_60109 = "失踪的魔法师"
+    IJ_QUEST_OBJECTIVE_60109 =
+    "高阶巫师安德洛玛斯要你前往银松森林的影牙城堡，查明巫师阿什克罗姆发生了什么事。"
+    IJ_NPC_NAME_3850 = "巫师阿什克龙布"
+    IJ_NPC_NAME_5694 = "高阶魔法师安德洛玛斯"
+    IJ_NPC_NAME_6247 = "多安·卡汉"
+    IJ_NPC_NAME_6181 = "乔丹·史迪威"
+    IJ_NPC_NAME_6171 = "杜索里安拉尔"
+    IJ_NPC_NAME_6182 = "达芙妮史迪威"
+    IJ_NPC_NAME_6179 = "蒂萨·战炉"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion = "辛达里翁"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion =
+    "当奥妮克希亚起飞时，辛达里奥降落。他将在整个阶段保持活跃，直到被杀死。"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "火焰呼吸"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath =
+    "辛达里奥施展火焰吐息，对前方所有敌人造成火焰伤害。"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "奥尼克斯孵化器"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
+    "奥妮克希亚着陆后，两名奥妮克希亚孵化者出现，协助她完成剩下的战斗。"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "火雨"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
+    "奥尼克斯孵化器在房间周围施放火焰雨，对房间内的任何敌人造成严重火焰伤害。"
 end

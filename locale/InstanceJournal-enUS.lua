@@ -4067,11 +4067,23 @@ IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18392 =
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17086 = "Deep Breath"
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086 =
 "Onyxia will occasionally fly in a line through the middle of the room while breathing fire, dealing heavy fire damage to anyone in her path.\n\nPlayers must run to any side of whichever way she is facing to avoid taking damage."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion = "Cindarion"
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion =
+"When Onyxia takes off, Cindarion lands. He will be active for the entire stage until he is killed."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "Flame Breath"
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath =
+"Cindarion casts flame breath, dealing fire damage to all enemies in front of him."
 IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage3 = "Stage Three: Ground Phase"
 IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage3 = "Once Onyxia reaches 40% health, she will land back on the ground."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431 = "Bellowing Roar"
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431 =
 "Onyxia will cast Fear on everyone in intervals.\n\nPriests can use fear ward to help mitigate the fears on important members."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Onyxian Hatcher"
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
+"Two Onyxian Hatcher appears after Onyxia lands back on the ground, assisting her for the rest of the fight."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Rain of Fire"
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
+"Onyxian Hatcher casts rains of fire that appears around the room, dealing heavy fire damage to any enemies inside."
 
 -- ONY Loot
 IJ_LOOT_NAME_33151 = "Onyxian Brood Egg"

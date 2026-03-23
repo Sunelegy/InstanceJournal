@@ -2215,4 +2215,51 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Corruption"
     IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
     "Stormhoof corrompt un ennemi aléatoire, infligeant des dégâts d'ombre au fil du temps."
+    IJ_SPELL_NAME_5503 = "Détecter les morts-vivants"
+    IJ_QUEST_NAME_1654 = "Le test de la justice"
+    IJ_QUEST_OBJECTIVE_1654 =
+    "À l'aide des notes d'armes de Jordan, trouvez du bois de chêne de pierre blanche, une cargaison de minerai raffiné de Bailor, un marteau de forge de Jordan et une gemme Kor, et rapportez-les à Jordan Stilwell à Ironforge."
+    IJ_QUEST_NAME_1653 = "Le test de la justice"
+    IJ_QUEST_OBJECTIVE_1653 = "Parlez à Jordan Stilwell à Ironforge."
+    IJ_QUEST_NAME_1652 = "Le tome de la vaillance"
+    IJ_QUEST_OBJECTIVE_1652 = "Parlez à Duthorian Rall à Hurlevent."
+    IJ_QUEST_NAME_1651 = "Le tome de la vaillance"
+    IJ_QUEST_OBJECTIVE_1651 =
+    "Défendez Daphné Stilwell contre l’attaque des Défias.\n\nAucun de vos esprits ne doit être libéré de ses liens mortels si vous souhaitez réussir.\n\nUne fois que vous avez réussi, parlez à nouveau à Daphné Stilwell."
+    IJ_QUEST_NAME_1650 = "Le tome de la vaillance"
+    IJ_QUEST_OBJECTIVE_1650 = "Trouvez Daphné Stilwell à la Marche de l'Ouest."
+    IJ_QUEST_NAME_1649 = "Le tome de la vaillance"
+    IJ_QUEST_OBJECTIVE_1649 = "Parlez à Duthorian Rall à Hurlevent."
+    IJ_QUEST_NAME_1793 = "Le tome de la vaillance"
+    IJ_QUEST_NAME_1794 = "Le tome de la vaillance"
+    IJ_QUEST_NAME_1806 = "Le test de la justice"
+    IJ_QUEST_OBJECTIVE_1806 = "Attendez que Jordan Stilwell ait fini de forger une arme pour vous."
+    IJ_QUEST_NAME_1740 = "L'Orbe de Soran'ruk"
+    IJ_QUEST_OBJECTIVE_1740 =
+    "Trouvez 3 fragments de Soran'ruk et 1 grand fragment de Soran'ruk et rapportez-les à Doan Karhan dans les Tarides."
+    IJ_QUEST_NAME_60108 = "La folie d'Arugal"
+    IJ_QUEST_OBJECTIVE_60108 =
+    "Le grand sorcier Andromath vous a chargé de la mort de l'archimage Arugal. Revenez vers lui lorsque vous avez terminé."
+    IJ_QUEST_NAME_60109 = "Le sorcier disparu"
+    IJ_QUEST_OBJECTIVE_60109 =
+    "Le grand sorcier Andromath veut que vous vous rendiez au donjon d'Ombrecroc, dans la forêt des Pins argentés, pour découvrir ce qui est arrivé au sorcier Ashcrombe."
+    IJ_NPC_NAME_3850 = "Le sorcier Ashcrombe"
+    IJ_NPC_NAME_5694 = "Grand sorcier Andromath"
+    IJ_NPC_NAME_6247 = "Doan Karhan"
+    IJ_NPC_NAME_6181 = "Jordan Stilwell"
+    IJ_NPC_NAME_6171 = "Duthorien Rall"
+    IJ_NPC_NAME_6182 = "Daphné Stilwell"
+    IJ_NPC_NAME_6179 = "Forge de bataille de Tiza"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion = "Cindaire"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion =
+    "Quand Onyxia décolle, Cindarion atterrit. Il sera actif pendant toute la scène jusqu'à ce qu'il soit tué."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "Souffle de flamme"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath =
+    "Cindarion lance un souffle de flammes, infligeant des dégâts de feu à tous les ennemis devant lui."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Éclosoir onyxien"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
+    "Deux Onyxian Hatcher apparaissent après qu'Onyxia ait atterri au sol, l'aidant pour le reste du combat."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Pluie de feu"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
+    "Onyxian Hatcher projette des pluies de feu qui apparaissent autour de la pièce, infligeant de lourds dégâts de feu à tous les ennemis à l'intérieur."
 end

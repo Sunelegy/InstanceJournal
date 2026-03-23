@@ -89,6 +89,7 @@ function IJ_InstanceJournalFrame_OnLoad()
     IJ_InstanceJournalFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
     IJ_InstanceJournalFrame:RegisterEvent("PLAYER_TARGET_CHANGED")
     IJ_InstanceJournalFrame:RegisterForDrag("LeftButton")
+    IJ_InstanceJournalFrame:SetClampedToScreen(true)
 
     Original_WorldMap_UpdateZoneDropDownText = WorldMap_UpdateZoneDropDownText
     WorldMap_UpdateZoneDropDownText = IJ_WorldMap_UpdateZoneDropDownText

@@ -2,6 +2,17 @@
 
 All changes to this project will be documented in this file.
 
+## [1.1.3] - 2026-03-23
+
+### Added
+
+- Added clamping to the frame
+- Added Onyxia new abilities
+
+### Fixed
+
+- Fixed Chieftain Shalk Blackwind's Hawkfeather Crown icon
+
 ## [1.1.2] - 2026-03-23
 
 ### Added

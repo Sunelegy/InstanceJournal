@@ -414,7 +414,7 @@ WHC.Bosses = {
             },
             [4] = {
                 Id = "42277",
-                Icon = "INV_Hammer_04",
+                Icon = "INV_Helmet_04",
                 Name = IJ_LOOT_NAME_42277,
                 Quality = IQ.Epic,
                 ItemSlot = IS.Head,

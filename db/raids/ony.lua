@@ -192,6 +192,22 @@ ONY.Bosses = {
                         Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086,
                         Flags = { IMAF.Deadly, IMAF.Important, },
                     },
+                    [3] = {
+                        Id = "cindarion",
+                        Icon = "INV_Misc_Head_Dragon_Black",
+                        Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion,
+                        Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion,
+                        Flags = { IMAF.Tank, IMAF.Important, },
+                        SubAbilities = {
+                            [1] = {
+                                Id = "cindarionflamebreath",
+                                Icon = "Spell_Fire_Fire",
+                                Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath,
+                                Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath,
+                                Flags = { IMAF.Deadly, },
+                            },
+                        },
+                    },
                 }
             },
             [4] = {
@@ -225,6 +241,21 @@ ONY.Bosses = {
                         Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431,
                         Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431,
                         Flags = { IMAF.Important, },
+                    },
+                    [5] = {
+                        Id = "onyxianhatcher",
+                        Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher,
+                        Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher,
+                        Flags = { IMAF.Tank, IMAF.Important, },
+                        SubAbilities = {
+                            [1] = {
+                                Id = "rainoffire",
+                                Icon = "spell_shadow_rainoffire",
+                                Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire,
+                                Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire,
+                                Flags = { IMAF.Deadly, IMAF.Important, },
+                            },
+                        },
                     },
                 }
             },
