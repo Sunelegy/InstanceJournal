@@ -49,7 +49,7 @@ ONY.Bosses = {
                 Name = IJ_LOOT_NAME_33151,
                 Quality = IQ.Epic,
                 ItemSlot = IS.Trinket,
-                DropChance = 13,
+                DropChance = 12,
                 LevelRequirement = 60,
             },
             [2] = {
@@ -59,7 +59,7 @@ ONY.Bosses = {
                 Quality = IQ.Epic,
                 ItemSlot = IS.TwoHand,
                 ItemType = IT.Polearm,
-                DropChance = 12,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
             [3] = {
@@ -69,7 +69,7 @@ ONY.Bosses = {
                 Quality = IQ.Epic,
                 ItemSlot = IS.TwoHand,
                 ItemType = IT.Staff,
-                DropChance = 12,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
             [4] = {
@@ -78,7 +78,7 @@ ONY.Bosses = {
                 Name = IJ_LOOT_NAME_33153,
                 Quality = IQ.Epic,
                 ItemSlot = IS.Trinket,
-                DropChance = 12,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
             [5] = {
@@ -88,7 +88,7 @@ ONY.Bosses = {
                 Quality = IQ.Epic,
                 ItemSlot = IS.OneHand,
                 ItemType = IT.Sword,
-                DropChance = 12,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
             [6] = {
@@ -98,7 +98,7 @@ ONY.Bosses = {
                 Quality = IQ.Epic,
                 ItemSlot = IS.Ranged,
                 ItemType = IT.ThrownWeapon,
-                DropChance = 12,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
             [7] = {
@@ -108,7 +108,7 @@ ONY.Bosses = {
                 Quality = IQ.Epic,
                 ItemSlot = IS.OffHand,
                 ItemType = IT.Shield,
-                DropChance = 12,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
             [8] = {
@@ -117,7 +117,16 @@ ONY.Bosses = {
                 Name = IJ_LOOT_NAME_33154,
                 Quality = IQ.Epic,
                 ItemSlot = IS.Finger,
-                DropChance = 12,
+                DropChance = 11,
+                LevelRequirement = 60,
+            },
+            [9] = {
+                Id = "33149",
+                Icon = "battle_standard_of_the_broodcommander_2",
+                Name = IJ_LOOT_NAME_33149,
+                Quality = IQ.Epic,
+                ItemSlot = IS.Trinket,
+                DropChance = 11,
                 LevelRequirement = 60,
             },
         },

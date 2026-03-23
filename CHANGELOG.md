@@ -2,6 +2,15 @@
 
 All changes to this project will be documented in this file.
 
+## [1.1.2] - 2026-03-23
+
+### Added
+
+- Added Ezzel Darkbrewer's medias
+- Added Ezzel Darkbrewer's loot
+- Added Battle Standard of the Broodcommander to Broodcommander Axelus
+- Added Crypt Lord's Beckoning to Anub'Rekhan
+
 ## [1.1.1] - 2026-03-23
 
 ### Added
