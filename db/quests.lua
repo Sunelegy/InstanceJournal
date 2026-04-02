@@ -8747,7 +8747,7 @@ Q[41879] = {
     RequiredFaction = { IF.Alliance, IF.Horde },
     RewardExperience = 3500,
     RewardCoin = 21000,
-    RewardReputations = { { Name = IR.Ironforge, Amount = 300 }, { Name = IR.WildhammeClan, Amount = 300 } },
+    RewardReputations = { { Name = IR.Ironforge, Amount = 300 }, { Name = IR.WildhammerClan, Amount = 300 } },
     RewardItems = {
         { IJDB.I[41980] },
     },
@@ -9884,7 +9884,7 @@ Q[41140] = {
     RequiredFaction = { IF.Alliance },
     RewardExperience = 4400,
     RewardCoin = 26400,
-    RewardReputations = { { Name = IR.WildhammeClan, Amount = 200 } },
+    RewardReputations = { { Name = IR.WildhammerClan, Amount = 200 } },
 }
 
 Q[41141] = {
@@ -9898,7 +9898,7 @@ Q[41141] = {
     RequiredFaction = { IF.Alliance },
     RewardExperience = 5600,
     RewardCoin = 33600,
-    RewardReputations = { { Name = IR.WildhammeClan, Amount = 350 } },
+    RewardReputations = { { Name = IR.WildhammerClan, Amount = 350 } },
     RequiredQuests = { Q[41140] },
 }
 
@@ -9913,7 +9913,7 @@ Q[41142] = {
     RequiredFaction = { IF.Alliance },
     RewardExperience = 6800,
     RewardCoin = 47600,
-    RewardReputations = { { Name = IR.WildhammeClan, Amount = 200 } },
+    RewardReputations = { { Name = IR.WildhammerClan, Amount = 200 } },
     RequiredQuests = { Q[41141] },
 }
 
@@ -12080,7 +12080,7 @@ Q[41883] = {
     RequiredFaction = { IF.Alliance },
     RewardExperience = 500,
     RewardCoin = 3000,
-    RewardReputations = { { Name = IR.WildhammeClan, Amount = 100 } },
+    RewardReputations = { { Name = IR.WildhammerClan, Amount = 100 } },
 }
 
 Q[41657] = {
