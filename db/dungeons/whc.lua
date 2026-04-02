@@ -265,7 +265,10 @@ WHC.Bosses = {
         },
     },
 }
-WHC.Quests = { -- NOTE: Missing TWOW Quests
+WHC.Quests = {
+    IJDB.Q[41982],
+    IJDB.Q[41977],
+    IJDB.Q[41976],
 }
 
 IJDB.DG.WHC = WHC

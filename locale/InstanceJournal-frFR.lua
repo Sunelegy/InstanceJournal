@@ -5031,4 +5031,53 @@ if GetLocale() == "frFR" then
     IJ_QUEST_NAME_4735 = "Collecte d'œufs"
     IJ_QUEST_OBJECTIVE_4735 =
     "Apportez 8 œufs de dragon collectés et le module Collectronic à Tinkee Steamboil à Flame Crest dans les Steppes ardentes."
+    IJ_QUEST_NAME_41976 = "À la recherche des reliques Tauren"
+    IJ_QUEST_OBJECTIVE_41976 =
+    "Récupérez 8 reliques Windhorn pour Tarwegg Dustbrow dans Windhorn Canyon et revenez-lui à Ironforge."
+    IJ_NPC_NAME_62416 = "Tarwegg Sourcil-poussière"
+    IJ_QUEST_NAME_41977 = "Reliques de la tribu Windhorn"
+    IJ_QUEST_OBJECTIVE_41977 =
+    "Voyagez dans le Canyon Windhorn et récupérez 8 reliques Windhorn pour Sagh au Refuge de Sagh à Thousand Needles."
+    IJ_NPC_NAME_62836 = "Sagh"
+    IJ_QUEST_NAME_4542 = "Message au poste de Freewind"
+    IJ_QUEST_OBJECTIVE_4542 = "Apportez le message urgent à Cliffwatcher Longhorn au Poste de Freewind."
+    IJ_NPC_NAME_10079 = "Courageux Corne de Lune"
+    IJ_NPC_NAME_10537 = "Gardien des falaises Longhorn"
+    IJ_QUEST_NAME_4841 = "Pacifier le Centaure"
+    IJ_QUEST_OBJECTIVE_4841 =
+    "Tuez 12 Galak Scouts, 10 Galak Wranglers et 6 Galak Windchasers, puis retournez voir Cliffwatcher Longhorn au Freewind Post."
+    IJ_QUEST_NAME_5064 = "Espionnage du Totem-Sinistre"
+    IJ_QUEST_OBJECTIVE_5064 = "Localisez et récupérez les trois notes secrètes dans Darkcloud Pinnacle"
+    IJ_QUEST_NAME_41979 = "Rumeurs du Totem de la Mort"
+    IJ_QUEST_OBJECTIVE_41979 = "Apportez la Missive Longhorn à Cairne Bloodhoof à Thunderbluff."
+    IJ_NPC_NAME_3057 = "Cairne Sabot-de-Sang"
+    IJ_QUEST_NAME_41981 = "Informations sur Cairne"
+    IJ_QUEST_OBJECTIVE_41981 = "Apportez les informations de Rahauro à Cairne Bloodhoof à Thunderbluff."
+    IJ_QUEST_NAME_41982 = "Détruisez le Totem de la Mort"
+    IJ_QUEST_OBJECTIVE_41982 =
+    "Tuez le prophète Stormhoof, le chef du Totem de la mort dans Windhorn Canyon, et retournez voir Cairne Bloodhoof à Thunderbluff."
+    IJ_QUEST_NAME_42040 = "Un grave malentendu !"
+    IJ_QUEST_OBJECTIVE_42040 = "Récupérez la tablette de Kaz'gan pour Ranix Crackbolt dans Frostmane Hollow."
+    IJ_NPC_NAME_63190 = "Ranix Crackbolt"
+    IJ_QUEST_NAME_42008 = "La plus belle peau"
+    IJ_QUEST_OBJECTIVE_42008 =
+    "Entrez dans Frostmane Hollow à Dun Morogh et obtenez une peau de léopard impeccable pour Shandlar Thethis à Alah'thalas dans les hautes terres de Thalassian. Vous pouvez trouver l’entrée de Frostmane Hollow près des aérodromes d’Ironforge."
+    IJ_NPC_NAME_61840 = "Shandlar Théthis"
+    IJ_QUEST_NAME_42038 = "La guerre des crins de givre"
+    IJ_QUEST_OBJECTIVE_42038 =
+    "Tuez 8 éclaireurs Frostmane, 6 Frostmane Drudges et 6 Frostmane Mystics pour l'alpiniste Granitebeard à l'aérodrome d'Ironforge à Dun Morogh."
+    IJ_NPC_NAME_63168 = "Alpiniste Granitebarbe"
+    IJ_QUEST_NAME_42039 = "Chef Ubukaz"
+    IJ_QUEST_OBJECTIVE_42039 =
+    "Tuez le Maître de bataille Ubukaz au plus profond de Frostmane Hollow pour l'Alpiniste Granitebeard à l'aérodrome d'Ironforge à Dun Morogh."
+    IJ_QUEST_NAME_42007 = "Le disque brisé"
+    IJ_QUEST_OBJECTIVE_42007 = "Retournez voir Brohann Caskbelly dans le district nain de Hurlevent."
+    IJ_NPC_NAME_63182 = "Archéologue Evenpike"
+    IJ_QUEST_NAME_42006 = "À la recherche de l’archéologue Evenpike"
+    IJ_QUEST_OBJECTIVE_42006 = "Recherchez l'archéologue Evenpike à l'intérieur de Frostmane Hollow, à Dun Morogh."
+    IJ_REPUTATION_REVANTUSKTROLLS = "Trolls Revantusk"
+    IJ_REPUTATION_HYDRAXIANWATERLORDS = "Seigneurs de l'eau hydraxiens"
+    IJ_REPUTATION_THERAMORE = "Théramore"
+    IJ_REPUTATION_DALARAN = "Dalaran"
+    IJ_REPUTATION_SILVERMOONREMNANT = "Vestige de Lune d’Argent"
 end

@@ -216,6 +216,11 @@ FH.Bosses = {
         },
     },
 }
-FH.Quests = { -- NOTE: Missing TWOW Quests
+FH.Quests = {
+    IJDB.Q[42006],
+    IJDB.Q[42007],
+    IJDB.Q[42039],
+    IJDB.Q[42008],
+    IJDB.Q[42040],
 }
 IJDB.DG.FH = FH

@@ -5,6 +5,85 @@ local IZI = IJLib.ZoneId
 
 local NPC = {}
 
+NPC[62416] = {
+    Id = "62416",
+    MapContinentId = IMI.EasternKingdoms,
+    MapZoneId = IZI.Ironforge,
+    MapCoordinateX = 72.4,
+    MapCoordinateY = 17.4,
+    Name = IJ_NPC_NAME_62416
+}
+
+NPC[62836] = {
+    Id = "62836",
+    MapContinentId = IMI.Kalimdor,
+    MapZoneId = IZI.ThousandNeedles,
+    MapCoordinateX = 30.7,
+    MapCoordinateY = 44.9,
+    Name = IJ_NPC_NAME_62836
+}
+
+NPC[10079] = {
+    Id = "10079",
+    MapContinentId = IMI.Kalimdor,
+    MapZoneId = IZI.TheBarrens,
+    MapCoordinateX = 44.1,
+    MapCoordinateY = 92.2,
+    Name = IJ_NPC_NAME_10079
+}
+
+NPC[10537] = {
+    Id = "10537",
+    MapContinentId = IMI.Kalimdor,
+    MapZoneId = IZI.ThousandNeedles,
+    MapCoordinateX = 45.6,
+    MapCoordinateY = 50.7,
+    Name = IJ_NPC_NAME_10537
+}
+
+NPC[3057] = {
+    Id = "3057",
+    MapContinentId = IMI.Kalimdor,
+    MapZoneId = IZI.ThunderBluff,
+    MapCoordinateX = 59.8,
+    MapCoordinateY = 51.6,
+    Name = IJ_NPC_NAME_3057
+}
+
+NPC[63190] = {
+    Id = "63190",
+    MapContinentId = IMI.FrostmaneHollow,
+    MapCoordinateX = 44.6,
+    MapCoordinateY = 17.5,
+    Name = IJ_NPC_NAME_63190
+}
+
+NPC[61840] = {
+    Id = "61840",
+    MapContinentId = IMI.EasternKingdoms,
+    MapZoneId = IZI.AlahThalas,
+    MapCoordinateX = 53.5,
+    MapCoordinateY = 12.8,
+    Name = IJ_NPC_NAME_61840
+}
+
+NPC[63168] = {
+    Id = "63168",
+    MapContinentId = IMI.EasternKingdoms,
+    MapZoneId = IZI.DunMorogh,
+    MapCoordinateX = 70.9,
+    MapCoordinateY = 35.5,
+    Name = IJ_NPC_NAME_63168
+}
+
+NPC[63182] = {
+    Id = "63182",
+    MapContinentId = IMI.FrostmaneHollow,
+    MapCoordinateX = 30.1,
+    MapCoordinateY = 61.6,
+    Name = IJ_NPC_NAME_63182
+}
+
 NPC[61568] = {
     Id = "61568",
     MapContinentId = IMI.EasternKingdoms,

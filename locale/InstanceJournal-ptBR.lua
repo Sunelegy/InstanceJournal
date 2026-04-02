@@ -5019,4 +5019,53 @@ if GetLocale() == "ptBR" then
     IJ_QUEST_NAME_4735 = "Coleta de Ovos"
     IJ_QUEST_OBJECTIVE_4735 =
     "Leve 8 Ovos de Dragão coletados e o Módulo Coletrônico para Tinkee Steamboil em Flame Crest, nas Estepes Ardentes."
+    IJ_QUEST_NAME_41976 = "Em busca das relíquias de Tauren"
+    IJ_QUEST_OBJECTIVE_41976 =
+    "Reúna 8 Relíquias de Chifre de Vento para Tarwegg Dustbrow no Cânion Chifre de Vento e retorne até ele em Altaforja."
+    IJ_NPC_NAME_62416 = "Sobrancelha Tarwegg"
+    IJ_QUEST_NAME_41977 = "Relíquias da Tribo Windhorn"
+    IJ_QUEST_OBJECTIVE_41977 =
+    "Viaje até o Cânion Chifre de Vento e recupere 8 Relíquias de Chifre de Vento para Sagh no Refúgio de Sagh, em Mil Agulhas."
+    IJ_NPC_NAME_62836 = "Sagh"
+    IJ_QUEST_NAME_4542 = "Mensagem para Freewind Post"
+    IJ_QUEST_OBJECTIVE_4542 = "Leve a mensagem urgente para Cliffwatcher Longhorn no Freewind Post."
+    IJ_NPC_NAME_10079 = "Bravo Chifre da Lua"
+    IJ_NPC_NAME_10537 = "Observador de Penhascos Longhorn"
+    IJ_QUEST_NAME_4841 = "Pacificar o Centauro"
+    IJ_QUEST_OBJECTIVE_4841 =
+    "Mate 12 Galak Scouts, 10 Galak Wranglers e 6 Galak Windchasers e depois retorne ao Cliffwatcher Longhorn no Freewind Post."
+    IJ_QUEST_NAME_5064 = "Espionagem Temível Totem"
+    IJ_QUEST_OBJECTIVE_5064 = "Localize e recupere as três notas secretas em Darkcloud Pinnacle"
+    IJ_QUEST_NAME_41979 = "Rumores do Deathtotem"
+    IJ_QUEST_OBJECTIVE_41979 = "Entregue a Missiva Longhorn para Cairne Casco Sangrento em Thunderbluff."
+    IJ_NPC_NAME_3057 = "Cairne Casco Sangrento"
+    IJ_QUEST_NAME_41981 = "Informações para Caerne"
+    IJ_QUEST_OBJECTIVE_41981 = "Entregue as informações de Rahauro para Cairne Casco Sangrento em Thunderbluff."
+    IJ_QUEST_NAME_41982 = "Destrua o Totem da Morte"
+    IJ_QUEST_OBJECTIVE_41982 =
+    "Mate o Profeta Casco Tempestuoso, o líder do Deathtotem no Cânion Chifre de Vento, e retorne para Cairne Casco Sangrento em Penhasco do Trovão."
+    IJ_QUEST_NAME_42040 = "Um grave mal-entendido!"
+    IJ_QUEST_OBJECTIVE_42040 = "Recupere a Tabuleta de Kaz'gan para Ranix Crackbolt em Frostmane Hollow."
+    IJ_NPC_NAME_63190 = "Ranix Crackbolt"
+    IJ_QUEST_NAME_42008 = "A melhor pele"
+    IJ_QUEST_OBJECTIVE_42008 =
+    "Entre em Frostmane Hollow em Dun Morogh e adquira uma pele de leopardo impecável para Shandlar Thethis em Alah’thalas nas Terras Altas de Thalassian. Você pode encontrar a entrada para Frostmane Hollow perto dos campos de aviação de Ironforge."
+    IJ_NPC_NAME_61840 = "Shandlar Thethis"
+    IJ_QUEST_NAME_42038 = "A Guerra Frostmane"
+    IJ_QUEST_OBJECTIVE_42038 =
+    "Mate 8 Batedores Juba Gélida, 6 Drudges Juba Gélida e 6 Místicos Juba Gélida para o Montanhista Barbagranito no Aeródromo de Altaforja, em Dun Morogh."
+    IJ_NPC_NAME_63168 = "Barba Granito Alpinista"
+    IJ_QUEST_NAME_42039 = "Chefe Ubukaz"
+    IJ_QUEST_OBJECTIVE_42039 =
+    "Mate o Mestre de Batalha Ubukaz nas profundezas de Frostmane Hollow para o Montanhista Barbagranito no Campo de Aviação de Altaforja, em Dun Morogh."
+    IJ_QUEST_NAME_42007 = "O disco quebrado"
+    IJ_QUEST_OBJECTIVE_42007 = "Retorne para Brohann Barril de Barril no Distrito Anão de Ventobravo."
+    IJ_NPC_NAME_63182 = "Arqueólogo Evenpike"
+    IJ_QUEST_NAME_42006 = "Procurando pelo arqueólogo Evenpike"
+    IJ_QUEST_OBJECTIVE_42006 = "Procure pelo arqueólogo Evenpike dentro de Frostmane Hollow em Dun Morogh."
+    IJ_REPUTATION_REVANTUSKTROLLS = "Trolls Revantusco"
+    IJ_REPUTATION_HYDRAXIANWATERLORDS = "Senhores da Água Hydraxianos"
+    IJ_REPUTATION_THERAMORE = "Theramore"
+    IJ_REPUTATION_DALARAN = "Dalaran"
+    IJ_REPUTATION_SILVERMOONREMNANT = "Remanescente de Lua Prateada"
 end

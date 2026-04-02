@@ -5038,4 +5038,53 @@ if GetLocale() == "deDE" then
     IJ_QUEST_NAME_4735 = "Eiersammlung"
     IJ_QUEST_OBJECTIVE_4735 =
     "Bringt 8 gesammelte Dracheneier und das Kollektronic-Modul zu Tinkee Steamboil bei Flame Crest in den Brennenden Steppen."
+    IJ_QUEST_NAME_41976 = "Auf der Suche nach Taurenrelikten"
+    IJ_QUEST_OBJECTIVE_41976 =
+    "Sammelt 8 Windhornrelikte für Tarwegg Dustbrow in der Windhornschlucht und bringt sie zu ihm nach Ironforge."
+    IJ_NPC_NAME_62416 = "Tarwegg Dustbrow"
+    IJ_QUEST_NAME_41977 = "Relikte des Windhorn-Stammes"
+    IJ_QUEST_OBJECTIVE_41977 =
+    "Reist in die Windhorn-Schlucht und holt 8 Windhorn-Relikte für Sagh in Saghs Zuflucht in Thousand Needles."
+    IJ_NPC_NAME_62836 = "Sagh"
+    IJ_QUEST_NAME_4542 = "Nachricht an Freewind Post"
+    IJ_QUEST_OBJECTIVE_4542 = "Bringen Sie die dringende Nachricht zu Cliffwatcher Longhorn am Freewind Post."
+    IJ_NPC_NAME_10079 = "Tapferes Mondhorn"
+    IJ_NPC_NAME_10537 = "Klippenbeobachter Longhorn"
+    IJ_QUEST_NAME_4841 = "Beruhige den Zentauren"
+    IJ_QUEST_OBJECTIVE_4841 =
+    "Töten Sie 12 Galak-Späher, 10 Galak-Wächter und 6 Galak-Windjäger und kehren Sie dann zu Cliffwatcher Longhorn im Freewind-Posten zurück."
+    IJ_QUEST_NAME_5064 = "Grimmtotem-Spionage"
+    IJ_QUEST_OBJECTIVE_5064 = "Suchen Sie die drei geheimen Notizen in Darkcloud Pinnacle und holen Sie sie ab"
+    IJ_QUEST_NAME_41979 = "Gerüchte über das Todestotem"
+    IJ_QUEST_OBJECTIVE_41979 = "Überbringen Sie das Longhorn-Schreiben zu Cairne Bloodhoof in Thunderbluff."
+    IJ_NPC_NAME_3057 = "Cairne Bloodhoof"
+    IJ_QUEST_NAME_41981 = "Informationen für Cairne"
+    IJ_QUEST_OBJECTIVE_41981 = "Überbringe Rahauros Informationen zu Cairne Bloodhoof in Thunderbluff."
+    IJ_QUEST_NAME_41982 = "Zerstöre das Todestotem"
+    IJ_QUEST_OBJECTIVE_41982 =
+    "Tötet Prophet Stormhoof, den Anführer des Todestotems im Windhorn Canyon, und kehrt zu Cairne Bloodhoof in Thunderbluff zurück."
+    IJ_QUEST_NAME_42040 = "Ein schwerwiegendes Missverständnis!"
+    IJ_QUEST_OBJECTIVE_42040 = "Beschafft die Tafel von Kaz'gan für Ranix Crackbolt in Frostmane Hollow."
+    IJ_NPC_NAME_63190 = "Ranix Crackbolt"
+    IJ_QUEST_NAME_42008 = "Das feinste Fell"
+    IJ_QUEST_OBJECTIVE_42008 =
+    "Betreten Sie Frostmane Hollow in Dun Morogh und erwerben Sie ein makelloses Leopardenfell für Shandlar Thethis in Alah'thalas im Thalassianischen Hochland. Sie finden den Eingang zur Frostmane Hollow in der Nähe der Flugplätze von Ironforge."
+    IJ_NPC_NAME_61840 = "Shandlar Thethis"
+    IJ_QUEST_NAME_42038 = "Der Frostmähnenkrieg"
+    IJ_QUEST_OBJECTIVE_42038 =
+    "Tötet 8 Frostmähnen-Späher, 6 Frostmähnen-Sklaven und 6 Frostmähnen-Mystiker für Gebirgsjäger Granitebeard auf dem Ironforge-Flugplatz in Dun Morogh."
+    IJ_NPC_NAME_63168 = "Bergsteiger Granitbart"
+    IJ_QUEST_NAME_42039 = "Häuptling Ubukaz"
+    IJ_QUEST_OBJECTIVE_42039 =
+    "Tötet Battlemaster Ubukaz tief in der Frostmane Hollow für Mountaineer Granitebeard auf dem Ironforge Airfield in Dun Morogh."
+    IJ_QUEST_NAME_42007 = "Die zerbrochene Scheibe"
+    IJ_QUEST_OBJECTIVE_42007 = "Kehrt zu Brohann Caskbelly im Zwergenbezirk Sturmwind zurück."
+    IJ_NPC_NAME_63182 = "Archäologe Evenpike"
+    IJ_QUEST_NAME_42006 = "Auf der Suche nach dem Archäologen Evenpike"
+    IJ_QUEST_OBJECTIVE_42006 = "Suchen Sie nach dem Archäologen Evenpike in der Frostmane Hollow in Dun Morogh."
+    IJ_REPUTATION_REVANTUSKTROLLS = "Revantusk-Trolle"
+    IJ_REPUTATION_HYDRAXIANWATERLORDS = "Hydraxianische Wasserherren"
+    IJ_REPUTATION_THERAMORE = "Theramore"
+    IJ_REPUTATION_DALARAN = "Dalaran"
+    IJ_REPUTATION_SILVERMOONREMNANT = "Überrest von Silbermond"
 end

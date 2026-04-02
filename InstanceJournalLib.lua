@@ -335,6 +335,11 @@ IJLib.Reputations = {
     BroodOfNozdormu = IJ_REPUTATION_BROODOFNOZDORMU,
     ThoriumBrotherhood = IJ_REPUTATION_THORIUMBROTHERHOOD,
     ZandalarTribe = IJ_REPUTATION_ZANDALARTRIBE,
+    RevantuskTrolls = IJ_REPUTATION_REVANTUSKTROLLS,
+    HydraxianWaterlords = IJ_REPUTATION_HYDRAXIANWATERLORDS,
+    Theramore = IJ_REPUTATION_THERAMORE,
+    Dalaran = IJ_REPUTATION_DALARAN,
+    SilvermoonRemnant = IJ_REPUTATION_SILVERMOONREMNANT,
 }
 
 IJLib.Factions = {

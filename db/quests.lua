@@ -6451,6 +6451,9 @@ Q[60108] = {
     StartingPoints = { NPC[5694] },
     EndingPoints = { NPC[5694] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3300,
+    RewardCoin = 19800,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 200 } },
     RewardItems = { { IJDB.I[51805] } },
 }
 
@@ -6463,6 +6466,9 @@ Q[60109] = {
     IsSharable = true,
     StartingPoints = { NPC[5694] },
     EndingPoints = { NPC[3850] },
+    RewardExperience = 2000,
+    RewardCoin = 12000,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 250 } },
     RequiredFaction = { IF.Alliance },
 }
 
@@ -8210,6 +8216,11 @@ Q[40519] = {
     Level = 46,
     StartingPoints = { NPC[60856] },
     EndingPoints = { NPC[60856] },
+    RewardExperience = 3850,
+    RewardCoin = 23100,
+    RewardItems = {
+        { IJDB.I[60759] },
+    },
     RequiredFaction = { IF.Alliance, IF.Horde },
 }
 
@@ -8222,6 +8233,12 @@ Q[41811] = {
     StartingPoints = { NPC[62726] },
     EndingPoints = { NPC[62726] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4150,
+    RewardCoin = 24900,
+    RewardItems = {
+        { IJDB.I[41916] },
+        { IJDB.I[41917] },
+    },
 }
 
 Q[40522] = {
@@ -8233,6 +8250,8 @@ Q[40522] = {
     StartingPoints = { NPC[60752] },
     EndingPoints = { NPC[7724] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
 }
 
 Q[40523] = {
@@ -8244,6 +8263,8 @@ Q[40523] = {
     StartingPoints = { NPC[7724] },
     EndingPoints = { NPC[60752] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
     RequiredQuests = { Q[40522] },
 }
 
@@ -8256,6 +8277,8 @@ Q[40524] = {
     StartingPoints = { NPC[60752] },
     EndingPoints = { NPC[10540] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 850,
+    RewardCoin = 5100,
     RequiredQuests = { Q[40523] },
 }
 
@@ -8268,6 +8291,8 @@ Q[40525] = {
     StartingPoints = { NPC[10540] },
     EndingPoints = { NPC[60749] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
     RequiredQuests = { Q[40524] },
 }
 
@@ -8280,6 +8305,8 @@ Q[40526] = {
     StartingPoints = { NPC[60749] },
     EndingPoints = { NPC[60749] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4150,
+    RewardCoin = 24900,
     RequiredQuests = { Q[40525] },
 }
 
@@ -8292,6 +8319,12 @@ Q[40527] = {
     StartingPoints = { NPC[60749] },
     EndingPoints = { NPC[60749] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
+    RewardItems = {
+        { IJDB.I[60764] },
+        { IJDB.I[60765] },
+    },
     RequiredQuests = { Q[40526] },
 }
 
@@ -8304,6 +8337,13 @@ Q[60125] = {
     StartingPoints = { NPC[3702] },
     EndingPoints = { NPC[3702] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1700,
+    RewardCoin = 10200,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[51850] },
+        { IJDB.I[51851] },
+    },
 }
 
 Q[60124] = {
@@ -8315,6 +8355,13 @@ Q[60124] = {
     StartingPoints = { NPC[3702] },
     EndingPoints = { NPC[3702] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2200,
+    RewardCoin = 13200,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[51848] },
+        { IJDB.I[51849] },
+    },
 }
 
 Q[41363] = {
@@ -8326,6 +8373,13 @@ Q[41363] = {
     StartingPoints = { NPC[3649] },
     EndingPoints = { NPC[3649] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2000,
+    RewardCoin = 14000,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[3827] },
+        { IJDB.I[1710] },
+    },
 }
 
 Q[80311] = {
@@ -8337,6 +8391,8 @@ Q[80311] = {
     StartingPoints = { NPC[80857] },
     EndingPoints = { NPC[80831] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1607,
+    RewardCoin = 9642,
 }
 
 Q[80312] = {
@@ -8348,6 +8404,12 @@ Q[80312] = {
     StartingPoints = { NPC[80831] },
     EndingPoints = { NPC[80831] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3367,
+    RewardCoin = 20202,
+    RewardItems = {
+        { IJDB.I[80860] },
+        { IJDB.I[80861] },
+    },
     RequiredQuests = { Q[80311] },
 }
 
@@ -8360,6 +8422,12 @@ Q[41367] = {
     StartingPoints = { NPC[5767] },
     EndingPoints = { NPC[5767] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1800,
+    RewardCoin = 10800,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[70224] },
+    },
 }
 
 Q[40130] = {
@@ -8371,6 +8439,9 @@ Q[40130] = {
     StartingPoints = { NPC[60443] },
     EndingPoints = { NPC[60443] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1075,
+    RewardCoin = 6450,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
 }
 
 Q[40131] = {
@@ -8382,6 +8453,9 @@ Q[40131] = {
     StartingPoints = { NPC[60443] },
     EndingPoints = { NPC[60443] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4075,
+    RewardCoin = 24450,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
     RequiredQuests = { Q[40130] },
 }
 
@@ -8394,6 +8468,8 @@ Q[41011] = {
     StartingPoints = { NPC[61570] },
     EndingPoints = { NPC[61570] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6800,
+    RewardCoin = 40800,
 }
 
 Q[41814] = {
@@ -8405,6 +8481,12 @@ Q[41814] = {
     StartingPoints = { NPC[62470] },
     EndingPoints = { NPC[62470] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3500,
+    RewardCoin = 24500,
+    RewardItems = {
+        { IJDB.I[58261] },
+        { IJDB.I[58262] },
+    },
 }
 
 Q[41760] = {
@@ -8416,6 +8498,11 @@ Q[41760] = {
     StartingPoints = { NPC[62467] },
     EndingPoints = { NPC[62467] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3600,
+    RewardCoin = 25200,
+    RewardItems = {
+        { IJDB.I[58073] },
+    },
 }
 
 Q[41844] = {
@@ -8427,6 +8514,12 @@ Q[41844] = {
     StartingPoints = { NPC[62520] },
     EndingPoints = { NPC[62520] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2800,
+    RewardCoin = 19600,
+    RewardReputations = { { Name = IR.SteamwheedleCartel, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[58281] },
+    },
 }
 
 Q[41845] = {
@@ -8438,6 +8531,8 @@ Q[41845] = {
     StartingPoints = { NPC[62730] },
     EndingPoints = { NPC[62730] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3100,
+    RewardCoin = 21700,
 }
 
 Q[41842] = {
@@ -8449,6 +8544,13 @@ Q[41842] = {
     StartingPoints = { NPC[62458] },
     EndingPoints = { NPC[62458] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3200,
+    RewardCoin = 22400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[58279] },
+        { IJDB.I[58280] },
+    },
 }
 
 Q[41692] = {
@@ -8460,6 +8562,9 @@ Q[41692] = {
     StartingPoints = { NPC[62455], NPC[2020177] },
     EndingPoints = { NPC[2020177] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1400,
+    RewardCoin = 8400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
 }
 
 Q[41693] = {
@@ -8471,6 +8576,9 @@ Q[41693] = {
     StartingPoints = { NPC[2020177] },
     EndingPoints = { NPC[62556] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1850,
+    RewardCoin = 11100,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[41692] },
 }
 
@@ -8483,6 +8591,13 @@ Q[41694] = {
     StartingPoints = { NPC[62556] },
     EndingPoints = { NPC[62455] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3400,
+    RewardCoin = 20400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[58062] },
+        { IJDB.I[58063] },
+    },
     RequiredQuests = { Q[41693] },
 }
 
@@ -8495,6 +8610,9 @@ Q[41695] = {
     StartingPoints = { NPC[62455] },
     EndingPoints = { NPC[62458] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 400,
+    RewardCoin = 2400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[41694] },
 }
 
@@ -8507,6 +8625,9 @@ Q[41696] = {
     StartingPoints = { NPC[62458] },
     EndingPoints = { NPC[62458] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2600,
+    RewardCoin = 15600,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[41695] },
 }
 
@@ -8519,6 +8640,12 @@ Q[41697] = {
     StartingPoints = { NPC[62457] },
     EndingPoints = { NPC[62457] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2700,
+    RewardCoin = 16200,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[58064] },
+    },
     RequiredQuests = { Q[41695] },
 }
 
@@ -8531,6 +8658,12 @@ Q[41698] = {
     StartingPoints = { NPC[62459] },
     EndingPoints = { NPC[62459] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3000,
+    RewardCoin = 18000,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[6714] },
+    },
     RequiredQuests = { Q[41695] },
 }
 
@@ -8543,6 +8676,9 @@ Q[41699] = {
     StartingPoints = { NPC[62458] },
     EndingPoints = { NPC[62455] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 300,
+    RewardCoin = 1800,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[41696], Q[41697], Q[41698] },
 }
 
@@ -8555,6 +8691,13 @@ Q[41761] = {
     StartingPoints = { NPC[62455] },
     EndingPoints = { NPC[62455] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2900,
+    RewardCoin = 17400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[58065] },
+        { IJDB.I[58066] },
+    },
     RequiredQuests = { Q[41699] },
 }
 
@@ -8567,6 +8710,9 @@ Q[41843] = {
     StartingPoints = { NPC[62457] },
     EndingPoints = { NPC[62457] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3100,
+    RewardCoin = 21700,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[41761] },
 }
 
@@ -8579,6 +8725,14 @@ Q[41787] = {
     StartingPoints = { NPC[62455] },
     EndingPoints = { NPC[62455] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3600,
+    RewardCoin = 25200,
+    RewardItems = {
+        { IJDB.I[58080] },
+        { IJDB.I[58081] },
+        { IJDB.I[58082] },
+        { IJDB.I[58083] },
+    },
     RequiredQuests = { Q[41761] },
 }
 
@@ -8591,6 +8745,12 @@ Q[41879] = {
     StartingPoints = { NPC[62419] },
     EndingPoints = { NPC[62419] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3500,
+    RewardCoin = 21000,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 300 }, { Name = IR.WildhammeClan, Amount = 300 } },
+    RewardItems = {
+        { IJDB.I[41980] },
+    },
 }
 
 Q[41840] = {
@@ -8602,6 +8762,9 @@ Q[41840] = {
     StartingPoints = { { IJDB.I[41938] } },
     EndingPoints = { NPC[62489] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1200,
+    RewardCoin = 8400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
 }
 
 Q[41821] = {
@@ -8613,6 +8776,9 @@ Q[41821] = {
     StartingPoints = { NPC[62586] },
     EndingPoints = { NPC[62586] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3600,
+    RewardCoin = 25200,
+    RewardReputations = { { Name = IR.DarkspearTrolls, Amount = 100 } },
 }
 
 Q[41823] = {
@@ -8624,6 +8790,9 @@ Q[41823] = {
     StartingPoints = { NPC[62588] },
     EndingPoints = { NPC[62588] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3200,
+    RewardCoin = 19200,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 100 } },
 }
 
 Q[41824] = {
@@ -8635,6 +8804,9 @@ Q[41824] = {
     StartingPoints = { NPC[62588] },
     EndingPoints = { NPC[62588] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3600,
+    RewardCoin = 25200,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 100 } },
     RequiredQuests = { Q[41823] },
 }
 
@@ -8647,6 +8819,9 @@ Q[41727] = {
     StartingPoints = { NPC[62432] },
     EndingPoints = { NPC[62432] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1850,
+    RewardCoin = 11100,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 300 } },
 }
 
 Q[41728] = {
@@ -8658,6 +8833,9 @@ Q[41728] = {
     StartingPoints = { NPC[62432] },
     EndingPoints = { NPC[62432] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2250,
+    RewardCoin = 13500,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 300 } },
     RequiredQuests = { Q[41727] },
 }
 
@@ -8670,6 +8848,9 @@ Q[41729] = {
     StartingPoints = { NPC[62432] },
     EndingPoints = { NPC[62432] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2400,
+    RewardCoin = 14400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 300 } },
     RequiredQuests = { Q[41728] },
 }
 
@@ -8682,6 +8863,9 @@ Q[41730] = {
     StartingPoints = { NPC[62432] },
     EndingPoints = { NPC[62432] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3450,
+    RewardCoin = 20700,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 350 } },
     RequiredQuests = { Q[41729] },
 }
 
@@ -8694,6 +8878,9 @@ Q[41830] = {
     StartingPoints = { NPC[62590] },
     EndingPoints = { NPC[62590] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2400,
+    RewardCoin = 14400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 100 } },
 }
 
 Q[41831] = {
@@ -8705,6 +8892,9 @@ Q[41831] = {
     StartingPoints = { NPC[62590] },
     EndingPoints = { NPC[62590] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2800,
+    RewardCoin = 16800,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 100 } },
     RequiredQuests = { Q[41830] },
 }
 
@@ -8717,6 +8907,9 @@ Q[41832] = {
     StartingPoints = { NPC[62590] },
     EndingPoints = { NPC[62590] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3400,
+    RewardCoin = 20400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 150 } },
     RequiredQuests = { Q[41831] },
 }
 
@@ -8729,6 +8922,9 @@ Q[41833] = {
     StartingPoints = { NPC[62590] },
     EndingPoints = { NPC[62590] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4200,
+    RewardCoin = 29400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 200 } },
     RequiredQuests = { Q[41832] },
 }
 
@@ -8741,6 +8937,9 @@ Q[544] = {
     StartingPoints = { NPC[2410] },
     EndingPoints = { NPC[2410] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3350,
+    RewardCoin = 2040,
+    RewardReputations = { { Name = IR.Undercity, Amount = 150 } },
 }
 
 Q[41841] = {
@@ -8752,6 +8951,13 @@ Q[41841] = {
     StartingPoints = { { IJDB.I[41939] } },
     EndingPoints = { NPC[10181] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1200,
+    RewardCoin = 8400,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[58277] },
+        { IJDB.I[58278] },
+    },
     RequiredQuests = { Q[544] },
 }
 
@@ -8764,6 +8970,9 @@ Q[40426] = {
     StartingPoints = { NPC[80450] },
     EndingPoints = { NPC[80450] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 350 } },
 }
 
 Q[40427] = {
@@ -8775,6 +8984,14 @@ Q[40427] = {
     StartingPoints = { NPC[80451] },
     EndingPoints = { NPC[80451] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[60624] },
+        { IJDB.I[60625] },
+        { IJDB.I[60626] },
+    },
 }
 
 Q[41353] = {
@@ -8785,6 +9002,8 @@ Q[41353] = {
     Level = 62,
     EndingPoints = { NPC[62007] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1200,
+    RewardCoin = 7200,
 }
 
 Q[41354] = {
@@ -8796,6 +9015,8 @@ Q[41354] = {
     StartingPoints = { NPC[62007] },
     EndingPoints = { NPC[62007] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4400,
+    RewardCoin = 26400,
     RequiredQuests = { Q[41353] },
 }
 
@@ -8808,6 +9029,8 @@ Q[41355] = {
     StartingPoints = { NPC[62007] },
     EndingPoints = { NPC[62007] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4100,
+    RewardCoin = 24600,
     RequiredQuests = { Q[41354] },
 }
 
@@ -8820,6 +9043,8 @@ Q[41356] = {
     StartingPoints = { NPC[62007] },
     EndingPoints = { NPC[62007] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5800,
+    RewardCoin = 34800,
     RequiredQuests = { Q[41355] },
 }
 
@@ -8832,6 +9057,8 @@ Q[41357] = {
     StartingPoints = { NPC[62007] },
     EndingPoints = { NPC[62007] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5600,
+    RewardCoin = 33600,
     RequiredQuests = { Q[41356] },
 }
 
@@ -8844,6 +9071,12 @@ Q[40425] = {
     StartingPoints = { NPC[338] },
     EndingPoints = { NPC[338] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 200 } },
+    RewardItems = {
+        { IJDB.I[60622] },
+    },
 }
 
 Q[80398] = {
@@ -8856,6 +9089,9 @@ Q[80398] = {
     EndingPoints = { NPC[7406] },
     RequiredSkill = { SkillName = IT.Engineering, Amount = 125 },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1633,
+    RewardCoin = 9798,
+    RewardReputations = { { Name = IR.BootyBay, Amount = 150 } },
 }
 
 Q[80401] = {
@@ -8868,6 +9104,13 @@ Q[80401] = {
     EndingPoints = { NPC[7406] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredSkill = { SkillName = IT.Engineering, Amount = 125 },
+    RewardReputations = { { Name = IR.BootyBay, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[81253] },
+        { IJDB.I[81252] },
+        { IJDB.I[81251] },
+        { IJDB.I[81250] },
+    },
     RequiredQuests = { Q[80398] },
 }
 
@@ -8880,6 +9123,8 @@ Q[40998] = {
     StartingPoints = { { IJDB.I[51326] } },
     EndingPoints = { NPC[61320] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1550,
+    RewardCoin = 9300,
 }
 
 Q[40999] = {
@@ -8891,6 +9136,8 @@ Q[40999] = {
     StartingPoints = { NPC[61320] },
     EndingPoints = { NPC[61320] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5150,
+    RewardCoin = 30900,
     RequiredQuests = { Q[40998] },
 }
 
@@ -8903,6 +9150,8 @@ Q[41000] = {
     StartingPoints = { NPC[61320] },
     EndingPoints = { NPC[61320] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5320,
+    RewardCoin = 31920,
     RequiredQuests = { Q[40999] },
 }
 
@@ -8915,6 +9164,8 @@ Q[40817] = {
     StartingPoints = { NPC[61255] },
     EndingPoints = { NPC[61255] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
 }
 
 Q[40818] = {
@@ -8926,6 +9177,8 @@ Q[40818] = {
     StartingPoints = { NPC[61255] },
     EndingPoints = { NPC[61255] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40817] },
 }
 
@@ -8938,6 +9191,8 @@ Q[40819] = {
     StartingPoints = { NPC[61328] },
     EndingPoints = { NPC[2543] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40818] },
 }
 
@@ -8950,6 +9205,8 @@ Q[40822] = {
     StartingPoints = { NPC[61328] },
     EndingPoints = { NPC[1498] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40818] },
 }
 
@@ -8962,6 +9219,8 @@ Q[40823] = {
     StartingPoints = { NPC[1498] },
     EndingPoints = { NPC[4926] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40822] },
 }
 
@@ -8974,6 +9233,8 @@ Q[40824] = {
     StartingPoints = { NPC[4926] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40823] },
 }
 
@@ -8986,6 +9247,8 @@ Q[41136] = {
     StartingPoints = { NPC[2543] },
     EndingPoints = { NPC[60731] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40819] },
 }
 
@@ -8998,6 +9261,8 @@ Q[41137] = {
     StartingPoints = { NPC[60731] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[41136] },
 }
 
@@ -9010,6 +9275,8 @@ Q[40825] = {
     StartingPoints = { NPC[61137] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 19100,
     RequiredQuests = { Q[40824], Q[41137] },
 }
 
@@ -9022,6 +9289,8 @@ Q[40826] = {
     StartingPoints = { NPC[61137] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9150,
+    RewardCoin = 38900,
     RequiredQuests = { Q[40825] },
 }
 
@@ -9034,6 +9303,8 @@ Q[55215] = {
     StartingPoints = { NPC[52024] },
     EndingPoints = { NPC[52039] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 175,
+    RewardCoin = 1050,
 }
 
 Q[55216] = {
@@ -9045,6 +9316,8 @@ Q[55216] = {
     StartingPoints = { NPC[52024], NPC[52039] },
     EndingPoints = { NPC[52021] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 275,
+    RewardCoin = 1650,
     RequiredQuests = { Q[55215] },
 }
 
@@ -9057,6 +9330,8 @@ Q[55217] = {
     StartingPoints = { NPC[52021] },
     EndingPoints = { NPC[52039] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 175,
+    RewardCoin = 1050,
     RequiredQuests = { Q[55216] },
 }
 
@@ -9069,6 +9344,8 @@ Q[55218] = {
     StartingPoints = { NPC[52039] },
     EndingPoints = { NPC[52024] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 272,
+    RewardCoin = 1632,
     RequiredQuests = { Q[55217] },
 }
 
@@ -9081,6 +9358,8 @@ Q[55219] = {
     StartingPoints = { NPC[52024] },
     EndingPoints = { NPC[52006] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 500,
+    RewardCoin = 3000,
     RequiredQuests = { Q[55218] },
 }
 
@@ -9093,6 +9372,8 @@ Q[55220] = {
     StartingPoints = { NPC[52006] },
     EndingPoints = { NPC[332] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1075,
+    RewardCoin = 6450,
     RequiredQuests = { Q[55219] },
 }
 
@@ -9105,6 +9386,9 @@ Q[55221] = {
     StartingPoints = { NPC[332] },
     EndingPoints = { NPC[332] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2075,
+    RewardCoin = 12450,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 150 } },
     RequiredQuests = { Q[55220] },
 }
 
@@ -9117,6 +9401,8 @@ Q[40397] = {
     StartingPoints = { NPC[60710] },
     EndingPoints = { NPC[60710] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6125,
+    RewardCoin = 36750,
 }
 
 Q[40398] = {
@@ -9128,6 +9414,8 @@ Q[40398] = {
     StartingPoints = { NPC[60710] },
     EndingPoints = { NPC[60710] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5850,
+    RewardCoin = 35100,
     RequiredQuests = { Q[40397] },
 }
 
@@ -9140,6 +9428,8 @@ Q[40399] = {
     StartingPoints = { NPC[60710] },
     EndingPoints = { NPC[60710] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5950,
+    RewardCoin = 35700,
     RequiredQuests = { Q[40398] },
 }
 
@@ -9152,6 +9442,8 @@ Q[40400] = {
     StartingPoints = { NPC[60710] },
     EndingPoints = { NPC[60710] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6350,
+    RewardCoin = 38100,
     RequiredQuests = { Q[40399] },
 }
 
@@ -9164,6 +9456,8 @@ Q[40264] = {
     StartingPoints = { NPC[92184] },
     EndingPoints = { NPC[92184] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 450,
+    RewardCoin = 2700,
 }
 
 Q[40265] = {
@@ -9175,6 +9469,8 @@ Q[40265] = {
     StartingPoints = { NPC[92184] },
     EndingPoints = { NPC[92184] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4800,
+    RewardCoin = 28800,
     RequiredQuests = { Q[40264] },
 }
 
@@ -9187,6 +9483,8 @@ Q[40266] = {
     StartingPoints = { NPC[92184] },
     EndingPoints = { NPC[92184] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4800,
+    RewardCoin = 28800,
     RequiredQuests = { Q[40265] },
 }
 
@@ -9199,6 +9497,8 @@ Q[40267] = {
     StartingPoints = { NPC[92184] },
     EndingPoints = { NPC[60446] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3050,
+    RewardCoin = 18300,
     RequiredQuests = { Q[40266] },
 }
 
@@ -9211,6 +9511,8 @@ Q[40268] = {
     StartingPoints = { NPC[60446] },
     EndingPoints = { NPC[60446] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4750,
+    RewardCoin = 28500,
     RequiredQuests = { Q[40267] },
 }
 
@@ -9223,6 +9525,8 @@ Q[40269] = {
     StartingPoints = { NPC[60446] },
     EndingPoints = { NPC[60446] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4850,
+    RewardCoin = 29100,
     RequiredQuests = { Q[40268] },
 }
 
@@ -9235,6 +9539,8 @@ Q[40270] = {
     StartingPoints = { NPC[60446] },
     EndingPoints = { NPC[60446] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
     RequiredQuests = { Q[40269] },
 }
 
@@ -9247,6 +9553,8 @@ Q[40957] = {
     StartingPoints = { NPC[61326] },
     EndingPoints = { NPC[61326] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 650,
+    RewardCoin = 3900,
 }
 
 Q[40958] = {
@@ -9258,6 +9566,8 @@ Q[40958] = {
     StartingPoints = { NPC[61326] },
     EndingPoints = { NPC[61326] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
     RequiredQuests = { Q[40957] },
 }
 
@@ -9270,6 +9580,8 @@ Q[40959] = {
     StartingPoints = { NPC[61326] },
     EndingPoints = { NPC[5353] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9500,
+    RewardCoin = 57000,
     RequiredQuests = { Q[40958] },
 }
 
@@ -9282,6 +9594,8 @@ Q[40027] = {
     StartingPoints = { NPC[91781] },
     EndingPoints = { NPC[91781] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2250,
+    RewardCoin = 13500,
 }
 
 Q[40032] = {
@@ -9293,6 +9607,8 @@ Q[40032] = {
     StartingPoints = { NPC[91781] },
     EndingPoints = { NPC[91781] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2350,
+    RewardCoin = 14100,
     RequiredQuests = { Q[40027] },
 }
 
@@ -9305,6 +9621,8 @@ Q[40033] = {
     StartingPoints = { NPC[91781] },
     EndingPoints = { NPC[91782] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5000,
+    RewardCoin = 30000,
     RequiredQuests = { Q[40032] },
 }
 
@@ -9317,6 +9635,8 @@ Q[41320] = {
     StartingPoints = { NPC[91782] },
     EndingPoints = { NPC[91782] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2300,
+    RewardCoin = 13800,
     RequiredQuests = { Q[40033] },
 }
 
@@ -9329,6 +9649,8 @@ Q[41321] = {
     StartingPoints = { NPC[91782] },
     EndingPoints = { NPC[91782] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5300,
+    RewardCoin = 31800,
     RequiredQuests = { Q[41320] },
 }
 
@@ -9341,6 +9663,8 @@ Q[41322] = {
     StartingPoints = { NPC[91782] },
     EndingPoints = { NPC[91782] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5300,
+    RewardCoin = 31800,
     RequiredQuests = { Q[41320] },
 }
 
@@ -9353,6 +9677,8 @@ Q[41323] = {
     StartingPoints = { NPC[91782] },
     EndingPoints = { NPC[91782] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6300,
+    RewardCoin = 44100,
     RequiredQuests = { Q[41321], Q[41322] },
 }
 
@@ -9365,6 +9691,8 @@ Q[60117] = {
     StartingPoints = { NPC[6741] },
     EndingPoints = { NPC[1652] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1200,
+    RewardCoin = 7200,
 }
 
 Q[60116] = {
@@ -9376,6 +9704,13 @@ Q[60116] = {
     StartingPoints = { NPC[1652] },
     EndingPoints = { NPC[1652] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2950,
+    RewardCoin = 17700,
+    RewardItems = {
+        { IJDB.I[51832] },
+        { IJDB.I[51833] },
+        { IJDB.I[51834] },
+    },
     RequiredQuests = { Q[60117] },
 }
 
@@ -9388,6 +9723,9 @@ Q[40095] = {
     StartingPoints = { NPC[92017] },
     EndingPoints = { NPC[92017] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2950,
+    RewardCoin = 17700,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 250 } },
 }
 
 Q[40231] = {
@@ -9399,6 +9737,9 @@ Q[40231] = {
     StartingPoints = { NPC[92017] },
     EndingPoints = { NPC[1284] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 450,
+    RewardCoin = 2700,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 25 } },
     RequiredQuests = { Q[40095] },
 }
 
@@ -9411,6 +9752,9 @@ Q[40232] = {
     StartingPoints = { NPC[1284] },
     EndingPoints = { NPC[92017] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 450,
+    RewardCoin = 2700,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 25 } },
     RequiredQuests = { Q[40231] },
 }
 
@@ -9423,6 +9767,14 @@ Q[40233] = {
     StartingPoints = { NPC[92017] },
     EndingPoints = { NPC[92017] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3550,
+    RewardCoin = 21300,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[60316] },
+        { IJDB.I[60317] },
+        { IJDB.I[60318] },
+    },
     RequiredQuests = { Q[40232] },
 }
 
@@ -9435,6 +9787,8 @@ Q[40934] = {
     StartingPoints = { NPC[61387] },
     EndingPoints = { NPC[61387] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3300,
+    RewardCoin = 19800,
 }
 
 Q[40935] = {
@@ -9446,6 +9800,11 @@ Q[40935] = {
     StartingPoints = { NPC[61387] },
     EndingPoints = { NPC[61387] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3800,
+    RewardCoin = 22800,
+    RewardItems = {
+        { IJDB.I[61478] },
+    },
     RequiredQuests = { Q[40934] },
 }
 
@@ -9458,6 +9817,13 @@ Q[41368] = {
     StartingPoints = { NPC[4605] },
     EndingPoints = { NPC[4605] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1400,
+    RewardCoin = 8400,
+    RewardReputations = { { Name = IR.Undercity, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[7964] },
+        { IJDB.I[7965] },
+    },
 }
 
 Q[41050] = {
@@ -9469,6 +9835,9 @@ Q[41050] = {
     StartingPoints = { NPC[61588] },
     EndingPoints = { NPC[61588] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3850,
+    RewardCoin = 23100,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 250 } },
 }
 
 Q[41051] = {
@@ -9480,6 +9849,9 @@ Q[41051] = {
     StartingPoints = { NPC[61588] },
     EndingPoints = { NPC[61588] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3950,
+    RewardCoin = 23700,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 200 } },
     RequiredQuests = { Q[41050] },
 }
 
@@ -9492,6 +9864,12 @@ Q[41052] = {
     StartingPoints = { NPC[61588] },
     EndingPoints = { NPC[61588] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 5120,
+    RewardCoin = 30720,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 300 } },
+    RewardItems = {
+        { IJDB.I[61517] },
+    },
     RequiredQuests = { Q[41051] },
 }
 
@@ -9504,6 +9882,9 @@ Q[41140] = {
     StartingPoints = { NPC[61756] },
     EndingPoints = { NPC[61756] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 4400,
+    RewardCoin = 26400,
+    RewardReputations = { { Name = IR.WildhammeClan, Amount = 200 } },
 }
 
 Q[41141] = {
@@ -9515,6 +9896,9 @@ Q[41141] = {
     StartingPoints = { NPC[61757] },
     EndingPoints = { NPC[61757] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 5600,
+    RewardCoin = 33600,
+    RewardReputations = { { Name = IR.WildhammeClan, Amount = 350 } },
     RequiredQuests = { Q[41140] },
 }
 
@@ -9527,6 +9911,9 @@ Q[41142] = {
     StartingPoints = { NPC[61758] },
     EndingPoints = { NPC[61758] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 6800,
+    RewardCoin = 47600,
+    RewardReputations = { { Name = IR.WildhammeClan, Amount = 200 } },
     RequiredQuests = { Q[41141] },
 }
 
@@ -9540,6 +9927,13 @@ Q[41279] = {
     EndingPoints = { NPC[73102] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 250 },
+    RewardExperience = 4200,
+    RewardCoin = 21600,
+    RewardItems = {
+        { IJDB.I[70156] },
+        { IJDB.I[70157] },
+        { IJDB.I[70158] },
+    },
 }
 
 Q[41280] = {
@@ -9552,6 +9946,8 @@ Q[41280] = {
     EndingPoints = { NPC[73102] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 250 },
+    RewardExperience = 3200,
+    RewardCoin = 19200,
     RequiredQuests = { Q[41279] },
 }
 
@@ -9565,6 +9961,8 @@ Q[41281] = {
     EndingPoints = { NPC[73102] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 250 },
+    RewardExperience = 4700,
+    RewardCoin = 32900,
     RequiredQuests = { Q[41280] },
 }
 
@@ -9577,6 +9975,9 @@ Q[40278] = {
     StartingPoints = { NPC[91712] },
     EndingPoints = { NPC[91753] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 110,
+    RewardCoin = 660,
+    RewardReputations = { { Name = IR.Undercity, Amount = 25 } },
 }
 
 Q[40279] = {
@@ -9588,6 +9989,9 @@ Q[40279] = {
     StartingPoints = { NPC[91753] },
     EndingPoints = { NPC[91712] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 110,
+    RewardCoin = 660,
+    RewardReputations = { { Name = IR.Undercity, Amount = 25 } },
     RequiredQuests = { Q[40278] },
 }
 
@@ -9600,6 +10004,9 @@ Q[40280] = {
     StartingPoints = { NPC[91712] },
     EndingPoints = { NPC[4567] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 270,
+    RewardCoin = 1620,
+    RewardReputations = { { Name = IR.Undercity, Amount = 50 } },
     RequiredQuests = { Q[40279] },
 }
 
@@ -9612,6 +10019,9 @@ Q[40281] = {
     StartingPoints = { NPC[4567] },
     EndingPoints = { NPC[4567] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 970,
+    RewardCoin = 5820,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
     RequiredQuests = { Q[40280] },
 }
 
@@ -9624,6 +10034,9 @@ Q[41364] = {
     StartingPoints = { NPC[6389] },
     EndingPoints = { NPC[91730] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 200,
+    RewardCoin = 1200,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
 }
 
 Q[41365] = {
@@ -9635,6 +10048,9 @@ Q[41365] = {
     StartingPoints = { NPC[91730] },
     EndingPoints = { NPC[91726] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 900,
+    RewardCoin = 5400,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
     RequiredQuests = { Q[41364] },
 }
 
@@ -9647,6 +10063,12 @@ Q[41366] = {
     StartingPoints = { NPC[91726] },
     EndingPoints = { NPC[91726] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2000,
+    RewardCoin = 12000,
+    RewardReputations = { { Name = IR.Undercity, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[70225] },
+    },
     RequiredQuests = { Q[41365] },
 }
 
@@ -9660,6 +10082,8 @@ Q[41062] = {
     EndingPoints = { NPC[61255] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6550,
+    RewardCoin = 39300,
 }
 
 Q[41063] = {
@@ -9672,6 +10096,8 @@ Q[41063] = {
     EndingPoints = { NPC[288] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3550,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41062] },
 }
 
@@ -9685,6 +10111,8 @@ Q[41064] = {
     EndingPoints = { NPC[3946] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3550,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41063] },
 }
 
@@ -9698,6 +10126,8 @@ Q[41065] = {
     EndingPoints = { NPC[3946] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6550,
+    RewardCoin = 39300,
     RequiredQuests = { Q[41064] },
 }
 
@@ -9711,6 +10141,8 @@ Q[41066] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3550,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41065] },
 }
 
@@ -9724,6 +10156,8 @@ Q[41067] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9550,
+    RewardCoin = 57300,
     RequiredQuests = { Q[41066] },
 }
 
@@ -9737,6 +10171,9 @@ Q[41087] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardItems = {
+        { IJDB.I[9550] },
+    },
     RequiredQuests = { Q[41067] },
 }
 
@@ -9750,6 +10187,8 @@ Q[41377] = {
     EndingPoints = { NPC[3516] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3500,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41087] },
 }
 
@@ -9763,6 +10202,8 @@ Q[41378] = {
     EndingPoints = { NPC[3516] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 9550,
+    RewardCoin = 57300,
     RequiredQuests = { Q[41377] },
 }
 
@@ -9776,6 +10217,8 @@ Q[41380] = {
     EndingPoints = { NPC[4046] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3500,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41087] },
 }
 
@@ -9789,6 +10232,8 @@ Q[41381] = {
     EndingPoints = { NPC[4046] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 9550,
+    RewardCoin = 57300,
     RequiredQuests = { Q[41380] },
 }
 
@@ -9801,6 +10246,13 @@ Q[41758] = {
     StartingPoints = { NPC[3036] },
     EndingPoints = { NPC[3036] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3300,
+    RewardCoin = 19800,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 300 } },
+    RewardItems = {
+        { IJDB.I[41854] },
+        { IJDB.I[41855] },
+    },
 }
 
 Q[40993] = {
@@ -9812,6 +10264,9 @@ Q[40993] = {
     StartingPoints = { NPC[61281] },
     EndingPoints = { NPC[61281] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3750,
+    RewardCoin = 22500,
+    RewardReputations = { { Name = IR.Undercity, Amount = 150 } },
 }
 
 Q[40994] = {
@@ -9823,6 +10278,9 @@ Q[40994] = {
     StartingPoints = { NPC[61281] },
     EndingPoints = { NPC[61281] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4350,
+    RewardCoin = 26100,
+    RewardReputations = { { Name = IR.Undercity, Amount = 300 } },
     RequiredQuests = { Q[40993] },
 }
 
@@ -9835,6 +10293,9 @@ Q[40995] = {
     StartingPoints = { NPC[61281] },
     EndingPoints = { NPC[61281] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4700,
+    RewardCoin = 29100,
+    RewardReputations = { { Name = IR.Undercity, Amount = 300 } },
     RequiredQuests = { Q[40994] },
 }
 
@@ -9847,6 +10308,8 @@ Q[40755] = {
     StartingPoints = { NPC[61101] },
     EndingPoints = { NPC[61101] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3500,
+    RewardCoin = 21000,
 }
 
 Q[40756] = {
@@ -9858,6 +10321,8 @@ Q[40756] = {
     StartingPoints = { NPC[61101] },
     EndingPoints = { NPC[8139] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 300,
+    RewardCoin = 1800,
     RequiredQuests = { Q[40755] },
 }
 
@@ -9870,6 +10335,8 @@ Q[40757] = {
     StartingPoints = { NPC[8139] },
     EndingPoints = { NPC[8139] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5300,
+    RewardCoin = 31800,
     RequiredQuests = { Q[40756] },
 }
 
@@ -9882,6 +10349,8 @@ Q[40758] = {
     StartingPoints = { NPC[8139] },
     EndingPoints = { NPC[8139] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5450,
+    RewardCoin = 32700,
     RequiredQuests = { Q[40757] },
 }
 
@@ -9894,6 +10363,8 @@ Q[40759] = {
     StartingPoints = { NPC[8139] },
     EndingPoints = { NPC[61101] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 450,
+    RewardCoin = 2700,
     RequiredQuests = { Q[40758] },
 }
 
@@ -9906,6 +10377,12 @@ Q[40760] = {
     StartingPoints = { NPC[61101] },
     EndingPoints = { NPC[61101] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1250,
+    RewardCoin = 7500,
+    RewardItems = {
+        { IJDB.I[60996] },
+        { IJDB.I[60997] },
+    },
     RequiredQuests = { Q[40759] },
 }
 
@@ -9918,6 +10395,8 @@ Q[40761] = {
     StartingPoints = { NPC[61101] },
     EndingPoints = { NPC[61101] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 650,
+    RewardCoin = 3900,
     RequiredQuests = { Q[40760] },
 }
 
@@ -9930,6 +10409,11 @@ Q[40762] = {
     StartingPoints = { NPC[61101] },
     EndingPoints = { NPC[61101] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
+    RewardItems = {
+        { IJDB.I[61068] },
+    },
     RequiredQuests = { Q[40761] },
 }
 
@@ -9942,6 +10426,9 @@ Q[40494] = {
     StartingPoints = { NPC[60774] },
     EndingPoints = { NPC[60774] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5100,
+    RewardCoin = 30600,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 200 } },
 }
 
 Q[40495] = {
@@ -9953,6 +10440,12 @@ Q[40495] = {
     StartingPoints = { NPC[60774] },
     EndingPoints = { NPC[60774] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6400,
+    RewardCoin = 38400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[60715] },
+    },
     RequiredQuests = { Q[40494] },
 }
 
@@ -9965,6 +10458,8 @@ Q[40496] = {
     StartingPoints = { NPC[60765] },
     EndingPoints = { NPC[60765] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5800,
+    RewardCoin = 34800,
 }
 
 Q[40497] = {
@@ -9976,6 +10471,8 @@ Q[40497] = {
     StartingPoints = { NPC[60765] },
     EndingPoints = { NPC[60765] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4800,
+    RewardCoin = 28800,
     RequiredQuests = { Q[40496] },
 }
 
@@ -9988,6 +10485,13 @@ Q[40498] = {
     StartingPoints = { NPC[60765] },
     EndingPoints = { NPC[60765] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6600,
+    RewardCoin = 39600,
+    RewardItems = {
+        { IJDB.I[60717] },
+        { IJDB.I[60718] },
+        { IJDB.I[60719] },
+    },
     RequiredQuests = { Q[40497] },
 }
 
@@ -10000,6 +10504,9 @@ Q[40505] = {
     StartingPoints = { NPC[60770] },
     EndingPoints = { NPC[60770] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5200,
+    RewardCoin = 31200,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 125 } },
 }
 
 Q[40506] = {
@@ -10011,6 +10518,9 @@ Q[40506] = {
     StartingPoints = { NPC[60770] },
     EndingPoints = { NPC[60769] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 400,
+    RewardCoin = 2400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 25 } },
     RequiredQuests = { Q[40505] },
 }
 
@@ -10023,6 +10533,9 @@ Q[40507] = {
     StartingPoints = { NPC[60769] },
     EndingPoints = { NPC[60770] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6100,
+    RewardCoin = 36600,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 175 } },
     RequiredQuests = { Q[40506] },
 }
 
@@ -10035,6 +10548,9 @@ Q[40508] = {
     StartingPoints = { NPC[60770] },
     EndingPoints = { NPC[60770] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6100,
+    RewardCoin = 36600,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 175 } },
     RequiredQuests = { Q[40507] },
 }
 
@@ -10047,6 +10563,12 @@ Q[40509] = {
     StartingPoints = { NPC[60770] },
     EndingPoints = { NPC[60770] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 200 } },
+    RewardItems = {
+        { IJDB.I[60739] },
+    },
     RequiredQuests = { Q[40508] },
 }
 
@@ -10059,6 +10581,9 @@ Q[40311] = {
     StartingPoints = { NPC[60606] },
     EndingPoints = { NPC[60606] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 250 } },
 }
 
 Q[40312] = {
@@ -10070,6 +10595,9 @@ Q[40312] = {
     StartingPoints = { NPC[60606] },
     EndingPoints = { NPC[60606] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 250 } },
     RequiredQuests = { Q[40311] },
 }
 
@@ -10082,6 +10610,9 @@ Q[40313] = {
     StartingPoints = { NPC[60606] },
     EndingPoints = { NPC[2543] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3150,
+    RewardCoin = 18900,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 150 } },
     RequiredQuests = { Q[40312] },
 }
 
@@ -10094,6 +10625,9 @@ Q[40314] = {
     StartingPoints = { NPC[2543] },
     EndingPoints = { NPC[60606] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3150,
+    RewardCoin = 18900,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 150 } },
     RequiredQuests = { Q[40313] },
 }
 
@@ -10106,6 +10640,9 @@ Q[40315] = {
     StartingPoints = { NPC[60606] },
     EndingPoints = { NPC[60606] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 250 } },
     RequiredQuests = { Q[40314] },
 }
 
@@ -10118,6 +10655,12 @@ Q[40316] = {
     StartingPoints = { NPC[60606] },
     EndingPoints = { NPC[60606] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1250,
+    RewardCoin = 7500,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[51356] },
+    },
     RequiredQuests = { Q[40315] },
 }
 
@@ -10130,6 +10673,14 @@ Q[40317] = {
     StartingPoints = { NPC[60606] },
     EndingPoints = { NPC[60606] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 7250,
+    RewardCoin = 43500,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[60463] },
+        { IJDB.I[60464] },
+        { IJDB.I[60465] },
+    },
     RequiredQuests = { Q[40316] },
 }
 
@@ -10142,6 +10693,9 @@ Q[40304] = {
     StartingPoints = { NPC[60607] },
     EndingPoints = { NPC[60607] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
 }
 
 Q[40305] = {
@@ -10153,6 +10707,9 @@ Q[40305] = {
     StartingPoints = { NPC[60607] },
     EndingPoints = { NPC[60607] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6250,
+    RewardCoin = 37500,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
     RequiredQuests = { Q[40304] },
 }
 
@@ -10165,6 +10722,9 @@ Q[40306] = {
     StartingPoints = { NPC[60607] },
     EndingPoints = { NPC[1497] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 18900,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
     RequiredQuests = { Q[40305] },
 }
 
@@ -10177,6 +10737,9 @@ Q[40307] = {
     StartingPoints = { NPC[1497] },
     EndingPoints = { NPC[60607] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 18900,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
     RequiredQuests = { Q[40306] },
 }
 
@@ -10189,6 +10752,9 @@ Q[40308] = {
     StartingPoints = { NPC[60607] },
     EndingPoints = { NPC[60607] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6150,
+    RewardCoin = 36900,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
     RequiredQuests = { Q[40307] },
 }
 
@@ -10201,6 +10767,12 @@ Q[40309] = {
     StartingPoints = { NPC[60607] },
     EndingPoints = { NPC[60607] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6150,
+    RewardCoin = 36900,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[51356] },
+    },
     RequiredQuests = { Q[40308] },
 }
 
@@ -10213,6 +10785,14 @@ Q[40310] = {
     StartingPoints = { NPC[60607] },
     EndingPoints = { NPC[60607] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6150,
+    RewardCoin = 36900,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[60459] },
+        { IJDB.I[60460] },
+        { IJDB.I[60461] },
+    },
     RequiredQuests = { Q[40309] },
 }
 
@@ -10236,6 +10816,9 @@ Q[41374] = {
     StartingPoints = { NPC[61328] },
     EndingPoints = { NPC[61328] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardItems = {
+        { IJDB.I[92045] },
+    },
     RequiredQuests = { Q[41373] },
 }
 
@@ -10248,6 +10831,9 @@ Q[40458] = {
     StartingPoints = { NPC[14625] },
     EndingPoints = { NPC[14625] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5600,
+    RewardCoin = 33600,
+    RewardReputations = { { Name = IR.ThoriumBrotherhood, Amount = 200 } },
 }
 
 Q[40459] = {
@@ -10259,6 +10845,8 @@ Q[40459] = {
     StartingPoints = { NPC[60834] },
     EndingPoints = { NPC[60833] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5100,
+    RewardCoin = 30600,
 }
 
 Q[40460] = {
@@ -10270,6 +10858,8 @@ Q[40460] = {
     StartingPoints = { NPC[60833] },
     EndingPoints = { NPC[60833] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 950,
+    RewardCoin = 5700,
     RequiredQuests = { Q[40459] },
 }
 
@@ -10282,6 +10872,8 @@ Q[40461] = {
     StartingPoints = { NPC[60833] },
     EndingPoints = { NPC[60833] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 350,
+    RewardCoin = 2100,
     RequiredQuests = { Q[40460] },
 }
 
@@ -10294,6 +10886,8 @@ Q[40462] = {
     StartingPoints = { NPC[60832] },
     EndingPoints = { NPC[60832] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6150,
+    RewardCoin = 36900,
     RequiredQuests = { Q[40461] },
 }
 
@@ -10306,6 +10900,11 @@ Q[40468] = {
     StartingPoints = { NPC[60832] },
     EndingPoints = { NPC[60832] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6350,
+    RewardCoin = 38100,
+    RewardItems = {
+        { IJDB.I[60673] },
+    },
     RequiredQuests = { Q[40462] },
 }
 
@@ -10318,6 +10917,13 @@ Q[40463] = {
     StartingPoints = { NPC[60833] },
     EndingPoints = { NPC[60833] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6150,
+    RewardCoin = 36900,
+    RewardItems = {
+        { IJDB.I[60665] },
+        { IJDB.I[60666] },
+        { IJDB.I[60667] },
+    },
     RequiredQuests = { Q[40461] },
 }
 
@@ -10331,6 +10937,8 @@ Q[41361] = {
     EndingPoints = { NPC[12944] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 250 },
+    RewardExperience = 3750,
+    RewardCoin = 26250,
 }
 
 Q[40490] = {
@@ -10342,6 +10950,12 @@ Q[40490] = {
     StartingPoints = { NPC[60870] },
     EndingPoints = { NPC[60870] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 6450,
+    RewardCoin = 38700,
+    RewardItems = {
+        { IJDB.I[2686] },
+        { IJDB.I[60699] },
+    },
 }
 
 Q[40486] = {
@@ -10353,6 +10967,8 @@ Q[40486] = {
     StartingPoints = { NPC[60869] },
     EndingPoints = { NPC[60869] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2250,
+    RewardCoin = 13500,
 }
 
 Q[40487] = {
@@ -10364,6 +10980,8 @@ Q[40487] = {
     StartingPoints = { NPC[60869] },
     EndingPoints = { NPC[2784] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 850,
+    RewardCoin = 5100,
     RequiredQuests = { Q[40486] },
 }
 
@@ -10376,6 +10994,8 @@ Q[40488] = {
     StartingPoints = { NPC[2784] },
     EndingPoints = { NPC[60869] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 850,
+    RewardCoin = 5100,
     RequiredQuests = { Q[40487] },
 }
 
@@ -10388,6 +11008,13 @@ Q[40489] = {
     StartingPoints = { NPC[60869] },
     EndingPoints = { NPC[2784] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 8850,
+    RewardCoin = 53100,
+    RewardItems = {
+        { IJDB.I[60694] },
+        { IJDB.I[60695] },
+        { IJDB.I[60696] },
+    },
     RequiredQuests = { Q[40488] },
 }
 
@@ -10400,6 +11027,9 @@ Q[40538] = {
     StartingPoints = { NPC[60775] },
     EndingPoints = { NPC[60775] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5100,
+    RewardCoin = 30600,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 150 } },
 }
 
 Q[40539] = {
@@ -10411,6 +11041,15 @@ Q[40539] = {
     StartingPoints = { NPC[60775] },
     EndingPoints = { NPC[60775] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5900,
+    RewardCoin = 35400,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 300 } },
+    RewardItems = {
+        { IJDB.I[60771] },
+        { IJDB.I[60772] },
+        { IJDB.I[60773] },
+        { IJDB.I[60774] },
+    },
     RequiredQuests = { Q[40538] },
 }
 
@@ -10423,6 +11062,9 @@ Q[40501] = {
     StartingPoints = { NPC[60772] },
     EndingPoints = { NPC[4949] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 25 } },
 }
 
 Q[40502] = {
@@ -10434,6 +11076,9 @@ Q[40502] = {
     StartingPoints = { NPC[4949] },
     EndingPoints = { NPC[3144] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 25 } },
     RequiredQuests = { Q[40501] },
 }
 
@@ -10446,6 +11091,9 @@ Q[40503] = {
     StartingPoints = { NPC[3144] },
     EndingPoints = { NPC[60770] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1000,
+    RewardCoin = 6000,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 100 } },
     RequiredQuests = { Q[40502] },
 }
 
@@ -10458,6 +11106,14 @@ Q[40504] = {
     StartingPoints = { NPC[60770] },
     EndingPoints = { NPC[60770] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4650,
+    RewardCoin = 27900,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 300 } },
+    RewardItems = {
+        { IJDB.I[60734] },
+        { IJDB.I[60735] },
+        { IJDB.I[60736] },
+    },
     RequiredQuests = { Q[40503] },
 }
 
@@ -10470,6 +11126,12 @@ Q[40861] = {
     StartingPoints = { NPC[61441] },
     EndingPoints = { NPC[61441] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3050,
+    RewardCoin = 1830,
+    RewardReputations = { { Name = IR.GnomereganExiles, Amount = 350 } },
+    RewardItems = {
+        { IJDB.I[61393] },
+    },
 }
 
 Q[40856] = {
@@ -10481,6 +11143,14 @@ Q[40856] = {
     StartingPoints = { NPC[61437] },
     EndingPoints = { NPC[61437] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3350,
+    RewardCoin = 2010,
+    RewardReputations = { { Name = IR.GnomereganExiles, Amount = 350 } },
+    RewardItems = {
+        { IJDB.I[61383] },
+        { IJDB.I[61384] },
+        { IJDB.I[61385] },
+    },
 }
 
 Q[55003] = {
@@ -10492,6 +11162,11 @@ Q[55003] = {
     StartingPoints = { NPC[91214] },
     EndingPoints = { NPC[91214] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 375,
+    RewardCoin = 2250,
+    RewardItems = {
+        { IJDB.I[81294] },
+    },
 }
 
 Q[55006] = {
@@ -10503,6 +11178,12 @@ Q[55006] = {
     StartingPoints = { NPC[91234] },
     EndingPoints = { NPC[91234] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 2700,
+    RewardCoin = 16200,
+    RewardItems = {
+        { IJDB.I[81319] },
+        { IJDB.I[81320] },
+    },
     RequiredQuests = { Q[55003] },
 }
 
@@ -10515,6 +11196,13 @@ Q[40975] = {
     StartingPoints = { NPC[61559] },
     EndingPoints = { NPC[61559] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4850,
+    RewardCoin = 29100,
+    RewardItems = {
+        { IJDB.I[61620] },
+        { IJDB.I[61621] },
+        { IJDB.I[61622] },
+    },
 }
 
 Q[40841] = {
@@ -10526,6 +11214,12 @@ Q[40841] = {
     StartingPoints = { NPC[5511] },
     EndingPoints = { NPC[5511] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3900,
+    RewardCoin = 23400,
+    RewardItems = {
+        { IJDB.I[61348] },
+        { IJDB.I[61349] },
+    },
 }
 
 Q[40966] = {
@@ -10537,6 +11231,14 @@ Q[40966] = {
     StartingPoints = { NPC[61257] },
     EndingPoints = { NPC[61257] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 5500,
+    RewardCoin = 33000,
+    RewardItems = {
+        { IJDB.I[61601] },
+        { IJDB.I[61602] },
+        { IJDB.I[61603] },
+        { IJDB.I[61604] },
+    },
 }
 
 Q[41112] = {
@@ -10548,6 +11250,8 @@ Q[41112] = {
     StartingPoints = { NPC[61460] },
     EndingPoints = { NPC[61460] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4250,
+    RewardCoin = 25500,
 }
 
 Q[40940] = {
@@ -10559,6 +11263,9 @@ Q[40940] = {
     StartingPoints = { NPC[61271] },
     EndingPoints = { NPC[61271] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2800,
+    RewardCoin = 16800,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 200 } },
 }
 
 Q[40941] = {
@@ -10570,6 +11277,9 @@ Q[40941] = {
     StartingPoints = { NPC[61271] },
     EndingPoints = { NPC[61271] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2800,
+    RewardCoin = 16800,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 100 } },
     RequiredQuests = { Q[40940] },
 }
 
@@ -10582,6 +11292,9 @@ Q[40942] = {
     StartingPoints = { NPC[61271] },
     EndingPoints = { NPC[61271] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 4100,
+    RewardCoin = 24600,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 300 } },
     RequiredQuests = { Q[40941] },
 }
 
@@ -10594,6 +11307,13 @@ Q[40943] = {
     StartingPoints = { NPC[61271] },
     EndingPoints = { NPC[61271] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 4700,
+    RewardCoin = 28200,
+    RewardReputations = { { Name = IR.Dalaran, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[61486] },
+        { IJDB.I[61487] },
+    },
     RequiredQuests = { Q[40942] },
 }
 
@@ -10606,6 +11326,8 @@ Q[40948] = {
     StartingPoints = { NPC[61257] },
     EndingPoints = { NPC[61457] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1100,
+    RewardCoin = 6600,
 }
 
 Q[40949] = {
@@ -10617,6 +11339,8 @@ Q[40949] = {
     StartingPoints = { NPC[61457] },
     EndingPoints = { NPC[61457] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3750,
+    RewardCoin = 22500,
     RequiredQuests = { Q[40948] },
 }
 
@@ -10629,6 +11353,8 @@ Q[40950] = {
     StartingPoints = { NPC[61457] },
     EndingPoints = { NPC[61448] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1150,
+    RewardCoin = 6900,
     RequiredQuests = { Q[40949] },
 }
 
@@ -10641,6 +11367,8 @@ Q[40951] = {
     StartingPoints = { NPC[61448] },
     EndingPoints = { NPC[61458] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 650,
+    RewardCoin = 3900,
     RequiredQuests = { Q[40950] },
 }
 
@@ -10653,6 +11381,8 @@ Q[40952] = {
     StartingPoints = { NPC[61458] },
     EndingPoints = { NPC[61260] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 650,
+    RewardCoin = 400,
     RequiredQuests = { Q[40951] },
 }
 
@@ -10665,6 +11395,8 @@ Q[40953] = {
     StartingPoints = { NPC[61260] },
     EndingPoints = { NPC[61260] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3950,
+    RewardCoin = 23700,
     RequiredQuests = { Q[40952] },
 }
 
@@ -10677,6 +11409,8 @@ Q[40954] = {
     StartingPoints = { NPC[61260] },
     EndingPoints = { NPC[61458] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 350,
+    RewardCoin = 2100,
     RequiredQuests = { Q[40953] },
 }
 
@@ -10689,6 +11423,8 @@ Q[40955] = {
     StartingPoints = { NPC[61458] },
     EndingPoints = { NPC[61259] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3850,
+    RewardCoin = 23100,
     RequiredQuests = { Q[40954] },
 }
 
@@ -10701,6 +11437,14 @@ Q[40956] = {
     StartingPoints = { NPC[61259] },
     EndingPoints = { NPC[61259] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 7400,
+    RewardCoin = 44400,
+    RewardItems = {
+        { IJDB.I[61497] },
+        { IJDB.I[61498] },
+        { IJDB.I[61499] },
+        { IJDB.I[61369] },
+    },
     RequiredQuests = { Q[40955] },
 }
 
@@ -10714,6 +11458,13 @@ Q[40407] = {
     EndingPoints = { NPC[60731] },
     RequiredClass = { IMCL.Mage },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2650,
+    RewardCoin = 15900,
+    RewardReputations = { { Name = IR.Theramore, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[60590] },
+        { IJDB.I[60591] },
+    },
 }
 
 Q[41114] = {
@@ -10726,6 +11477,12 @@ Q[41114] = {
     EndingPoints = { NPC[60731] },
     RequiredClass = { IMCL.Mage },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 4650,
+    RewardCoin = 27900,
+    RewardReputations = { { Name = IR.Theramore, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[92001] },
+    },
     RequiredQuests = { Q[40407] },
 }
 
@@ -10739,6 +11496,8 @@ Q[41275] = {
     EndingPoints = { NPC[6826] },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 100 },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1900,
+    RewardCoin = 11400,
 }
 
 Q[41285] = {
@@ -10751,6 +11510,11 @@ Q[41285] = {
     EndingPoints = { NPC[6826] },
     RequiredFaction = { IF.Alliance },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 100 },
+    RewardExperience = 4200,
+    RewardCoin = 29400,
+    RewardItems = {
+        { IJDB.I[70134] },
+    },
     RequiredQuests = { Q[41275] },
 }
 
@@ -10764,6 +11528,8 @@ Q[41382] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3500,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41381] },
 }
 
@@ -10777,6 +11543,8 @@ Q[41379] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3500,
+    RewardCoin = 21300,
     RequiredQuests = { Q[41378] },
 }
 
@@ -10790,6 +11558,8 @@ Q[41383] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9550,
+    RewardCoin = 57300,
     RequiredQuests = { Q[41379], Q[41382] },
 }
 
@@ -10803,6 +11573,8 @@ Q[41384] = {
     EndingPoints = { NPC[61512] },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9550,
+    RewardCoin = 57300,
     RequiredQuests = { Q[41383] },
 }
 
@@ -10828,6 +11600,9 @@ Q[40977] = {
     StartingPoints = { NPC[61290] },
     EndingPoints = { NPC[61290] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3100,
+    RewardCoin = 18600,
+    RewardReputations = { { Name = IR.Undercity, Amount = 150 } },
 }
 
 Q[40979] = {
@@ -10839,6 +11614,15 @@ Q[40979] = {
     StartingPoints = { NPC[61290] },
     EndingPoints = { NPC[61290] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5200,
+    RewardCoin = 31200,
+    RewardReputations = { { Name = IR.Undercity, Amount = 350 } },
+    RewardItems = {
+        { IJDB.I[61627] },
+        { IJDB.I[61628] },
+        { IJDB.I[61629] },
+        { IJDB.I[61630] },
+    },
     RequiredQuests = { Q[40977] },
 }
 
@@ -10851,6 +11635,8 @@ Q[41113] = {
     StartingPoints = { NPC[61377] },
     EndingPoints = { NPC[61377] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 4250,
+    RewardCoin = 25500,
 }
 
 Q[40877] = {
@@ -10862,6 +11648,9 @@ Q[40877] = {
     StartingPoints = { NPC[61282] },
     EndingPoints = { NPC[61286] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 650,
+    RewardCoin = 3900,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
 }
 
 Q[40878] = {
@@ -10873,6 +11662,9 @@ Q[40878] = {
     StartingPoints = { NPC[61286] },
     EndingPoints = { NPC[61286] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3750,
+    RewardCoin = 22500,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
     RequiredQuests = { Q[40877] },
 }
 
@@ -10885,6 +11677,9 @@ Q[40879] = {
     StartingPoints = { NPC[61286] },
     EndingPoints = { NPC[61286] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3650,
+    RewardCoin = 22500,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
     RequiredQuests = { Q[40878] },
 }
 
@@ -10897,6 +11692,13 @@ Q[40880] = {
     StartingPoints = { NPC[61286] },
     EndingPoints = { NPC[61286] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3980,
+    RewardCoin = 24500,
+    RewardReputations = { { Name = IR.Undercity, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[61419] },
+        { IJDB.I[61420] },
+    },
     RequiredQuests = { Q[40879] },
 }
 
@@ -10909,6 +11711,9 @@ Q[40881] = {
     StartingPoints = { NPC[61286] },
     EndingPoints = { NPC[61286] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5150,
+    RewardCoin = 22500,
+    RewardReputations = { { Name = IR.Undercity, Amount = 250 } },
     RequiredQuests = { Q[40880] },
 }
 
@@ -10921,6 +11726,9 @@ Q[40844] = {
     StartingPoints = { NPC[61375] },
     EndingPoints = { NPC[61377] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 75,
+    RewardCoin = 45,
+    RewardReputations = { { Name = IR.Undercity, Amount = 50 } },
 }
 
 Q[40845] = {
@@ -10932,6 +11740,9 @@ Q[40845] = {
     StartingPoints = { NPC[61377] },
     EndingPoints = { NPC[61377] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3375,
+    RewardCoin = 20250,
+    RewardReputations = { { Name = IR.Undercity, Amount = 250 } },
     RequiredQuests = { Q[40844] },
 }
 
@@ -10944,6 +11755,9 @@ Q[40848] = {
     StartingPoints = { NPC[61375] },
     EndingPoints = { NPC[61375] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3175,
+    RewardCoin = 19050,
+    RewardReputations = { { Name = IR.Undercity, Amount = 250 } },
     RequiredQuests = { Q[40845] },
 }
 
@@ -10956,6 +11770,14 @@ Q[40849] = {
     StartingPoints = { NPC[61375] },
     EndingPoints = { NPC[61375] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 6200,
+    RewardCoin = 37200,
+    RewardReputations = { { Name = IR.Undercity, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[61353] },
+        { IJDB.I[61354] },
+        { IJDB.I[61355] },
+    },
     RequiredQuests = { Q[40848] },
 }
 
@@ -10968,6 +11790,9 @@ Q[40996] = {
     StartingPoints = { NPC[61281] },
     EndingPoints = { NPC[61281] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 5100,
+    RewardCoin = 30600,
+    RewardReputations = { { Name = IR.Undercity, Amount = 500 } },
     RequiredQuests = { Q[40995] },
 }
 
@@ -10981,6 +11806,8 @@ Q[41276] = {
     EndingPoints = { NPC[6868] },
     RequiredFaction = { IF.Horde },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 100 },
+    RewardExperience = 1900,
+    RewardCoin = 11400,
 }
 
 Q[41289] = {
@@ -10993,6 +11820,11 @@ Q[41289] = {
     EndingPoints = { NPC[6868] },
     RequiredFaction = { IF.Horde },
     RequiredSkill = { SkillName = IT.Jewelcrafting, Amount = 100 },
+    RewardExperience = 4200,
+    RewardCoin = 29400,
+    RewardItems = {
+        { IJDB.I[70134] },
+    },
     RequiredQuests = { Q[41276] },
 }
 
@@ -11005,6 +11837,8 @@ Q[40243] = {
     StartingPoints = { NPC[91722] },
     EndingPoints = { NPC[91722] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5800,
+    RewardCoin = 34800,
 }
 
 Q[40244] = {
@@ -11016,6 +11850,8 @@ Q[40244] = {
     StartingPoints = { NPC[91722] },
     EndingPoints = { NPC[91722] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5000,
+    RewardCoin = 30000,
     RequiredQuests = { Q[40243] },
 }
 
@@ -11028,6 +11864,8 @@ Q[40245] = {
     StartingPoints = { NPC[91722] },
     EndingPoints = { NPC[91722] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5450,
+    RewardCoin = 32700,
     RequiredQuests = { Q[40244] },
 }
 
@@ -11040,6 +11878,8 @@ Q[40246] = {
     StartingPoints = { NPC[91722] },
     EndingPoints = { NPC[91722] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5650,
+    RewardCoin = 33900,
     RequiredQuests = { Q[40245] },
 }
 
@@ -11052,6 +11892,8 @@ Q[40247] = {
     StartingPoints = { NPC[91722] },
     EndingPoints = { NPC[91722] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 370,
+    RewardCoin = 2220,
     RequiredQuests = { Q[40246] },
 }
 
@@ -11064,6 +11906,8 @@ Q[40252] = {
     StartingPoints = { NPC[91722] },
     EndingPoints = { NPC[60512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3700,
+    RewardCoin = 22200,
     RequiredQuests = { Q[40247] },
 }
 
@@ -11076,6 +11920,8 @@ Q[40253] = {
     StartingPoints = { NPC[60512] },
     EndingPoints = { NPC[60512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
     RequiredQuests = { Q[40252] },
 }
 
@@ -11088,6 +11934,12 @@ Q[40254] = {
     StartingPoints = { NPC[60512] },
     EndingPoints = { NPC[60512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 7200,
+    RewardCoin = 43200,
+    RewardItems = {
+        { IJDB.I[60333] },
+        { IJDB.I[60334] },
+    },
     RequiredQuests = { Q[40253] },
 }
 
@@ -11100,6 +11952,8 @@ Q[41012] = {
     StartingPoints = { NPC[61570] },
     EndingPoints = { NPC[61570] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 39000,
     RequiredQuests = { Q[41011] },
 }
 
@@ -11112,6 +11966,8 @@ Q[41013] = {
     StartingPoints = { NPC[61570] },
     EndingPoints = { NPC[61570] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 7200,
+    RewardCoin = 43200,
     RequiredQuests = { Q[41012] },
 }
 
@@ -11124,6 +11980,8 @@ Q[40827] = {
     StartingPoints = { NPC[61137] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9150,
+    RewardCoin = 54900,
     RequiredQuests = { Q[40826] },
 }
 
@@ -11136,6 +11994,9 @@ Q[41774] = {
     StartingPoints = { NPC[2020220] },
     EndingPoints = { NPC[2020220] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardItems = {
+        { IJDB.I[41876] },
+    },
 }
 
 Q[41750] = {
@@ -11147,6 +12008,11 @@ Q[41750] = {
     StartingPoints = { NPC[62636] },
     EndingPoints = { NPC[62636] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2350,
+    RewardCoin = 14100,
+    RewardItems = {
+        { IJDB.I[41830] },
+    },
 }
 
 Q[41749] = {
@@ -11158,6 +12024,13 @@ Q[41749] = {
     StartingPoints = { NPC[8305] },
     EndingPoints = { NPC[8305] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2400,
+    RewardCoin = 14400,
+    RewardItems = {
+        { IJDB.I[41826] },
+        { IJDB.I[41827] },
+        { IJDB.I[41828] },
+    },
 }
 
 Q[41751] = {
@@ -11169,6 +12042,13 @@ Q[41751] = {
     StartingPoints = { NPC[62637] },
     EndingPoints = { NPC[62637] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3100,
+    RewardCoin = 18600,
+    RewardItems = {
+        { IJDB.I[41831] },
+        { IJDB.I[41832] },
+        { IJDB.I[41833] },
+    },
 }
 
 Q[41785] = {
@@ -11180,6 +12060,13 @@ Q[41785] = {
     StartingPoints = { { IJDB.I[41895] } },
     EndingPoints = { NPC[62637] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2400,
+    RewardCoin = 14400,
+    RewardItems = {
+        { IJDB.I[58234] },
+        { IJDB.I[58235] },
+        { IJDB.I[58236] },
+    },
 }
 
 Q[41883] = {
@@ -11191,6 +12078,9 @@ Q[41883] = {
     StartingPoints = { { IJDB.I[41981] } },
     EndingPoints = { NPC[62395] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 500,
+    RewardCoin = 3000,
+    RewardReputations = { { Name = IR.WildhammeClan, Amount = 100 } },
 }
 
 Q[41657] = {
@@ -11202,6 +12092,9 @@ Q[41657] = {
     StartingPoints = { { IJDB.I[41711] } },
     EndingPoints = { NPC[62433] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 500,
+    RewardCoin = 3000,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 100 } },
 }
 
 Q[41756] = {
@@ -11213,6 +12106,8 @@ Q[41756] = {
     StartingPoints = { NPC[2104] },
     EndingPoints = { NPC[2104] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1900,
+    RewardCoin = 13300,
 }
 
 Q[473] = {
@@ -11224,6 +12119,9 @@ Q[473] = {
     StartingPoints = { NPC[2086] },
     EndingPoints = { NPC[2104] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 230,
+    RewardCoin = 150,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 25 } },
 }
 
 Q[464] = {
@@ -11235,6 +12133,9 @@ Q[464] = {
     StartingPoints = { NPC[2104] },
     EndingPoints = { NPC[2104] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2300,
+    RewardCoin = 1380,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 100 } },
     RequiredQuests = { Q[473] },
 }
 
@@ -11247,6 +12148,9 @@ Q[465] = {
     StartingPoints = { NPC[2104] },
     EndingPoints = { NPC[1609] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1900,
+    RewardCoin = 1140,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 75 } },
     RequiredQuests = { Q[464] },
 }
 
@@ -11259,6 +12163,13 @@ Q[474] = {
     StartingPoints = { NPC[1609] },
     EndingPoints = { NPC[2104] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2550,
+    RewardCoin = 1560,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[3209] },
+        { IJDB.I[6194] },
+    },
     RequiredQuests = { Q[465] },
 }
 
@@ -11271,6 +12182,13 @@ Q[41757] = {
     StartingPoints = { NPC[2104] },
     EndingPoints = { NPC[2104] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2500,
+    RewardCoin = 17500,
+    RewardItems = {
+        { IJDB.I[41842] },
+        { IJDB.I[41843] },
+        { IJDB.I[41844] },
+    },
     RequiredQuests = { Q[474] },
 }
 
@@ -11283,6 +12201,8 @@ Q[41752] = {
     StartingPoints = { NPC[62638] },
     EndingPoints = { NPC[62638] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1800,
+    RewardCoin = 12600,
 }
 
 Q[41753] = {
@@ -11294,6 +12214,11 @@ Q[41753] = {
     StartingPoints = { NPC[2402] },
     EndingPoints = { NPC[2402] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1800,
+    RewardCoin = 12600,
+    RewardItems = {
+        { IJDB.I[41836] },
+    },
 }
 
 Q[41016] = {
@@ -11305,6 +12230,12 @@ Q[41016] = {
     StartingPoints = { NPC[61512] },
     EndingPoints = { NPC[61512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 7800,
+    RewardCoin = 46800,
+    RewardItems = {
+        { IJDB.I[61199] },
+        { IJDB.I[61703] },
+    },
 }
 
 Q[41375] = {
@@ -11329,6 +12260,9 @@ Q[41376] = {
     EndingPoints = { NPC[14368] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredClass = { IMCL.Druid },
+    RewardItems = {
+        { IJDB.I[51070] },
+    },
     RequiredQuests = { Q[41375] },
 }
 
@@ -11341,6 +12275,12 @@ Q[55005] = {
     StartingPoints = { NPC[91200] },
     EndingPoints = { NPC[91200] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1350,
+    RewardCoin = 8100,
+    RewardItems = {
+        { IJDB.I[81316] },
+        { IJDB.I[81317] },
+    },
 }
 
 Q[40395] = {
@@ -11352,6 +12292,8 @@ Q[40395] = {
     StartingPoints = { NPC[2010884] },
     EndingPoints = { NPC[392] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 900,
+    RewardCoin = 5400,
 }
 
 Q[40396] = {
@@ -11363,6 +12305,11 @@ Q[40396] = {
     StartingPoints = { NPC[392] },
     EndingPoints = { NPC[392] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1950,
+    RewardCoin = 11700,
+    RewardItems = {
+        { IJDB.I[70070] },
+    },
     RequiredQuests = { Q[40395] },
 }
 
@@ -11375,6 +12322,9 @@ Q[40470] = {
     StartingPoints = { NPC[8934] },
     EndingPoints = { NPC[8934] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 680,
+    RewardCoin = 4080,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
 }
 
 Q[40471] = {
@@ -11386,6 +12336,13 @@ Q[40471] = {
     StartingPoints = { NPC[8934] },
     EndingPoints = { NPC[8934] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1350,
+    RewardCoin = 8100,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[60678] },
+        { IJDB.I[60679] },
+    },
     RequiredQuests = { Q[40470] },
 }
 
@@ -11398,6 +12355,9 @@ Q[40472] = {
     StartingPoints = { NPC[8934] },
     EndingPoints = { NPC[5518] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 350,
+    RewardCoin = 2100,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 50 } },
     RequiredQuests = { Q[40471] },
 }
 
@@ -11410,6 +12370,9 @@ Q[40473] = {
     StartingPoints = { NPC[5518] },
     EndingPoints = { NPC[8934] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 350,
+    RewardCoin = 2100,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 50 } },
     RequiredQuests = { Q[40472] },
 }
 
@@ -11422,6 +12385,9 @@ Q[40474] = {
     StartingPoints = { NPC[8934] },
     EndingPoints = { NPC[60858] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 350,
+    RewardCoin = 2100,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 50 } },
     RequiredQuests = { Q[40473] },
 }
 
@@ -11434,6 +12400,9 @@ Q[40475] = {
     StartingPoints = { NPC[60858] },
     EndingPoints = { NPC[60858] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 800,
+    RewardCoin = 4800,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[40474] },
 }
 
@@ -11446,6 +12415,9 @@ Q[40476] = {
     StartingPoints = { NPC[60858] },
     EndingPoints = { NPC[60858] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1350,
+    RewardCoin = 8100,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[40475] },
 }
 
@@ -11458,6 +12430,9 @@ Q[40477] = {
     StartingPoints = { NPC[60858] },
     EndingPoints = { NPC[60858] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1400,
+    RewardCoin = 8400,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 150 } },
     RequiredQuests = { Q[40476] },
 }
 
@@ -11470,6 +12445,14 @@ Q[40478] = {
     StartingPoints = { NPC[60858] },
     EndingPoints = { NPC[60858] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1550,
+    RewardCoin = 9300,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 150 } },
+    RewardItems = {
+        { IJDB.I[60684] },
+        { IJDB.I[60685] },
+        { IJDB.I[60686] },
+    },
     RequiredQuests = { Q[40477] },
 }
 
@@ -11482,6 +12465,9 @@ Q[41390] = {
     StartingPoints = { NPC[6946] },
     EndingPoints = { NPC[7024] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 200,
+    RewardCoin = 1200,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
 }
 
 Q[41391] = {
@@ -11493,6 +12479,9 @@ Q[41391] = {
     StartingPoints = { NPC[7024] },
     EndingPoints = { NPC[6946] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 910,
+    RewardCoin = 5460,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
     RequiredQuests = { Q[41390] },
 }
 
@@ -11505,6 +12494,13 @@ Q[41392] = {
     StartingPoints = { NPC[6946] },
     EndingPoints = { NPC[6946] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 1550,
+    RewardCoin = 9300,
+    RewardReputations = { { Name = IR.Stormwind, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[70239] },
+        { IJDB.I[70240] },
+    },
     RequiredQuests = { Q[41391] },
 }
 
@@ -11517,6 +12513,8 @@ Q[39994] = {
     StartingPoints = { NPC[3479] },
     EndingPoints = { NPC[3501] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 105,
+    RewardCoin = 62,
 }
 
 Q[39995] = {
@@ -11528,6 +12526,9 @@ Q[39995] = {
     StartingPoints = { NPC[3501] },
     EndingPoints = { NPC[3479] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1950,
+    RewardCoin = 1200,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 150 } },
     RequiredQuests = { Q[39994] },
 }
 
@@ -11540,6 +12541,9 @@ Q[39996] = {
     StartingPoints = { NPC[3479] },
     EndingPoints = { NPC[3479] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 900,
+    RewardCoin = 1200,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 150 } },
     RequiredQuests = { Q[39995] },
 }
 
@@ -11552,6 +12556,8 @@ Q[39997] = {
     StartingPoints = { NPC[3479] },
     EndingPoints = { NPC[5957] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 105,
+    RewardCoin = 62,
     RequiredQuests = { Q[39996] },
 }
 
@@ -11564,6 +12570,9 @@ Q[39998] = {
     StartingPoints = { NPC[5957] },
     EndingPoints = { NPC[3479] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 1050,
+    RewardCoin = 1200,
+    RewardReputations = { { Name = IR.Orgrimmar, Amount = 150 } },
     RequiredQuests = { Q[39997] },
 }
 
@@ -11576,6 +12585,8 @@ Q[40089] = {
     StartingPoints = { NPC[91285] },
     EndingPoints = { NPC[91285] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2750,
+    RewardCoin = 16500,
 }
 
 Q[40090] = {
@@ -11587,6 +12598,11 @@ Q[40090] = {
     StartingPoints = { NPC[91285] },
     EndingPoints = { NPC[91285] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2750,
+    RewardCoin = 16500,
+    RewardItems = {
+        { IJDB.I[60179] },
+    },
 }
 
 Q[40091] = {
@@ -11598,6 +12614,14 @@ Q[40091] = {
     StartingPoints = { NPC[4218] },
     EndingPoints = { NPC[4218] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 3450,
+    RewardCoin = 20700,
+    RewardItems = {
+        { IJDB.I[60180] },
+        { IJDB.I[60181] },
+        { IJDB.I[60182] },
+        { IJDB.I[60183] },
+    },
 }
 
 Q[40145] = {
@@ -11609,6 +12633,8 @@ Q[40145] = {
     StartingPoints = { NPC[11720] },
     EndingPoints = { NPC[11749] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 400,
+    RewardCoin = 2400,
 }
 
 Q[40146] = {
@@ -11620,6 +12646,8 @@ Q[40146] = {
     StartingPoints = { NPC[11749] },
     EndingPoints = { NPC[11720] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 400,
+    RewardCoin = 2400,
     RequiredQuests = { Q[40145] },
 }
 
@@ -11632,6 +12660,14 @@ Q[40147] = {
     StartingPoints = { NPC[11720] },
     EndingPoints = { NPC[11720] },
     RequiredFaction = { IF.Horde },
+    RewardExperience = 3650,
+    RewardCoin = 21900,
+    RewardItems = {
+        { IJDB.I[60213] },
+        { IJDB.I[60214] },
+        { IJDB.I[60215] },
+        { IJDB.I[60216] },
+    },
     RequiredQuests = { Q[40146] },
 }
 
@@ -11644,6 +12680,9 @@ Q[40326] = {
     StartingPoints = { NPC[92223] },
     EndingPoints = { NPC[92223] },
     RequiredFaction = { IF.Alliance },
+    RewardExperience = 2450,
+    RewardCoin = 14700,
+    RewardReputations = { { Name = IR.Darnassus, Amount = 150 } },
 }
 
 Q[40464] = {
@@ -11655,6 +12694,11 @@ Q[40464] = {
     StartingPoints = { NPC[60833] },
     EndingPoints = { NPC[60833] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6550,
+    RewardCoin = 39300,
+    RewardItems = {
+        { IJDB.I[60668] },
+    },
     RequiredQuests = { Q[40461] },
 }
 
@@ -11667,6 +12711,8 @@ Q[40465] = {
     StartingPoints = { NPC[60834] },
     EndingPoints = { NPC[60834] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5100,
+    RewardCoin = 30600,
     RequiredQuests = { Q[40461] },
 }
 
@@ -11679,6 +12725,8 @@ Q[40466] = {
     StartingPoints = { NPC[60834] },
     EndingPoints = { NPC[60834] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1500,
+    RewardCoin = 9000,
     RequiredQuests = { Q[40465] },
 }
 
@@ -11691,6 +12739,11 @@ Q[40467] = {
     StartingPoints = { NPC[60834] },
     EndingPoints = { NPC[60834] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 5850,
+    RewardCoin = 37200,
+    RewardItems = {
+        { IJDB.I[60672] },
+    },
     RequiredQuests = { Q[40466] },
 }
 
@@ -11703,6 +12756,9 @@ Q[80395] = {
     StartingPoints = { NPC[3658] },
     EndingPoints = { NPC[81041] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 400,
+    RewardCoin = 7002,
+    RewardReputations = { { Name = IR.Ratchet, Amount = 25 } },
 }
 
 Q[80396] = {
@@ -11714,6 +12770,12 @@ Q[80396] = {
     StartingPoints = { NPC[81041] },
     EndingPoints = { NPC[81041] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 900,
+    RewardCoin = 9798,
+    RewardReputations = { { Name = IR.Ratchet, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[51792] },
+    },
     RequiredQuests = { Q[80395] },
 }
 
@@ -11726,6 +12788,9 @@ Q[80407] = {
     StartingPoints = { NPC[51266] },
     EndingPoints = { NPC[81041] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1517,
+    RewardCoin = 9102,
+    RewardReputations = { { Name = IR.Gadgetzan, Amount = 5 } },
     RequiredQuests = { Q[80396] },
 }
 
@@ -11738,6 +12803,9 @@ Q[80408] = {
     StartingPoints = { NPC[81041] },
     EndingPoints = { NPC[51266] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4850,
+    RewardCoin = 29100,
+    RewardReputations = { { Name = IR.Gadgetzan, Amount = 250 } },
     RequiredQuests = { Q[80407] },
 }
 
@@ -11750,6 +12818,12 @@ Q[80409] = {
     StartingPoints = { NPC[51266] },
     EndingPoints = { NPC[65019] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1517,
+    RewardCoin = 9102,
+    RewardItems = {
+        { IJDB.I[51793] },
+        { IJDB.I[51794] },
+    },
     RequiredQuests = { Q[80408] },
 }
 
@@ -11762,6 +12836,8 @@ Q[80410] = {
     StartingPoints = { NPC[16135] },
     EndingPoints = { NPC[10667] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardCoin = 6400,
+    RewardReputations = { { Name = IR.BroodOfNozdormu, Amount = 50 } },
     RequiredQuests = { Q[80409] },
 }
 
@@ -11774,6 +12850,11 @@ Q[80411] = {
     StartingPoints = { NPC[10667] },
     EndingPoints = { NPC[10667] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardCoin = 6400,
+    RewardReputations = { { Name = IR.BroodOfNozdormu, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[81288] },
+    },
     RequiredQuests = { Q[80410] },
 }
 
@@ -11786,6 +12867,8 @@ Q[80604] = {
     StartingPoints = { NPC[10667] },
     EndingPoints = { NPC[65005] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardCoin = 6400,
+    RewardReputations = { { Name = IR.BroodOfNozdormu, Amount = 25 } },
     RequiredQuests = { Q[80411] },
 }
 
@@ -11798,6 +12881,14 @@ Q[80605] = {
     StartingPoints = { NPC[65005] },
     EndingPoints = { NPC[65004] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardCoin = 6400,
+    RewardReputations = { { Name = IR.BroodOfNozdormu, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[82950] },
+        { IJDB.I[82951] },
+        { IJDB.I[82952] },
+        { IJDB.I[82953] },
+    },
     RequiredQuests = { Q[80604] },
 }
 
@@ -11810,6 +12901,11 @@ Q[40342] = {
     StartingPoints = { NPC[60622] },
     EndingPoints = { NPC[60622] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardItems = {
+        { IJDB.I[60497] },
+        { IJDB.I[60498] },
+        { IJDB.I[60499] },
+    },
 }
 
 Q[41812] = {
@@ -11821,6 +12917,11 @@ Q[41812] = {
     StartingPoints = { NPC[62727] },
     EndingPoints = { NPC[62727] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2450,
+    RewardCoin = 14700,
+    RewardItems = {
+        { IJDB.I[41919] },
+    },
 }
 
 Q[70000] = {
@@ -11832,6 +12933,7 @@ Q[70000] = {
     StartingPoints = { NPC[1498], NPC[2708] },
     EndingPoints = { NPC[8379] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardCoin = 6400,
     RequiredQuests = { Q[7463] },
 }
 
@@ -11844,6 +12946,10 @@ Q[70001] = {
     StartingPoints = { NPC[8379] },
     EndingPoints = { NPC[8379] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardCoin = 6400,
+    RewardItems = {
+        { IJDB.I[83002] },
+    },
     RequiredQuests = { Q[70000] },
 }
 
@@ -11856,6 +12962,8 @@ Q[40828] = {
     StartingPoints = { NPC[61137] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 12150,
+    RewardCoin = 73000,
     RequiredQuests = { Q[40827] },
 }
 
@@ -11869,6 +12977,8 @@ Q[40905] = {
     EndingPoints = { NPC[61512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredClass = { IMCL.Druid },
+    RewardExperience = 500,
+    RewardCoin = 300,
 }
 
 Q[40963] = {
@@ -11880,6 +12990,13 @@ Q[40963] = {
     StartingPoints = { { IJDB.I[61215] } },
     EndingPoints = { NPC[61326] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9500,
+    RewardCoin = 57000,
+    RewardItems = {
+        { IJDB.I[61195] },
+        { IJDB.I[61194] },
+        { IJDB.I[61193] },
+    },
 }
 
 Q[41038] = {
@@ -11891,6 +13008,11 @@ Q[41038] = {
     StartingPoints = { { IJDB.I[61652] } },
     EndingPoints = { NPC[61326] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardItems = {
+        { IJDB.I[61650] },
+        { IJDB.I[61651] },
+        { IJDB.I[61740] },
+    },
 }
 
 Q[41083] = {
@@ -11949,6 +13071,8 @@ Q[41001] = {
     StartingPoints = { NPC[61320] },
     EndingPoints = { NPC[61328] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1550,
+    RewardCoin = 9300,
     RequiredQuests = { Q[41000] },
 }
 
@@ -11961,6 +13085,8 @@ Q[41002] = {
     StartingPoints = { NPC[61328] },
     EndingPoints = { NPC[61571] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 1550,
+    RewardCoin = 9300,
     RequiredQuests = { Q[41001] },
 }
 
@@ -11973,6 +13099,8 @@ Q[41003] = {
     StartingPoints = { NPC[61571] },
     EndingPoints = { NPC[61571] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2680,
+    RewardCoin = 16080,
     RequiredQuests = { Q[41002] },
 }
 
@@ -11985,6 +13113,11 @@ Q[41004] = {
     StartingPoints = { NPC[61571] },
     EndingPoints = { NPC[61328] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 3150,
+    RewardCoin = 18900,
+    RewardItems = {
+        { IJDB.I[61666] },
+    },
     RequiredQuests = { Q[41003] },
 }
 
@@ -11997,6 +13130,8 @@ Q[41078] = {
     StartingPoints = { NPC[61610] },
     EndingPoints = { NPC[61610] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 7200,
+    RewardCoin = 43200,
 }
 
 Q[41343] = {
@@ -12008,6 +13143,8 @@ Q[41343] = {
     StartingPoints = { NPC[61990] },
     EndingPoints = { NPC[61571] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 550,
+    RewardCoin = 3300,
 }
 
 Q[41344] = {
@@ -12019,6 +13156,11 @@ Q[41344] = {
     StartingPoints = { NPC[61571] },
     EndingPoints = { NPC[61990] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 4800,
+    RewardCoin = 28800,
+    RewardItems = {
+        { IJDB.I[92025] },
+    },
     RequiredQuests = { Q[41343] },
 }
 
@@ -12031,6 +13173,8 @@ Q[41310] = {
     StartingPoints = { NPC[2020098] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 2200,
+    RewardCoin = 15400,
 }
 
 Q[41311] = {
@@ -12042,6 +13186,8 @@ Q[41311] = {
     StartingPoints = { NPC[61137] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6200,
+    RewardCoin = 43400,
     RequiredQuests = { Q[41310] },
 }
 
@@ -12054,6 +13200,11 @@ Q[41312] = {
     StartingPoints = { NPC[61137] },
     EndingPoints = { NPC[61137] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6200,
+    RewardCoin = 43400,
+    RewardItems = {
+        { IJDB.I[41372] },
+    },
     RequiredQuests = { Q[41311] },
 }
 
@@ -12066,6 +13217,11 @@ Q[41015] = {
     StartingPoints = { NPC[61568] },
     EndingPoints = { NPC[61568] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 7800,
+    RewardCoin = 46800,
+    RewardItems = {
+        { IJDB.I[61731] },
+    },
 }
 
 Q[41083] = {
@@ -12124,6 +13280,11 @@ Q[41369] = {
     StartingPoints = { NPC[61996] },
     EndingPoints = { NPC[61996] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 45500,
+    RewardItems = {
+        { IJDB.I[41413] },
+    },
     RequiredQuests = { Q[41015], Q[41086] },
 }
 
@@ -12136,6 +13297,8 @@ Q[41370] = {
     StartingPoints = { NPC[61996] },
     EndingPoints = { NPC[61996] },
     RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6500,
+    RewardCoin = 45500,
     RequiredQuests = { Q[41312], Q[41369] },
 }
 
@@ -12149,6 +13312,8 @@ Q[41386] = {
     EndingPoints = { NPC[61512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
+    RewardExperience = 9550,
+    RewardCoin = 57300,
     RequiredQuests = { Q[41385] },
 }
 
@@ -12162,7 +13327,239 @@ Q[41394] = {
     EndingPoints = { NPC[61512] },
     RequiredFaction = { IF.Alliance, IF.Horde },
     RequiredClass = { IMCL.Mage, IMCL.Priest, IMCL.Warlock, IMCL.Druid },
+    RewardExperience = 15650,
     RequiredQuests = { Q[41386] },
+}
+
+Q[42006] = {
+    Id = "42006",
+    Name = IJ_QUEST_NAME_42006,
+    Objective = IJ_QUEST_OBJECTIVE_42006,
+    RequiredLevel = 10,
+    Level = 14,
+    StartingPoints = { NPC[5384] },
+    EndingPoints = { NPC[63182] },
+    RequiredFaction = { IF.Alliance },
+    RewardExperience = 1150,
+    RewardCoin = 8050,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 125 } },
+}
+
+Q[42007] = {
+    Id = "42007",
+    Name = IJ_QUEST_NAME_42007,
+    Objective = IJ_QUEST_OBJECTIVE_42007,
+    RequiredLevel = 10,
+    Level = 14,
+    StartingPoints = { NPC[63182] },
+    EndingPoints = { NPC[5384] },
+    RequiredFaction = { IF.Alliance },
+    RewardExperience = 850,
+    RewardCoin = 5950,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 125 } },
+    RewardItems = {
+        { IJDB.I[136] },
+    },
+    RequiredQuests = { Q[42006] },
+}
+
+Q[42038] = {
+    Id = "42038",
+    Name = IJ_QUEST_NAME_42038,
+    Objective = IJ_QUEST_OBJECTIVE_42038,
+    RequiredLevel = 8,
+    Level = 13,
+    StartingPoints = { NPC[63168] },
+    EndingPoints = { NPC[63168] },
+    RequiredFaction = { IF.Alliance },
+    RewardExperience = 840,
+    RewardCoin = 5040,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 200 } },
+}
+
+Q[42039] = {
+    Id = "42039",
+    Name = IJ_QUEST_NAME_42039,
+    Objective = IJ_QUEST_OBJECTIVE_42039,
+    RequiredLevel = 8,
+    Level = 16,
+    StartingPoints = { NPC[63168] },
+    EndingPoints = { NPC[63168] },
+    RequiredFaction = { IF.Alliance },
+    RewardExperience = 1200,
+    RewardCoin = 7200,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 300 } },
+    RewardItems = {
+        { IJDB.I[42323] },
+        { IJDB.I[42324] },
+        { IJDB.I[42325] },
+    },
+    RequiredQuests = { Q[42038] },
+}
+
+Q[42008] = {
+    Id = "42008",
+    Name = IJ_QUEST_NAME_42008,
+    Objective = IJ_QUEST_OBJECTIVE_42008,
+    RequiredLevel = 10,
+    Level = 16,
+    StartingPoints = { NPC[61840] },
+    EndingPoints = { NPC[61840] },
+    RequiredFaction = { IF.Alliance },
+    RewardExperience = 1250,
+    RewardCoin = 8750,
+    RewardReputations = { { Name = IR.SilvermoonRemnant, Amount = 250 } },
+    RewardItems = {
+        { IJDB.I[158] },
+    },
+}
+
+Q[42040] = {
+    Id = "42040",
+    Name = IJ_QUEST_NAME_42040,
+    Objective = IJ_QUEST_OBJECTIVE_42040,
+    RequiredLevel = 8,
+    Level = 13,
+    StartingPoints = { NPC[63190] },
+    EndingPoints = { NPC[63190] },
+    RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 910,
+    RewardCoin = 5460,
+}
+
+Q[4542] = {
+    Id = "4542",
+    Name = IJ_QUEST_NAME_4542,
+    Objective = IJ_QUEST_OBJECTIVE_4542,
+    RequiredLevel = 23,
+    Level = 25,
+    StartingPoints = { NPC[10079] },
+    EndingPoints = { NPC[10537] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 510,
+    RewardCoin = 300,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 25 } },
+}
+
+Q[4841] = {
+    Id = "4841",
+    Name = IJ_QUEST_NAME_4841,
+    Objective = IJ_QUEST_OBJECTIVE_4841,
+    RequiredLevel = 23,
+    Level = 25,
+    IsSharable = true,
+    StartingPoints = { NPC[10537] },
+    EndingPoints = { NPC[10537] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 2000,
+    RewardCoin = 1200,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 100 } },
+    RequiredQuests = { Q[4542] },
+}
+
+Q[5064] = {
+    Id = "5064",
+    Name = IJ_QUEST_NAME_5064,
+    Objective = IJ_QUEST_OBJECTIVE_5064,
+    RequiredLevel = 24,
+    Level = 28,
+    IsSharable = true,
+    StartingPoints = { NPC[10537] },
+    EndingPoints = { NPC[10537] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 2300,
+    RewardCoin = 1380,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 100 } },
+    RewardItems = {
+        { IJDB.I[15457] },
+        { IJDB.I[15458] },
+        { IJDB.I[15459] },
+    },
+    RequiredQuests = { Q[4841] },
+}
+
+Q[41979] = {
+    Id = "41979",
+    Name = IJ_QUEST_NAME_41979,
+    Objective = IJ_QUEST_OBJECTIVE_41979,
+    RequiredLevel = 24,
+    Level = 28,
+    IsSharable = true,
+    StartingPoints = { NPC[10537] },
+    EndingPoints = { NPC[3057] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 410,
+    RewardCoin = 2460,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 100 } },
+    RequiredQuests = { Q[5064] },
+}
+
+Q[41981] = {
+    Id = "41981",
+    Name = IJ_QUEST_NAME_41981,
+    Objective = IJ_QUEST_OBJECTIVE_41981,
+    RequiredLevel = 24,
+    Level = 28,
+    StartingPoints = { NPC[11833] },
+    EndingPoints = { NPC[3057] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 80,
+    RewardCoin = 480,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 50 } },
+    RequiredQuests = { Q[41979] },
+}
+
+Q[41982] = {
+    Id = "41982",
+    Name = IJ_QUEST_NAME_41982,
+    Objective = IJ_QUEST_OBJECTIVE_41982,
+    RequiredLevel = 24,
+    Level = 28,
+    StartingPoints = { NPC[3057] },
+    EndingPoints = { NPC[3057] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 3400,
+    RewardCoin = 20400,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 500 } },
+    RewardItems = {
+        { IJDB.I[42268] },
+        { IJDB.I[42269] },
+        { IJDB.I[42270] },
+    },
+    RequiredQuests = { Q[41981] },
+}
+
+Q[41977] = {
+    Id = "41977",
+    Name = IJ_QUEST_NAME_41977,
+    Objective = IJ_QUEST_OBJECTIVE_41977,
+    RequiredLevel = 20,
+    Level = 27,
+    IsSharable = true,
+    StartingPoints = { NPC[62836] },
+    EndingPoints = { NPC[62836] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 2350,
+    RewardCoin = 14100,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 350 } },
+    RewardItems = {
+        { IJDB.I[42263] },
+    },
+}
+
+Q[41976] = {
+    Id = "41976",
+    Name = IJ_QUEST_NAME_41976,
+    Objective = IJ_QUEST_OBJECTIVE_41976,
+    RequiredLevel = 20,
+    Level = 27,
+    IsSharable = true,
+    StartingPoints = { NPC[62416] },
+    EndingPoints = { NPC[62416] },
+    RequiredFaction = { IF.Alliance },
+    RewardExperience = 2350,
+    RewardCoin = 14100,
+    RewardReputations = { { Name = IR.Ironforge, Amount = 350 } },
 }
 
 IJDB.Q = Q

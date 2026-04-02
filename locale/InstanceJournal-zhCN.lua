@@ -7383,4 +7383,53 @@ if GetLocale() == "zhCN" then
     IJ_QUEST_NAME_4735 = "鸡蛋收集"
     IJ_QUEST_OBJECTIVE_4735 =
     "将 8 个收集到的龙蛋和 Collecttronic 模块带到燃烧平原火焰峰的 Tinkee Steamboil。"
+    IJ_QUEST_NAME_41976 = "寻找牛头人遗物"
+    IJ_QUEST_OBJECTIVE_41976 =
+    "在风角峡谷为塔韦格·达斯布鲁收集 8 件风角遗物，然后返回铁炉堡交给他。"
+    IJ_NPC_NAME_62416 = "塔韦格·尘眉"
+    IJ_QUEST_NAME_41977 = "风角部落的遗迹"
+    IJ_QUEST_OBJECTIVE_41977 =
+    "前往风角峡谷，在千针石林的萨格避难所为萨格找回 8 件风角圣物。"
+    IJ_NPC_NAME_62836 = "萨格"
+    IJ_QUEST_NAME_4542 = "给Freewind Post的留言"
+    IJ_QUEST_OBJECTIVE_4542 = "将紧急消息带给自由风哨所的悬崖守望者长角牛。"
+    IJ_NPC_NAME_10079 = "勇敢的月角"
+    IJ_NPC_NAME_10537 = "悬崖观察者长角牛"
+    IJ_QUEST_NAME_4841 = "安抚半人马"
+    IJ_QUEST_OBJECTIVE_4841 =
+    "杀死 12 个加拉克斥候、10 个加拉克牧马人和 6 个加拉克逐风者，然后返回自由风哨所的悬崖守望者长角兽。"
+    IJ_QUEST_NAME_5064 = "恐怖图腾间谍活动"
+    IJ_QUEST_OBJECTIVE_5064 = "找到并取回《暗云巅峰》中的三张秘密笔记"
+    IJ_QUEST_NAME_41979 = "死亡图腾的传闻"
+    IJ_QUEST_OBJECTIVE_41979 = "将长角角信件交给雷霆崖的凯恩·血蹄。"
+    IJ_NPC_NAME_3057 = "凯恩·血蹄"
+    IJ_QUEST_NAME_41981 = "凯恩信息"
+    IJ_QUEST_OBJECTIVE_41981 = "将拉豪罗的信息交给雷霆崖的凯恩·血蹄。"
+    IJ_QUEST_NAME_41982 = "摧毁死亡图腾"
+    IJ_QUEST_OBJECTIVE_41982 =
+    "杀死风角峡谷内死亡图腾的领袖先知暴蹄，然后返回雷霆崖的凯恩·血蹄。"
+    IJ_QUEST_NAME_42040 = "严重的误会！"
+    IJ_QUEST_OBJECTIVE_42040 = "在霜鬃山谷中为拉尼克斯·裂纹螺栓取回卡兹甘石板。"
+    IJ_NPC_NAME_63190 = "兰尼克斯·裂纹螺栓"
+    IJ_QUEST_NAME_42008 = "最好的毛皮"
+    IJ_QUEST_OBJECTIVE_42008 =
+    "进入丹莫罗的霜鬃山谷，为萨拉斯高地阿拉萨拉斯的珊德拉·泰斯获取一块完美的豹皮。您可以在铁炉堡机场附近找到霜鬃山谷的入口。"
+    IJ_NPC_NAME_61840 = "尚德拉·泰蒂斯"
+    IJ_QUEST_NAME_42038 = "霜鬃战争"
+    IJ_QUEST_OBJECTIVE_42038 =
+    "在丹莫罗的铁炉堡机场为登山者花岗岩须杀死 8 名霜鬃斥候、6 名霜鬃苦工和 6 名霜鬃秘法师。"
+    IJ_NPC_NAME_63168 = "登山家花岗岩胡须"
+    IJ_QUEST_NAME_42039 = "乌布卡兹酋长"
+    IJ_QUEST_OBJECTIVE_42039 =
+    "在丹莫罗的铁炉堡机场，为登山者花岗岩须杀死霜鬃山谷深处的战斗大师乌布卡兹。"
+    IJ_QUEST_NAME_42007 = "破碎的圆盘"
+    IJ_QUEST_OBJECTIVE_42007 = "返回暴风城矮人区的布罗汉·卡斯克贝利。"
+    IJ_NPC_NAME_63182 = "考古学家埃文派克"
+    IJ_QUEST_NAME_42006 = "寻找考古学家埃文派克"
+    IJ_QUEST_OBJECTIVE_42006 = "在丹莫罗的霜鬃山谷中寻找考古学家埃文派克。"
+    IJ_REPUTATION_REVANTUSKTROLLS = "恶牙巨魔"
+    IJ_REPUTATION_HYDRAXIANWATERLORDS = "海达西亚水王"
+    IJ_REPUTATION_THERAMORE = "塞拉摩"
+    IJ_REPUTATION_DALARAN = "达拉然"
+    IJ_REPUTATION_SILVERMOONREMNANT = "银月城遗迹"
 end

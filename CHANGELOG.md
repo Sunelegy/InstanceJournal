@@ -2,6 +2,14 @@
 
 All changes to this project will be documented in this file.
 
+## [1.2.4] - 2026-04-02
+
+### Added
+
+- Added FH quests
+- Added WHC quests
+- Added all Turtle WoW quest rewards
+
 ## [1.2.3] - 2026-04-02
 
 ### Added

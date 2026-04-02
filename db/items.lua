@@ -8,6 +8,110 @@ local IC = IJLib.Challenges
 
 local I = {}
 
+I[60759] = {
+    Id = "60759",
+    Icon = "inv_jewelry_necklace_13",
+    Name = IJ_LOOT_NAME_60759,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42263] = {
+    Id = "42263",
+    Icon = "INV_Jewelry_Necklace_14",
+    Name = IJ_LOOT_NAME_42263,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[15457] = {
+    Id = "15457",
+    Icon = "INV_Shoulder_05",
+    Name = IJ_LOOT_NAME_15457,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[15458] = {
+    Id = "15458",
+    Icon = "INV_Boots_03",
+    Name = IJ_LOOT_NAME_15458,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[15459] = {
+    Id = "15459",
+    Icon = "INV_Bracer_02",
+    Name = IJ_LOOT_NAME_15459,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42268] = {
+    Id = "42268",
+    Icon = "INV_Belt_12",
+    Name = IJ_LOOT_NAME_42268,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[42269] = {
+    Id = "42269",
+    Icon = "INV_Bracer_17",
+    Name = IJ_LOOT_NAME_42269,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[42270] = {
+    Id = "42270",
+    Icon = "INV_Boots_Cloth_08",
+    Name = IJ_LOOT_NAME_42270,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[158] = {
+    Id = "158",
+    Icon = "INV_Misc_Cape_05",
+    Name = IJ_LOOT_NAME_158,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42323] = {
+    Id = "42323",
+    Icon = "INV_Bracer_03",
+    Name = IJ_LOOT_NAME_42323,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42324] = {
+    Id = "42324",
+    Icon = "INV_Belt_04",
+    Name = IJ_LOOT_NAME_42324,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42325] = {
+    Id = "42325",
+    Icon = "INV_Misc_Pelt_Bear_02",
+    Name = IJ_LOOT_NAME_42325,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[136] = {
+    Id = "136",
+    Icon = "inv_misc_lantern_01",
+    Name = IJ_LOOT_NAME_136,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
 I[42295] = {
     Id = "42295",
     Icon = "inv_misc_organ_04",
@@ -29246,6 +29350,1534 @@ I[41711] = {
     Icon = "inv_letter_15",
     Name = IJ_LOOT_NAME_41711,
     Quality = IQ.Common,
+}
+
+I[41916] = {
+    Id = "41916",
+    Icon = "inv_chest_samurai",
+    Name = IJ_LOOT_NAME_41916,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41917] = {
+    Id = "41917",
+    Icon = "inv_pants_09",
+    Name = IJ_LOOT_NAME_41917,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60764] = {
+    Id = "60764",
+    Icon = "inv_sword_36",
+    Name = IJ_LOOT_NAME_60764,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60765] = {
+    Id = "60765",
+    Icon = "inv_pants_03",
+    Name = IJ_LOOT_NAME_60765,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[51850] = {
+    Id = "51850",
+    Icon = "inv_belt_25",
+    Name = IJ_LOOT_NAME_51850,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[51851] = {
+    Id = "51851",
+    Icon = "inv_boots_03",
+    Name = IJ_LOOT_NAME_51851,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[51848] = {
+    Id = "51848",
+    Icon = "inv_chest_cloth_03",
+    Name = IJ_LOOT_NAME_51848,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[51849] = {
+    Id = "51849",
+    Icon = "inv_sword_17",
+    Name = IJ_LOOT_NAME_51849,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[3827] = {
+    Id = "3827",
+    Icon = "inv_potion_72",
+    Name = IJ_LOOT_NAME_3827,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[1710] = {
+    Id = "1710",
+    Icon = "inv_potion_52",
+    Name = IJ_LOOT_NAME_1710,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[80860] = {
+    Id = "80860",
+    Icon = "inv_staff_06",
+    Name = IJ_LOOT_NAME_80860,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[80861] = {
+    Id = "80861",
+    Icon = "inv_weapon_shortblade_05",
+    Name = IJ_LOOT_NAME_80861,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[70224] = {
+    Id = "70224",
+    Icon = "inv_misc_cape_08",
+    Name = IJ_LOOT_NAME_70224,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58261] = {
+    Id = "58261",
+    Icon = "inv_misc_horn_01",
+    Name = IJ_LOOT_NAME_58261,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58262] = {
+    Id = "58262",
+    Icon = "inv_sword_39",
+    Name = IJ_LOOT_NAME_58262,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58073] = {
+    Id = "58073",
+    Icon = "inv_misc_rune_01",
+    Name = IJ_LOOT_NAME_58073,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58281] = {
+    Id = "58281",
+    Icon = "inv_throwingknife_03",
+    Name = IJ_LOOT_NAME_58281,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58279] = {
+    Id = "58279",
+    Icon = "inv_weapon_shortblade_27",
+    Name = IJ_LOOT_NAME_58279,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58280] = {
+    Id = "58280",
+    Icon = "inv_chest_chain_07",
+    Name = IJ_LOOT_NAME_58280,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58062] = {
+    Id = "58062",
+    Icon = "inv_jewelry_ring_14",
+    Name = IJ_LOOT_NAME_58062,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58063] = {
+    Id = "58063",
+    Icon = "inv_pants_07",
+    Name = IJ_LOOT_NAME_58063,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58064] = {
+    Id = "58064",
+    Icon = "inv_jewelry_necklace_01",
+    Name = IJ_LOOT_NAME_58064,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[6714] = {
+    Id = "6714",
+    Icon = "inv_misc_bomb_06",
+    Name = IJ_LOOT_NAME_6714,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[58065] = {
+    Id = "58065",
+    Icon = "inv_bracer_03",
+    Name = IJ_LOOT_NAME_58065,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58066] = {
+    Id = "58066",
+    Icon = "inv_shoulder_03",
+    Name = IJ_LOOT_NAME_58066,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58080] = {
+    Id = "58080",
+    Icon = "inv_drink_03",
+    Name = IJ_LOOT_NAME_58080,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58081] = {
+    Id = "58081",
+    Icon = "inv_weapon_shortblade_14",
+    Name = IJ_LOOT_NAME_58081,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58082] = {
+    Id = "58082",
+    Icon = "inv_misc_book_11",
+    Name = IJ_LOOT_NAME_58082,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58083] = {
+    Id = "58083",
+    Icon = "inv_weapon_rifle_02",
+    Name = IJ_LOOT_NAME_58083,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41980] = {
+    Id = "41980",
+    Icon = "inv_jewelry_necklace_12",
+    Name = IJ_LOOT_NAME_41980,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58277] = {
+    Id = "58277",
+    Icon = "inv_wand_06",
+    Name = IJ_LOOT_NAME_58277,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58278] = {
+    Id = "58278",
+    Icon = "inv_belt_35",
+    Name = IJ_LOOT_NAME_58278,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60624] = {
+    Id = "60624",
+    Icon = "inv_weapon_crossbow_03",
+    Name = IJ_LOOT_NAME_60624,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60625] = {
+    Id = "60625",
+    Icon = "inv_gauntlets_04",
+    Name = IJ_LOOT_NAME_60625,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60626] = {
+    Id = "60626",
+    Icon = "inv_belt_07",
+    Name = IJ_LOOT_NAME_60626,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60622] = {
+    Id = "60622",
+    Icon = "inv_jewelry_ring_48naxxramas",
+    Name = IJ_LOOT_NAME_60622,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[81253] = {
+    Id = "81253",
+    Icon = "inv_gizmo_01",
+    Name = IJ_LOOT_NAME_81253,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[81252] = {
+    Id = "81252",
+    Icon = "inv_gizmo_01",
+    Name = IJ_LOOT_NAME_81252,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[81251] = {
+    Id = "81251",
+    Icon = "inv_gizmo_01",
+    Name = IJ_LOOT_NAME_81251,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[81250] = {
+    Id = "81250",
+    Icon = "inv_gizmo_01",
+    Name = IJ_LOOT_NAME_81250,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[51832] = {
+    Id = "51832",
+    Icon = "inv_axe_13",
+    Name = IJ_LOOT_NAME_51832,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[51833] = {
+    Id = "51833",
+    Icon = "inv_staff_22",
+    Name = IJ_LOOT_NAME_51833,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[51834] = {
+    Id = "51834",
+    Icon = "inv_hammer_07",
+    Name = IJ_LOOT_NAME_51834,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60316] = {
+    Id = "60316",
+    Icon = "inv_shoulder_28",
+    Name = IJ_LOOT_NAME_60316,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60317] = {
+    Id = "60317",
+    Icon = "inv_mace_06",
+    Name = IJ_LOOT_NAME_60317,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60318] = {
+    Id = "60318",
+    Icon = "inv_belt_11",
+    Name = IJ_LOOT_NAME_60318,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61478] = {
+    Id = "61478",
+    Icon = "inv_jewelry_ring_23",
+    Name = IJ_LOOT_NAME_61478,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[7964] = {
+    Id = "7964",
+    Icon = "inv_stone_sharpeningstone_04",
+    Name = IJ_LOOT_NAME_7964,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[7965] = {
+    Id = "7965",
+    Icon = "inv_stone_weightstone_04",
+    Name = IJ_LOOT_NAME_7965,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[61517] = {
+    Id = "61517",
+    Icon = "inv_misc_gem_emerald_02",
+    Name = IJ_LOOT_NAME_61517,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[70156] = {
+    Id = "70156",
+    Icon = "inv_misc_note_01",
+    Name = IJ_LOOT_NAME_70156,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[70157] = {
+    Id = "70157",
+    Icon = "inv_misc_note_01",
+    Name = IJ_LOOT_NAME_70157,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[70158] = {
+    Id = "70158",
+    Icon = "inv_misc_note_01",
+    Name = IJ_LOOT_NAME_70158,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[70225] = {
+    Id = "70225",
+    Icon = "inv_belt_18",
+    Name = IJ_LOOT_NAME_70225,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[9550] = {
+    Id = "9550",
+    Icon = "inv_misc_rune_06",
+    Name = IJ_LOOT_NAME_9550,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[41854] = {
+    Id = "41854",
+    Icon = "inv_pants_02",
+    Name = IJ_LOOT_NAME_41854,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41855] = {
+    Id = "41855",
+    Icon = "inv_gauntlets_23",
+    Name = IJ_LOOT_NAME_41855,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60996] = {
+    Id = "60996",
+    Icon = "inv_jewelry_talisman_08",
+    Name = IJ_LOOT_NAME_60996,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60997] = {
+    Id = "60997",
+    Icon = "inv_jewelry_talisman_08",
+    Name = IJ_LOOT_NAME_60997,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61068] = {
+    Id = "61068",
+    Icon = "spell_frost_fireresistancetotem",
+    Name = IJ_LOOT_NAME_61068,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[60715] = {
+    Id = "60715",
+    Icon = "inv_misc_bandage_06",
+    Name = IJ_LOOT_NAME_60715,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60717] = {
+    Id = "60717",
+    Icon = "inv_belt_12",
+    Name = IJ_LOOT_NAME_60717,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60718] = {
+    Id = "60718",
+    Icon = "inv_boots_fabric_01",
+    Name = IJ_LOOT_NAME_60718,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60719] = {
+    Id = "60719",
+    Icon = "inv_axe_24",
+    Name = IJ_LOOT_NAME_60719,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60739] = {
+    Id = "60739",
+    Icon = "btnlancelot_ring",
+    Name = IJ_LOOT_NAME_60739,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[51356] = {
+    Id = "51356",
+    Icon = "inv_misc_key_11",
+    Name = IJ_LOOT_NAME_51356,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[60463] = {
+    Id = "60463",
+    Icon = "inv_misc_rune_03",
+    Name = IJ_LOOT_NAME_60463,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60464] = {
+    Id = "60464",
+    Icon = "inv_misc_orb_01",
+    Name = IJ_LOOT_NAME_60464,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60465] = {
+    Id = "60465",
+    Icon = "inv_jewelry_ring_51naxxramas",
+    Name = IJ_LOOT_NAME_60465,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60459] = {
+    Id = "60459",
+    Icon = "inv_jewelry_ring_35",
+    Name = IJ_LOOT_NAME_60459,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60460] = {
+    Id = "60460",
+    Icon = "inv_misc_bone_05",
+    Name = IJ_LOOT_NAME_60460,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60461] = {
+    Id = "60461",
+    Icon = "inv_misc_orb_05",
+    Name = IJ_LOOT_NAME_60461,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[92045] = {
+    Id = "92045",
+    Icon = "inv_scroll_03",
+    Name = IJ_LOOT_NAME_92045,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60673] = {
+    Id = "60673",
+    Icon = "inv_bracer_14",
+    Name = IJ_LOOT_NAME_60673,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60665] = {
+    Id = "60665",
+    Icon = "btnharbingerring",
+    Name = IJ_LOOT_NAME_60665,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60666] = {
+    Id = "60666",
+    Icon = "inv_boots_07",
+    Name = IJ_LOOT_NAME_60666,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60667] = {
+    Id = "60667",
+    Icon = "inv_pants_12",
+    Name = IJ_LOOT_NAME_60667,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[2686] = {
+    Id = "2686",
+    Icon = "inv_drink_13",
+    Name = IJ_LOOT_NAME_2686,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[60699] = {
+    Id = "60699",
+    Icon = "inv_gauntlets_15",
+    Name = IJ_LOOT_NAME_60699,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60694] = {
+    Id = "60694",
+    Icon = "inv_crown_01",
+    Name = IJ_LOOT_NAME_60694,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60695] = {
+    Id = "60695",
+    Icon = "inv_jewelry_ring_43",
+    Name = IJ_LOOT_NAME_60695,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60696] = {
+    Id = "60696",
+    Icon = "inv_hammer_04",
+    Name = IJ_LOOT_NAME_60696,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60771] = {
+    Id = "60771",
+    Icon = "inv_gauntlets_18",
+    Name = IJ_LOOT_NAME_60771,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60772] = {
+    Id = "60772",
+    Icon = "inv_misc_cape_04",
+    Name = IJ_LOOT_NAME_60772,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60773] = {
+    Id = "60773",
+    Icon = "inv_mace_12",
+    Name = IJ_LOOT_NAME_60773,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60774] = {
+    Id = "60774",
+    Icon = "inv_belt_03",
+    Name = IJ_LOOT_NAME_60774,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60734] = {
+    Id = "60734",
+    Icon = "inv_weapon_shortblade_05",
+    Name = IJ_LOOT_NAME_60734,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60735] = {
+    Id = "60735",
+    Icon = "btnemptyamulet",
+    Name = IJ_LOOT_NAME_60735,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60736] = {
+    Id = "60736",
+    Icon = "inv_helmet_10",
+    Name = IJ_LOOT_NAME_60736,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61393] = {
+    Id = "61393",
+    Icon = "inv_gizmo_06",
+    Name = IJ_LOOT_NAME_61393,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61383] = {
+    Id = "61383",
+    Icon = "inv_weapon_rifle_twow_01_gold_noglow",
+    Name = IJ_LOOT_NAME_61383,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61384] = {
+    Id = "61384",
+    Icon = "inv_gauntlets_29",
+    Name = IJ_LOOT_NAME_61384,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61385] = {
+    Id = "61385",
+    Icon = "inv_belt_27",
+    Name = IJ_LOOT_NAME_61385,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[81294] = {
+    Id = "81294",
+    Icon = "inv_gauntlets_23",
+    Name = IJ_LOOT_NAME_81294,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[81319] = {
+    Id = "81319",
+    Icon = "inv_shield_08",
+    Name = IJ_LOOT_NAME_81319,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[81320] = {
+    Id = "81320",
+    Icon = "inv_wand_04",
+    Name = IJ_LOOT_NAME_81320,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61620] = {
+    Id = "61620",
+    Icon = "inv_misc_monsterspidercarapace_01",
+    Name = IJ_LOOT_NAME_61620,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61621] = {
+    Id = "61621",
+    Icon = "inv_spear_06",
+    Name = IJ_LOOT_NAME_61621,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61622] = {
+    Id = "61622",
+    Icon = "inv_chest_cloth_15",
+    Name = IJ_LOOT_NAME_61622,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61348] = {
+    Id = "61348",
+    Icon = "inv_boots_plate_08",
+    Name = IJ_LOOT_NAME_61348,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61349] = {
+    Id = "61349",
+    Icon = "inv_mace_11",
+    Name = IJ_LOOT_NAME_61349,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61601] = {
+    Id = "61601",
+    Icon = "inv_axe_20",
+    Name = IJ_LOOT_NAME_61601,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61602] = {
+    Id = "61602",
+    Icon = "inv_helmet_02",
+    Name = IJ_LOOT_NAME_61602,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61603] = {
+    Id = "61603",
+    Icon = "inv_chest_cloth_48",
+    Name = IJ_LOOT_NAME_61603,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61604] = {
+    Id = "61604",
+    Icon = "inv_shoulder_07",
+    Name = IJ_LOOT_NAME_61604,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61486] = {
+    Id = "61486",
+    Icon = "inv_belt_10",
+    Name = IJ_LOOT_NAME_61486,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61487] = {
+    Id = "61487",
+    Icon = "inv_gauntlets_05",
+    Name = IJ_LOOT_NAME_61487,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61497] = {
+    Id = "61497",
+    Icon = "inv_belt_26",
+    Name = IJ_LOOT_NAME_61497,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61498] = {
+    Id = "61498",
+    Icon = "inv_jewelry_ring_22",
+    Name = IJ_LOOT_NAME_61498,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61499] = {
+    Id = "61499",
+    Icon = "inv_gauntlets_15",
+    Name = IJ_LOOT_NAME_61499,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61369] = {
+    Id = "61369",
+    Icon = "inv_shirt_guildtabard_01",
+    Name = IJ_LOOT_NAME_61369,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[60590] = {
+    Id = "60590",
+    Icon = "inv_misc_bandana_01",
+    Name = IJ_LOOT_NAME_60590,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60591] = {
+    Id = "60591",
+    Icon = "inv_bracer_02",
+    Name = IJ_LOOT_NAME_60591,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[92001] = {
+    Id = "92001",
+    Icon = "inv_misc_book_07",
+    Name = IJ_LOOT_NAME_92001,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[70134] = {
+    Id = "70134",
+    Icon = "inv_misc_note_01",
+    Name = IJ_LOOT_NAME_70134,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[61627] = {
+    Id = "61627",
+    Icon = "inv_axe_11",
+    Name = IJ_LOOT_NAME_61627,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61628] = {
+    Id = "61628",
+    Icon = "inv_belt_12",
+    Name = IJ_LOOT_NAME_61628,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61629] = {
+    Id = "61629",
+    Icon = "inv_weapon_rifle_twow_02_purple",
+    Name = IJ_LOOT_NAME_61629,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61630] = {
+    Id = "61630",
+    Icon = "inv_bracer_17",
+    Name = IJ_LOOT_NAME_61630,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61419] = {
+    Id = "61419",
+    Icon = "inv_belt_04",
+    Name = IJ_LOOT_NAME_61419,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61420] = {
+    Id = "61420",
+    Icon = "inv_helmet_29",
+    Name = IJ_LOOT_NAME_61420,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[61353] = {
+    Id = "61353",
+    Icon = "inv_gauntlets_15",
+    Name = IJ_LOOT_NAME_61353,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61354] = {
+    Id = "61354",
+    Icon = "inv_jewelry_ring_27",
+    Name = IJ_LOOT_NAME_61354,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61355] = {
+    Id = "61355",
+    Icon = "inv_belt_26",
+    Name = IJ_LOOT_NAME_61355,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60333] = {
+    Id = "60333",
+    Icon = "inv_staff_08",
+    Name = IJ_LOOT_NAME_60333,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60334] = {
+    Id = "60334",
+    Icon = "inv_jewelry_ring_34",
+    Name = IJ_LOOT_NAME_60334,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41876] = {
+    Id = "41876",
+    Icon = "inv_misc_key_03",
+    Name = IJ_LOOT_NAME_41876,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41830] = {
+    Id = "41830",
+    Icon = "inv_belt_17",
+    Name = IJ_LOOT_NAME_41830,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41826] = {
+    Id = "41826",
+    Icon = "inv_belt_03",
+    Name = IJ_LOOT_NAME_41826,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41827] = {
+    Id = "41827",
+    Icon = "inv_gauntlets_18",
+    Name = IJ_LOOT_NAME_41827,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41828] = {
+    Id = "41828",
+    Icon = "inv_bracer_12",
+    Name = IJ_LOOT_NAME_41828,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41831] = {
+    Id = "41831",
+    Icon = "inv_weapon_shortblade_25",
+    Name = IJ_LOOT_NAME_41831,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41832] = {
+    Id = "41832",
+    Icon = "inv_belt_04",
+    Name = IJ_LOOT_NAME_41832,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41833] = {
+    Id = "41833",
+    Icon = "inv_bracer_02",
+    Name = IJ_LOOT_NAME_41833,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[58234] = {
+    Id = "58234",
+    Icon = "inv_jewelry_talisman_health",
+    Name = IJ_LOOT_NAME_58234,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[58235] = {
+    Id = "58235",
+    Icon = "inv_jewelry_talisman_health",
+    Name = IJ_LOOT_NAME_58235,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[58236] = {
+    Id = "58236",
+    Icon = "inv_jewelry_talisman_health",
+    Name = IJ_LOOT_NAME_58236,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[3209] = {
+    Id = "3209",
+    Icon = "inv_sword_10",
+    Name = IJ_LOOT_NAME_3209,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[6194] = {
+    Id = "6194",
+    Icon = "inv_axe_17",
+    Name = IJ_LOOT_NAME_6194,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[41842] = {
+    Id = "41842",
+    Icon = "inv_boots_plate_09",
+    Name = IJ_LOOT_NAME_41842,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41843] = {
+    Id = "41843",
+    Icon = "inv_misc_cape_18",
+    Name = IJ_LOOT_NAME_41843,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41844] = {
+    Id = "41844",
+    Icon = "inv_bracer_07",
+    Name = IJ_LOOT_NAME_41844,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41836] = {
+    Id = "41836",
+    Icon = "inv_jewelry_necklace_15",
+    Name = IJ_LOOT_NAME_41836,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61199] = {
+    Id = "61199",
+    Icon = "inv_misc_gem_stone_01",
+    Name = IJ_LOOT_NAME_61199,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[61703] = {
+    Id = "61703",
+    Icon = "inv_jewelry_necklace_13",
+    Name = IJ_LOOT_NAME_61703,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[51070] = {
+    Id = "51070",
+    Icon = "inv_misc_note_05",
+    Name = IJ_LOOT_NAME_51070,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[81316] = {
+    Id = "81316",
+    Icon = "inv_axe_21",
+    Name = IJ_LOOT_NAME_81316,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[81317] = {
+    Id = "81317",
+    Icon = "inv_misc_lantern_01",
+    Name = IJ_LOOT_NAME_81317,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[70070] = {
+    Id = "70070",
+    Icon = "inv_helmet_30",
+    Name = IJ_LOOT_NAME_70070,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60678] = {
+    Id = "60678",
+    Icon = "inv_chest_chain_12",
+    Name = IJ_LOOT_NAME_60678,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60679] = {
+    Id = "60679",
+    Icon = "inv_boots_09",
+    Name = IJ_LOOT_NAME_60679,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60684] = {
+    Id = "60684",
+    Icon = "inv_belt_06",
+    Name = IJ_LOOT_NAME_60684,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60685] = {
+    Id = "60685",
+    Icon = "inv_bracer_10",
+    Name = IJ_LOOT_NAME_60685,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60686] = {
+    Id = "60686",
+    Icon = "inv_mace_04",
+    Name = IJ_LOOT_NAME_60686,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[70239] = {
+    Id = "70239",
+    Icon = "inv_misc_cape_07",
+    Name = IJ_LOOT_NAME_70239,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[70240] = {
+    Id = "70240",
+    Icon = "inv_bracer_11",
+    Name = IJ_LOOT_NAME_70240,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60179] = {
+    Id = "60179",
+    Icon = "inv_jewelry_ring_12",
+    Name = IJ_LOOT_NAME_60179,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60180] = {
+    Id = "60180",
+    Icon = "inv_chest_chain_12",
+    Name = IJ_LOOT_NAME_60180,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60181] = {
+    Id = "60181",
+    Icon = "inv_misc_cape_09",
+    Name = IJ_LOOT_NAME_60181,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60182] = {
+    Id = "60182",
+    Icon = "inv_shoulder_05",
+    Name = IJ_LOOT_NAME_60182,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60183] = {
+    Id = "60183",
+    Icon = "inv_helmet_32",
+    Name = IJ_LOOT_NAME_60183,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60213] = {
+    Id = "60213",
+    Icon = "inv_chest_chain_07",
+    Name = IJ_LOOT_NAME_60213,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60214] = {
+    Id = "60214",
+    Icon = "inv_misc_cape_18",
+    Name = IJ_LOOT_NAME_60214,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60215] = {
+    Id = "60215",
+    Icon = "inv_shoulder_04",
+    Name = IJ_LOOT_NAME_60215,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60216] = {
+    Id = "60216",
+    Icon = "inv_helmet_15",
+    Name = IJ_LOOT_NAME_60216,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60668] = {
+    Id = "60668",
+    Icon = "btn_cr_gcoin",
+    Name = IJ_LOOT_NAME_60668,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[60672] = {
+    Id = "60672",
+    Icon = "inv_misc_gem_pearl_01",
+    Name = IJ_LOOT_NAME_60672,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[51792] = {
+    Id = "51792",
+    Icon = "inv_chest_cloth_20",
+    Name = IJ_LOOT_NAME_51792,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[51793] = {
+    Id = "51793",
+    Icon = "inv_sword_draenei_03",
+    Name = IJ_LOOT_NAME_51793,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[51794] = {
+    Id = "51794",
+    Icon = "inv_weapon_rifle_04",
+    Name = IJ_LOOT_NAME_51794,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[81288] = {
+    Id = "81288",
+    Icon = "inv_sword_142",
+    Name = IJ_LOOT_NAME_81288,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[82950] = {
+    Id = "82950",
+    Icon = "inv_gizmo_newgoggles",
+    Name = IJ_LOOT_NAME_82950,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[82951] = {
+    Id = "82951",
+    Icon = "inv_gizmo_newgoggles",
+    Name = IJ_LOOT_NAME_82951,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[82952] = {
+    Id = "82952",
+    Icon = "inv_gizmo_newgoggles",
+    Name = IJ_LOOT_NAME_82952,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[82953] = {
+    Id = "82953",
+    Icon = "inv_gizmo_newgoggles",
+    Name = IJ_LOOT_NAME_82953,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60497] = {
+    Id = "60497",
+    Icon = "inv_jewelry_necklace_08",
+    Name = IJ_LOOT_NAME_60497,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60498] = {
+    Id = "60498",
+    Icon = "inv_spear_01",
+    Name = IJ_LOOT_NAME_60498,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[60499] = {
+    Id = "60499",
+    Icon = "inv_jewelry_ring_14",
+    Name = IJ_LOOT_NAME_60499,
+    Quality = IQ.Rare,
+    Tag = 1
+}
+
+I[41919] = {
+    Id = "41919",
+    Icon = "inv_jewelry_ring_12",
+    Name = IJ_LOOT_NAME_41919,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[83002] = {
+    Id = "83002",
+    Icon = "inv_misc_book_07",
+    Name = IJ_LOOT_NAME_83002,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[61195] = {
+    Id = "61195",
+    Icon = "btnwoodenringupg1",
+    Name = IJ_LOOT_NAME_61195,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[61194] = {
+    Id = "61194",
+    Icon = "btnorbofdepths",
+    Name = IJ_LOOT_NAME_61194,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[61193] = {
+    Id = "61193",
+    Icon = "btnenchantednecklace",
+    Name = IJ_LOOT_NAME_61193,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[61650] = {
+    Id = "61650",
+    Icon = "inv_spear_02",
+    Name = IJ_LOOT_NAME_61650,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[61651] = {
+    Id = "61651",
+    Icon = "inv_mace_20",
+    Name = IJ_LOOT_NAME_61651,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[61740] = {
+    Id = "61740",
+    Icon = "inv_misc_monsterclaw_04",
+    Name = IJ_LOOT_NAME_61740,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[61666] = {
+    Id = "61666",
+    Icon = "inv_scroll_04",
+    Name = IJ_LOOT_NAME_61666,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[92025] = {
+    Id = "92025",
+    Icon = "inv_misc_book_07",
+    Name = IJ_LOOT_NAME_92025,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
+I[41372] = {
+    Id = "41372",
+    Icon = "inv_wand_09",
+    Name = IJ_LOOT_NAME_41372,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[61731] = {
+    Id = "61731",
+    Icon = "inv_stone_weightstone_05",
+    Name = IJ_LOOT_NAME_61731,
+    Quality = IQ.Common,
+    Tag = 1
+}
+
+I[41413] = {
+    Id = "41413",
+    Icon = "inv_staff_11",
+    Name = IJ_LOOT_NAME_41413,
+    Quality = IQ.Common,
+    Tag = 1
 }
 
 IJDB.I = I

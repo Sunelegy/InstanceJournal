@@ -112,6 +112,11 @@ IJ_REPUTATION_RAVENHOLDT = "Ravenholdt"
 IJ_REPUTATION_BROODOFNOZDORMU = "Brood of Nozdormu"
 IJ_REPUTATION_THORIUMBROTHERHOOD = "Thorium Brotherhood"
 IJ_REPUTATION_ZANDALARTRIBE = "Zandalar Tribe"
+IJ_REPUTATION_REVANTUSKTROLLS = "Revantusk Trolls"
+IJ_REPUTATION_HYDRAXIANWATERLORDS = "Hydraxian Waterlords"
+IJ_REPUTATION_THERAMORE = "Theramore"
+IJ_REPUTATION_DALARAN = "Dalaran"
+IJ_REPUTATION_SILVERMOONREMNANT = "Silvermoon Remnant"
 
 -- Factions
 IJ_FACTION_ALLIANCE = "Alliance"
@@ -5099,6 +5104,92 @@ IJ_DB_POI_TT_NAME = "Timbermaw Tunnels"
 -- ==   Quests   ==
 -- ================
 
+-- Quest 41976
+IJ_QUEST_NAME_41976 = "In Search of Tauren Relics"
+IJ_QUEST_OBJECTIVE_41976 =
+"Gather 8 Windhorn Relics for Tarwegg Dustbrow within Windhorn Canyon and return to him in Ironforge."
+IJ_NPC_NAME_62416 = "Tarwegg Dustbrow"
+
+-- Quest 41977
+IJ_QUEST_NAME_41977 = "Relics of the Windhorn Tribe"
+IJ_QUEST_OBJECTIVE_41977 =
+"Travel into the Windhorn Canyon and recover 8 Windhorn Relics for Sagh at Sagh's Refuge in Thousand Needles."
+IJ_NPC_NAME_62836 = "Sagh"
+IJ_LOOT_NAME_42263 = "Sagh's Pendant"
+
+-- Quest 4542
+IJ_QUEST_NAME_4542 = "Message to Freewind Post"
+IJ_QUEST_OBJECTIVE_4542 = "Bring the Urgent Message to Cliffwatcher Longhorn at Freewind Post."
+IJ_NPC_NAME_10079 = "Brave Moonhorn"
+IJ_NPC_NAME_10537 = "Cliffwatcher Longhorn"
+
+-- Quest 4841
+IJ_QUEST_NAME_4841 = "Pacify the Centaur"
+IJ_QUEST_OBJECTIVE_4841 =
+"Kill 12 Galak Scouts, 10 Galak Wranglers, and 6 Galak Windchasers, and then return to Cliffwatcher Longhorn in Freewind Post."
+
+-- Quest 5064
+IJ_QUEST_NAME_5064 = "Grimtotem Spying"
+IJ_QUEST_OBJECTIVE_5064 = "Locate and retrieve the three Secret Notes in Darkcloud Pinnacle"
+IJ_LOOT_NAME_15457 = "Desert Shoulders"
+IJ_LOOT_NAME_15458 = "Tundra Boots"
+IJ_LOOT_NAME_15459 = "Grimtoll Wristguards"
+
+-- Quest 41979
+IJ_QUEST_NAME_41979 = "Rumors of the Deathtotem"
+IJ_QUEST_OBJECTIVE_41979 = "Deliver the Longhorn Missive to Cairne Bloodhoof in Thunderbluff."
+IJ_NPC_NAME_3057 = "Cairne Bloodhoof"
+
+-- Quest 41981
+IJ_QUEST_NAME_41981 = "Information for Cairne"
+IJ_QUEST_OBJECTIVE_41981 = "Deliver Rahauro's information to Cairne Bloodhoof in Thunderbluff."
+IJ_NPC_NAME_11833 = "Rahauro"
+
+-- Quest 41982
+IJ_QUEST_NAME_41982 = "Destroy the Deathtotem"
+IJ_QUEST_OBJECTIVE_41982 =
+"Slay Prophet Stormhoof, the leader of the Deathtotem within Windhorn Canyon, and return to Cairne Bloodhoof in Thunderbluff."
+IJ_LOOT_NAME_42268 = "Bloodhoof Sash"
+IJ_LOOT_NAME_42269 = "Stormhoof Shackles"
+IJ_LOOT_NAME_42270 = "Stonemane Boots"
+
+-- Quest 42040
+IJ_QUEST_NAME_42040 = "A Grave Misunderstanding!"
+IJ_QUEST_OBJECTIVE_42040 = "Recover the Tablet of Kaz'gan for Ranix Crackbolt within Frostmane Hollow."
+IJ_NPC_NAME_63190 = "Ranix Crackbolt"
+
+-- Quest 42008
+IJ_QUEST_NAME_42008 = "The Finest Pelt"
+IJ_QUEST_OBJECTIVE_42008 =
+"Enter Frostmane Hollow in Dun Morogh and acquire a flawless leopard pelt for Shandlar Thethis in Alah’thalas in the Thalassian Highlands. You can find the entrance to Frostmane Hollow near the Ironforge Airfields."
+IJ_NPC_NAME_61840 = "Shandlar Thethis"
+IJ_LOOT_NAME_158 = "Thalassian Silk Cape"
+
+-- Quest 42038
+IJ_QUEST_NAME_42038 = "The Frostmane War"
+IJ_QUEST_OBJECTIVE_42038 =
+"Slay 8 Frostmane Scouts, 6 Frostmane Drudges, and 6 Frostmane Mystics for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh."
+IJ_NPC_NAME_63168 = "Mountaineer Granitebeard"
+
+-- Quest 42039
+IJ_QUEST_NAME_42039 = "Chieftain Ubukaz"
+IJ_QUEST_OBJECTIVE_42039 =
+"Slay Battlemaster Ubukaz deep within Frostmane Hollow for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh."
+IJ_LOOT_NAME_42323 = "Heavy Chain Bracers"
+IJ_LOOT_NAME_42324 = "Sash of Illumination"
+IJ_LOOT_NAME_42325 = "Deep-Thread Shawl"
+
+-- Quest 42007
+IJ_QUEST_NAME_42007 = "The Shattered Disc"
+IJ_QUEST_OBJECTIVE_42007 = "Return to Brohann Caskbelly in the Dwarven District of Stormwind."
+IJ_NPC_NAME_63182 = "Archaeologist Evenpike"
+IJ_NPC_NAME_5384 = "Brohann Caskbelly"
+IJ_LOOT_NAME_136 = "Archaeologist's Lantern"
+
+-- Quest 42006
+IJ_QUEST_NAME_42006 = "Searching for Archaeologist Evenpike"
+IJ_QUEST_OBJECTIVE_42006 = "Search for Archeologist Evenpike inside Frostmane Hollow in Dun Morogh."
+
 -- Quest 4735
 IJ_QUEST_NAME_4735 = "Egg Collection"
 IJ_QUEST_OBJECTIVE_4735 =
@@ -5126,11 +5217,13 @@ IJ_QUEST_OBJECTIVE_41311 =
 IJ_QUEST_NAME_41312 = "Restoration"
 IJ_QUEST_OBJECTIVE_41312 =
 "If you wish to repair the relic, bring Dolvan the necessary parts and an arcane focus from a high-ranking blue dragon. The mage can be found along the shoreline south of Theramore."
+IJ_LOOT_NAME_41372 = "Sceptre Head of Medivh"
 
 -- Quest 41015
 IJ_QUEST_NAME_41015 = "The Binding of Xanthar"
 IJ_QUEST_OBJECTIVE_41015 =
 "Gather the Upper Binding of Xanthar and the Lower Binding of Xanthar for Hanvar the Righteous in the small church outside of Karazhan."
+IJ_LOOT_NAME_61731 = "The Binding of Xanthar"
 
 -- Quest 41083
 IJ_QUEST_NAME_41083 = "Suitable Accomodations"
@@ -5152,6 +5245,7 @@ IJ_QUEST_OBJECTIVE_41086 = "Deliver the Spectral Wine to Councilman Kyleson in K
 IJ_QUEST_NAME_41369 = "The Scepter Rod of Medivh"
 IJ_QUEST_OBJECTIVE_41369 =
 "To restore the Scepter Rod of Medivh, Anelace the Clairvoyant at Morgan's Plot in Deadwind Pass needs a high amount of arcane energy."
+IJ_LOOT_NAME_41413 = "Scepter Rod of Medivh"
 
 -- Quest 41370
 IJ_QUEST_NAME_41370 = "Tirisfal's Vestige"
@@ -5174,6 +5268,7 @@ IJ_QUEST_OBJECTIVE_41344 =
 "Recover the Comically Large Candle from Grizikil and return to Big Whiskers in Upper Karazhan."
 IJ_NPC_NAME_61571 = "Doorman Montigue"
 IJ_NPC_NAME_61990 = "Big Whiskers"
+IJ_LOOT_NAME_92025 = "Tome of Polymorph: Rodent"
 
 -- Quest 41078
 IJ_QUEST_NAME_41078 = "Contribution to the Church"
@@ -5197,15 +5292,22 @@ IJ_QUEST_OBJECTIVE_41003 = "Bring 10 Essence of Undeath, 10 Living Essence, and 
 IJ_QUEST_NAME_41004 = "Le Fishe Au Chocolat"
 IJ_QUEST_OBJECTIVE_41004 = "Bring the Charge of Karazhan to The Cook in Karazhan."
 IJ_NPC_NAME_61320 = "Duke Rothlen"
+IJ_LOOT_NAME_61666 = "Recipe: Le Fishe Au Chocolat"
 
 -- Quest 41038
 IJ_QUEST_NAME_41038 = "The Claw of Erennius"
 IJ_QUEST_OBJECTIVE_41038 = "Bring the Claw of Erennius to one that may find it useful."
+IJ_LOOT_NAME_61650 = "Jadestone Skewer"
+IJ_LOOT_NAME_61651 = "Jadestone Mallet"
+IJ_LOOT_NAME_61740 = "Claw of Senthos"
 
 -- Quest 40963
 IJ_QUEST_NAME_40963 = "Head of Solnius"
 IJ_QUEST_OBJECTIVE_40963 = "Bring the Head of Solnius to Ralathius at Nordanaar in Hyjal."
 IJ_NPC_NAME_61326 = "Ralathius"
+IJ_LOOT_NAME_61195 = "Ring of Nordrassil"
+IJ_LOOT_NAME_61194 = "The Heart of Dreams"
+IJ_LOOT_NAME_61193 = "Verdant Eye Necklace"
 
 -- Quest 40905
 IJ_QUEST_NAME_40905 = "Smoldering Dream Essence"
@@ -5227,17 +5329,22 @@ IJ_NPC_NAME_14368 = "Lorekeeper Lydros"
 IJ_NPC_NAME_1498 = "Bethor Iceshard"
 IJ_NPC_NAME_2708 = "Archmage Malin"
 IJ_NPC_NAME_8379 = "Archmage Xylem"
+IJ_LOOT_NAME_83002 = "Tome of Refreshment Ritual"
 
 -- Quest 41812
 IJ_QUEST_NAME_41812 = "The Moonshrine Ruins"
 IJ_QUEST_OBJECTIVE_41812 =
 "Traverse into the depths of Blackfathom Deeps and recover a 'Seed of Bloom' from within the Moonshrine Ruins. Once acquired, return to Aelennia Starbloom east of The Zoram Strand in Ashenvale."
 IJ_NPC_NAME_62727 = "Aelennia Starbloom"
+IJ_LOOT_NAME_41919 = "Starbloom Ring"
 
 -- Quest 40342
 IJ_QUEST_NAME_40342 = "The Bronze Betrayal"
 IJ_QUEST_OBJECTIVE_40342 = "Slay Chronar, and bring his head to Tyvadrius in the Caverns of Time."
 IJ_NPC_NAME_60622 = "Tyvadrius"
+IJ_LOOT_NAME_60497 = "Pendant of Tyvadrius"
+IJ_LOOT_NAME_60498 = "Halberd of the Bronze Defender"
+IJ_LOOT_NAME_60499 = "Ring of Tyvadrius"
 
 -- Quest 80395
 IJ_QUEST_NAME_80395 = "A Glittering Opportunity"
@@ -5247,6 +5354,7 @@ IJ_QUEST_OBJECTIVE_80395 = "Investigate the mountain south of Ratchet."
 IJ_QUEST_NAME_80396 = "A Bloody Good Deed"
 IJ_QUEST_OBJECTIVE_80396 =
 "Kill 6 Kolkar Bloodchargers, 4 Kolkar Pack Runners and  4 Kolkar Marauders. Use the crystal to summon Kheyna Spinpistol again."
+IJ_LOOT_NAME_51792 = "Otherworldly Robe"
 
 -- Quest 80407
 IJ_QUEST_NAME_80407 = "A Letter From a Friend"
@@ -5260,6 +5368,8 @@ IJ_QUEST_OBJECTIVE_80408 =
 -- Quest 80409
 IJ_QUEST_NAME_80409 = "Return to Kheyna"
 IJ_QUEST_OBJECTIVE_80409 = "Return to the crystal and speak to Kheyna Spinpistol."
+IJ_LOOT_NAME_51793 = "Otherworldly Blade"
+IJ_LOOT_NAME_51794 = "Otherworldly Rifle"
 
 -- Quest 80410
 IJ_QUEST_NAME_80410 = "A Timely Situation"
@@ -5268,6 +5378,7 @@ IJ_QUEST_OBJECTIVE_80410 = "Go to the Andorhal Inn and seek out whoever sent the
 -- Quest 80411
 IJ_QUEST_NAME_80411 = "An Infinite Hunt"
 IJ_QUEST_OBJECTIVE_80411 = "Go to Seradane's Temple and defeat Antnormi, return to Chromie in Andorhal."
+IJ_LOOT_NAME_81288 = "Mechanist's Bonechopper Replica"
 
 -- Quest 80604
 IJ_QUEST_NAME_80604 = "A Journey Into The Caverns"
@@ -5284,6 +5395,10 @@ IJ_NPC_NAME_65004 = "Kheyna Spinpistol"
 IJ_NPC_NAME_65005 = "Chromie"
 IJ_NPC_NAME_65019 = "Chromie"
 IJ_NPC_NAME_81041 = "Kheyna Spinpistol"
+IJ_LOOT_NAME_82950 = "X-51 Arcane Ocular Implants"
+IJ_LOOT_NAME_82951 = "X-52 Stealth Ocular Implants"
+IJ_LOOT_NAME_82952 = "X-53 Ranger Ocular Implants"
+IJ_LOOT_NAME_82953 = "X-54 Guardian Ocular Implants"
 
 -- Quest 40465
 IJ_QUEST_NAME_40465 = "Discovering Golem Secrets"
@@ -5298,11 +5413,13 @@ IJ_QUEST_OBJECTIVE_40466 =
 IJ_QUEST_NAME_40467 = "The Arcane Golem Core"
 IJ_QUEST_OBJECTIVE_40467 =
 "Find, and collect an Arcane Golem Core from Golem Lord Argelmach in Blackrock Depths and return to Radgan Deepblaze at Blackrock Pass in Burning Steppes."
+IJ_LOOT_NAME_60672 = "Energized Golem Core"
 
 -- Quest 40464
 IJ_QUEST_NAME_40464 = "Senatorial Revenge"
 IJ_QUEST_OBJECTIVE_40464 =
 "Slay 25 Shadowforge Senators deep within the Blackrock Depths for Orvak Sternrock at the Blackrock Pass in Burning Steppes."
+IJ_LOOT_NAME_60668 = "Badge of Shadowforge"
 
 -- Quest 40326
 IJ_QUEST_NAME_40326 = "Kalanar's Mallet"
@@ -5323,18 +5440,27 @@ IJ_QUEST_NAME_40147 = "Rooting Out Evil"
 IJ_QUEST_OBJECTIVE_40147 = "Venture into the Crescent Grove and root out the evil inside."
 IJ_NPC_NAME_11720 = "Loruk Foreststrider"
 IJ_NPC_NAME_11749 = "Feran Strongwind"
+IJ_LOOT_NAME_60213 = "Outrider Chain"
+IJ_LOOT_NAME_60214 = "Strongwind Cloak"
+IJ_LOOT_NAME_60215 = "Foreststrider Spaulders"
+IJ_LOOT_NAME_60216 = "Hat of Forest Medicine"
 
 -- Quest 40091
 IJ_QUEST_NAME_40091 = "The Crescent Grove"
 IJ_QUEST_OBJECTIVE_40091 =
 "Destroy the source of corruption inside Crescent Grove and return to Denatharion in Teldrassil."
 IJ_NPC_NAME_4218 = "Denatharion"
+IJ_LOOT_NAME_60180 = "Sentinel Chain"
+IJ_LOOT_NAME_60181 = "Groveweave Cloak"
+IJ_LOOT_NAME_60182 = "Epaulets of Forest Wisdom"
+IJ_LOOT_NAME_60183 = "Bushstalker Mask"
 
 -- Quest 40090
 IJ_QUEST_NAME_40090 = "The Unwise Elders"
 IJ_QUEST_OBJECTIVE_40090 =
 "Bring the paws of Elder 'One Eye' and Elder Blackmaw from within the Crescent Grove to Grol the Exile."
 IJ_NPC_NAME_91285 = "Grol the Exile"
+IJ_LOOT_NAME_60179 = "Grol's Band"
 
 -- Quest 40089
 IJ_QUEST_NAME_40089 = "The Rampant Groveweald"
@@ -5377,6 +5503,8 @@ IJ_QUEST_NAME_41392 = "Turning Off The Tap"
 IJ_QUEST_OBJECTIVE_41392 = "Infiltrate the Deadmines in Westfall and acquire Voss' Sizzling Brew."
 IJ_NPC_NAME_6946 = "Renzik \"The Shiv\""
 IJ_NPC_NAME_7024 = "Agent Kearnen"
+IJ_LOOT_NAME_70239 = "Operative Cloak"
+IJ_LOOT_NAME_70240 = "Cuffs of Integrity"
 
 -- Quest 40470
 IJ_QUEST_NAME_40470 = "The Harvest Golem Mystery"
@@ -5386,6 +5514,8 @@ IJ_QUEST_OBJECTIVE_40470 = "Collect a Cracked Animation Rune for Christopher Hew
 IJ_QUEST_NAME_40471 = "The Harvest Golem Mystery"
 IJ_QUEST_OBJECTIVE_40471 =
 "Gather 10 Intact Animation Runes from Harvest Golems in Westfall for Christopher Hewen at Sentinel Hill."
+IJ_LOOT_NAME_60678 = "Westfall Hauberk"
+IJ_LOOT_NAME_60679 = "Westfall Rancher Boots"
 
 -- Quest 40472
 IJ_QUEST_NAME_40472 = "The Harvest Golem Mystery"
@@ -5419,6 +5549,9 @@ IJ_QUEST_OBJECTIVE_40478 =
 IJ_NPC_NAME_5518 = "Lilliam Sparkspindle"
 IJ_NPC_NAME_60858 = "Maltimor Gartside"
 IJ_NPC_NAME_8934 = "Christopher Hewen"
+IJ_LOOT_NAME_60684 = "Tinkering Belt"
+IJ_LOOT_NAME_60685 = "Safety Wraps"
+IJ_LOOT_NAME_60686 = "Harvest Golem Arm"
 
 -- Quest 40395
 IJ_QUEST_NAME_40395 = "Food for Sailing Thoughts?"
@@ -5429,11 +5562,14 @@ IJ_QUEST_NAME_40396 = "Captain Grayson's Revenge"
 IJ_QUEST_OBJECTIVE_40396 = "End Cookie."
 IJ_NPC_NAME_2010884 = "Guide to a Sailor's Stomach"
 IJ_NPC_NAME_392 = "Captain Grayson"
+IJ_LOOT_NAME_70070 = "Grayson's Hat"
 
 -- Quest 55005
 IJ_QUEST_NAME_55005 = "Prototype Thievery"
 IJ_QUEST_OBJECTIVE_55005 = "Bring the Prototype Shredder X0-1 Schematic to Wrix Ozzlenut."
 IJ_NPC_NAME_91200 = "Wrix Ozzlenut"
+IJ_LOOT_NAME_81316 = "Foe Chopper"
+IJ_LOOT_NAME_81317 = "Shining Electro-lantern"
 
 -- Quest 41375
 IJ_QUEST_NAME_41375 = "A Study of Magical Trees"
@@ -5443,17 +5579,21 @@ IJ_QUEST_OBJECTIVE_41375 = "Travel to Dire Maul and seek Lorekeeper Lydros."
 IJ_QUEST_NAME_41376 = "Wrapping Warpwood"
 IJ_QUEST_OBJECTIVE_41376 = "Bring 5 Blue Leaves to Lorekeeper Lydros"
 IJ_NPC_NAME_2020112 = "of Ancients and Treants"
+IJ_LOOT_NAME_51070 = "Glyph of the Arcane Treant"
 
 -- Quest 41016
 IJ_QUEST_NAME_41016 = "The Wildshaper"
 IJ_QUEST_OBJECTIVE_41016 = "Bring the Head of Alzzin the Wildshaper for Arch Druid Dreamwind at Nordanaar in Hyjal."
 IJ_NPC_NAME_61512 = "Arch Druid Dreamwind"
+IJ_LOOT_NAME_61199 = "Bright Dream Shard"
+IJ_LOOT_NAME_61703 = "Talisman of the Dreamshaper"
 
 -- Quest 41753
 IJ_QUEST_NAME_41753 = "A Blaze Unending"
 IJ_QUEST_OBJECTIVE_41753 =
 "Retrieve the Eternal Flame from within the Dragonmaw Retreat and bring it to Shara Blazen in Tarren Mill."
 IJ_NPC_NAME_2402 = "Shara Blazen"
+IJ_LOOT_NAME_41836 = "Ancient Flame Pendant"
 
 -- Quest 41752
 IJ_QUEST_NAME_41752 = "Cavernweb Extract"
@@ -5476,6 +5616,8 @@ IJ_QUEST_OBJECTIVE_465 = "Destroy the Dragonmaw catapults."
 -- Quest 474
 IJ_QUEST_NAME_474 = "Defeat Nek'rosh"
 IJ_QUEST_OBJECTIVE_474 = "Kill Chieftain Nek'rosh\n\nBring Nek'rosh's Head to Captain Stoutfist."
+IJ_LOOT_NAME_3209 = "Ancient War Sword"
+IJ_LOOT_NAME_6194 = "Barreling Reaper"
 
 -- Quest 41757
 IJ_QUEST_NAME_41757 = "Blackheart's Demise"
@@ -5483,6 +5625,9 @@ IJ_QUEST_OBJECTIVE_41757 = "Bring Captain Stoutfist in Menethil Harbor the head 
 IJ_NPC_NAME_1609 = "Dragonmaw Catapult"
 IJ_NPC_NAME_2086 = "Valstag Ironjaw"
 IJ_NPC_NAME_2104 = "Captain Stoutfist"
+IJ_LOOT_NAME_41842 = "Menethil Greaves"
+IJ_LOOT_NAME_41843 = "Stoutheart Shawl"
+IJ_LOOT_NAME_41844 = "Torwyll's Cuffs"
 
 -- Quest 41756
 IJ_QUEST_NAME_41756 = "To Crush The Dragonmaw"
@@ -5505,28 +5650,39 @@ IJ_LOOT_NAME_41981 = "Letter from Korlag Doomsong"
 IJ_QUEST_NAME_41785 = "Yoke of the Dragon Queen"
 IJ_QUEST_OBJECTIVE_41785 = "Search the Wetlands for a red dragon willing to hear you out."
 IJ_NPC_NAME_62637 = "Nydiszanz"
+IJ_LOOT_NAME_58234 = "Pendant of Ember Blood"
+IJ_LOOT_NAME_58235 = "Pendant of Ember Blessing"
+IJ_LOOT_NAME_58236 = "Pendant of Ember Hatred"
 
 -- Quest 41751
 IJ_QUEST_NAME_41751 = "The Dragonmaw Brood"
 IJ_QUEST_OBJECTIVE_41751 =
 "Nydiszanz at the Dragonmaw Gates in the Wetlands wishes to release his brother Searistrasz from his capture by the Dragonmaw orcs in the Dragonmaw Retreat."
+IJ_LOOT_NAME_41831 = "Runebound Dagger"
+IJ_LOOT_NAME_41832 = "Flameweave Sash"
+IJ_LOOT_NAME_41833 = "Cuffs of Burning Rage"
 
 -- Quest 41749
 IJ_QUEST_NAME_41749 = "Stone Golem Salvage"
 IJ_QUEST_OBJECTIVE_41749 =
 "Acquire the runestone of a Crumbling Stone Golem inside Dragomaw Retreat and bring it to Kixxle on the mainroad in the Wetlands."
 IJ_NPC_NAME_8305 = "Kixxle"
+IJ_LOOT_NAME_41826 = "Mosshide Cinch"
+IJ_LOOT_NAME_41827 = "Fenwater Gloves"
+IJ_LOOT_NAME_41828 = "Mosschain Bracers"
 
 -- Quest 41750
 IJ_QUEST_NAME_41750 = "Gowlfang's Defeat"
 IJ_QUEST_OBJECTIVE_41750 =
 "Avenge the Mosshide gnolls by slaying their former leader Gowlfang in Dragonmaw Retreat. Return to Grimbite at their camp in The Green Belt in the Wetlands afterwards."
 IJ_NPC_NAME_62636 = "Grimbite"
+IJ_LOOT_NAME_41830 = "Mosshide Ring"
 
 -- Quest 41774
 IJ_QUEST_NAME_41774 = "Pedestal of Unity"
 IJ_QUEST_OBJECTIVE_41774 = ""
 IJ_NPC_NAME_2020220 = "Pedestal of Unity"
+IJ_LOOT_NAME_41876 = "Lower Reserve Key"
 
 -- Quest 40827
 IJ_QUEST_NAME_40827 = "The Key to Karazhan VIII"
@@ -5580,6 +5736,8 @@ IJ_QUEST_OBJECTIVE_40254 =
 "Travel to Dire Maul, and slay the great evil being that the Highborne are leeching energy upon, gather from it Pure Ley Essence, and return to Keeper Laena in Azshara."
 IJ_NPC_NAME_60512 = "Keeper Laena"
 IJ_NPC_NAME_91722 = "Keeper Iselus"
+IJ_LOOT_NAME_60333 = "Azshara Keeper's Staff"
+IJ_LOOT_NAME_60334 = "Ring of Eldara"
 
 -- Quest 41276
 IJ_QUEST_NAME_41276 = "Mastering Goldsmithing"
@@ -5615,6 +5773,9 @@ IJ_QUEST_OBJECTIVE_40849 =
 "Enter Gilneas City and slay Genn Greymane, then bring his head to Blackthorn at Blackthorn's Camp in Gilneas."
 IJ_NPC_NAME_61375 = "Blackthorn"
 IJ_NPC_NAME_61377 = "Luke Agamand"
+IJ_LOOT_NAME_61353 = "Blackthorn Gauntlets"
+IJ_LOOT_NAME_61354 = "Banshee's Tear"
+IJ_LOOT_NAME_61355 = "Dark Footpad Belt"
 
 -- Quest 40877
 IJ_QUEST_NAME_40877 = "Dead Until Dark"
@@ -5634,6 +5795,8 @@ IJ_QUEST_OBJECTIVE_40879 =
 IJ_QUEST_NAME_40880 = "We Take It From The Living"
 IJ_QUEST_OBJECTIVE_40880 =
 "Bring 15 Gilnean Blood Vials and 15 Worgen Blood Vials to Orvan Darkeye in the Ruins of Grayshire."
+IJ_LOOT_NAME_61419 = "Sash of Innocent Blood"
+IJ_LOOT_NAME_61420 = "Wreath of Worgen Blood"
 
 -- Quest 40881
 IJ_QUEST_NAME_40881 = "The Evil Made Me Do It"
@@ -5656,6 +5819,10 @@ IJ_QUEST_NAME_40979 = "Ebonmere Affairs"
 IJ_QUEST_OBJECTIVE_40979 =
 "Slay Dustivan Blackcowl and recover the Ebonmere Deed for Joshua Ebonmere at Ebonmere Farm in Gilneas."
 IJ_NPC_NAME_61290 = "Joshua Ebonmere"
+IJ_LOOT_NAME_61627 = "Ebonmere Reaver"
+IJ_LOOT_NAME_61628 = "Clutch of Joshua"
+IJ_LOOT_NAME_61629 = "Farmer's Musket"
+IJ_LOOT_NAME_61630 = "Ebonmere Vambraces"
 
 -- Quest 41379
 IJ_QUEST_NAME_41379 = "Wolfblood"
@@ -5691,16 +5858,20 @@ IJ_QUEST_NAME_41285 = "Left In Bad Faith"
 IJ_QUEST_OBJECTIVE_41285 = "Return with the adventurer's necklace to Talvash del Kissel in Ironforge."
 IJ_NPC_NAME_61912 = "Mayva Togview"
 IJ_NPC_NAME_6826 = "Talvash del Kissel"
+IJ_LOOT_NAME_70134 = "Plans: Alluring Citrine Choker"
 
 -- Quest 40407
 IJ_QUEST_NAME_40407 = "Mannoroc Demonic Sigil"
 IJ_QUEST_OBJECTIVE_40407 = "Acquire a Mannoroc Demonic Sigil for Magus Halister at Theramore Isle in Dustwallow Marsh."
+IJ_LOOT_NAME_60590 = "Isle Watcher's Sash"
+IJ_LOOT_NAME_60591 = "Hallister's Cuffs"
 
 -- Quest 41114
 IJ_QUEST_NAME_41114 = "Manuscript on Hydromancy II"
 IJ_QUEST_OBJECTIVE_41114 =
 "Recover the Manuscript on Hydromancy II for Magus Hallister at Theramore Isle in Dustwallow Marsh."
 IJ_NPC_NAME_60731 = "Magus Halister"
+IJ_LOOT_NAME_92001 = "Tome of Teleportation: Theramore"
 
 -- Quest 40948
 IJ_QUEST_NAME_40948 = "Wolf Amongst Sheep"
@@ -5746,6 +5917,10 @@ IJ_NPC_NAME_61260 = "Moranna Rosenberg"
 IJ_NPC_NAME_61448 = "Tess Greymane"
 IJ_NPC_NAME_61457 = "Liam Greymane"
 IJ_NPC_NAME_61458 = "Liam Greymane"
+IJ_LOOT_NAME_61497 = "Ravenwood Belt"
+IJ_LOOT_NAME_61498 = "Signet of Gilneas"
+IJ_LOOT_NAME_61499 = "Ravenshire Gloves"
+IJ_LOOT_NAME_61369 = "Ravenshire Tabard"
 
 -- Quest 40940
 IJ_QUEST_NAME_40940 = "Font of Arcana"
@@ -5767,6 +5942,8 @@ IJ_QUEST_NAME_40943 = "Undoing Draconic Presence"
 IJ_QUEST_OBJECTIVE_40943 =
 "End the Draconic Influence over Gilneas by slaying Regent-Lady Celia Harlow, and Regent-Lord Mortimer Harlow for Magus Orelius at Ravenshire in Gilneas."
 IJ_NPC_NAME_61271 = "Magus Orelius"
+IJ_LOOT_NAME_61486 = "Violet Sash"
+IJ_LOOT_NAME_61487 = "Gauntlets of Insight"
 
 -- Quest 41112
 IJ_QUEST_NAME_41112 = "Ravencroft's Ambition"
@@ -5777,40 +5954,56 @@ IJ_NPC_NAME_61460 = "Ethan Ravencroft"
 -- Quest 40966
 IJ_QUEST_NAME_40966 = "The Deed to Ravenshire"
 IJ_QUEST_OBJECTIVE_40966 = "Find the Deed to Ravenshire in Gilneas City and bring it back to Caliban Silverlaine."
+IJ_LOOT_NAME_61601 = "Ebonmere Axe"
+IJ_LOOT_NAME_61602 = "Gilneas Brigade Helmet"
+IJ_LOOT_NAME_61603 = "Robes of Ravenshire"
+IJ_LOOT_NAME_61604 = "Greyshire Pauldrons"
 
 -- Quest 40841
 IJ_QUEST_NAME_40841 = "Behind The Wall"
 IJ_QUEST_OBJECTIVE_40841 = "Venture into Gilneas City and recover the Dawnstone Plans for Therum Deepforge in Stormwind."
 IJ_NPC_NAME_5511 = "Therum Deepforge"
+IJ_LOOT_NAME_61348 = "Inlaid Plate Boots"
+IJ_LOOT_NAME_61349 = "Dwarven Battle Bludgeon"
 
 -- Quest 40975
 IJ_QUEST_NAME_40975 = "The Judge and the Phantom"
 IJ_QUEST_OBJECTIVE_40975 =
 "Slay Judge Sutherland within Gilneas City for the Angered Phantom at the Glaymore Stead in Gilneas."
 IJ_NPC_NAME_61559 = "Angered Phantom"
+IJ_LOOT_NAME_61620 = "Glaymore Family Breastplate"
+IJ_LOOT_NAME_61621 = "Ceremonial Gilnean Pike"
+IJ_LOOT_NAME_61622 = "Glaymore Shawl"
 
 -- Quest 55003
 IJ_QUEST_NAME_55003 = "A New Power Source"
 IJ_QUEST_OBJECTIVE_55003 =
 "Gather six Energized Scales from Lightning Hides and Thunder Lizards at Thunder Ridge to the west and bring them to Technician Spuzzle in Sparkwater Port."
+IJ_LOOT_NAME_81294 = "Technician's Field Gloves"
 
 -- Quest 55006
 IJ_QUEST_NAME_55006 = "Backup Capacitor"
 IJ_QUEST_OBJECTIVE_55006 = "Bring the Megaflux Capacitor to Technician Grimzlow."
 IJ_NPC_NAME_91214 = "Technician Spuzzle"
 IJ_NPC_NAME_91234 = "Technician Grimzlow"
+IJ_LOOT_NAME_81319 = "Razorblade Buckler"
+IJ_LOOT_NAME_81320 = "Crackling Zapper"
 
 -- Quest 40856
 IJ_QUEST_NAME_40856 = "Backup System Activation"
 IJ_QUEST_OBJECTIVE_40856 =
 "Activate the Alpha Channel Valve and the Reserve Pump Channel Lever deep within Gnomeregan for Master Technician Wirespanner in Dun Morogh."
 IJ_NPC_NAME_61437 = "Master Technician Wirespanner"
+IJ_LOOT_NAME_61383 = "Intricate Gnomish Blunderbuss"
+IJ_LOOT_NAME_61384 = "Ionized Metal Grips"
+IJ_LOOT_NAME_61385 = "Magnetic Band"
 
 -- Quest 40861
 IJ_QUEST_NAME_40861 = "High Energy Regulator"
 IJ_QUEST_OBJECTIVE_40861 =
 "Find the Schematic: High Energy Regulator within Gnomeregan and bring it to Weezan Littlegear at the Gnomeregan Reclamation Facility in Dun Morogh."
 IJ_NPC_NAME_61441 = "Weezan Littlegear"
+IJ_LOOT_NAME_61393 = "Low Energy Regulator"
 
 -- Quest 40501
 IJ_QUEST_NAME_40501 = "Of New and Old"
@@ -5832,6 +6025,9 @@ IJ_NPC_NAME_3144 = "Eitrigg"
 IJ_NPC_NAME_4949 = "Thrall"
 IJ_NPC_NAME_60770 = "Karfang"
 IJ_NPC_NAME_60772 = "Councilor Vargek"
+IJ_LOOT_NAME_60734 = "Blade of the Warleader"
+IJ_LOOT_NAME_60735 = "Obsidian Gem Choker"
+IJ_LOOT_NAME_60736 = "Battlemaster Helm"
 
 -- Quest 40538
 IJ_QUEST_NAME_40538 = "Peculiar Won't Even Cut It"
@@ -5841,6 +6037,10 @@ IJ_QUEST_OBJECTIVE_40538 = "Slay 8 Peculiar Dragonlings for Worg Mistress Katall
 IJ_QUEST_NAME_40539 = "Hunting Engineer Figgles"
 IJ_QUEST_OBJECTIVE_40539 = "Kill Engineer Figgles in Hateforge Quarry for Worg Mistress Katalla."
 IJ_NPC_NAME_60775 = "Mistress Katalla"
+IJ_LOOT_NAME_60771 = "Pyrehand Gloves"
+IJ_LOOT_NAME_60772 = "Fur of Navakesh"
+IJ_LOOT_NAME_60773 = "Blackrock Authority"
+IJ_LOOT_NAME_60774 = "Girdle of Galron"
 
 -- Quest 40486
 IJ_QUEST_NAME_40486 = "Investigating Hateforge"
@@ -5861,12 +6061,17 @@ IJ_QUEST_OBJECTIVE_40489 =
 "Venture into The Hateforge Quarry and remove the presence of the Twilight Hammer from deep within, when completed, return to King Magni Bronzebeard in Ironforge."
 IJ_NPC_NAME_2784 = "King Magni Bronzebeard"
 IJ_NPC_NAME_60869 = "Senator Granitebelt"
+IJ_LOOT_NAME_60694 = "Crown of Grobi"
+IJ_LOOT_NAME_60695 = "Sigil of Heritage"
+IJ_LOOT_NAME_60696 = "Rubyheart Mallet"
 
 -- Quest 40490
 IJ_QUEST_NAME_40490 = "Rumors of Hateforge Brew"
 IJ_QUEST_OBJECTIVE_40490 =
 "Delve into the Hateforge Quarry and recover a Dark Iron Vial, and the Hateforge Chemistry Documents, then return to Varlag Duskbeard at Morgan's Vigil in Burning Steppes."
 IJ_NPC_NAME_60870 = "Varlag Duskbeard"
+IJ_LOOT_NAME_2686 = "Thunder Ale"
+IJ_LOOT_NAME_60699 = "Varlag's Clutches"
 
 -- Quest 41361
 IJ_QUEST_NAME_41361 = "Gleaming Blood"
@@ -5880,6 +6085,9 @@ IJ_QUEST_OBJECTIVE_40463 =
 "Slay Bargul Blackhammer, and recover the Senate's Orders for Orvak Sternrock at the Blackrock Pass in Burning Steppes."
 IJ_NPC_NAME_60833 = "Orvak Sternrock"
 IJ_NPC_NAME_60834 = "Radgan Deepblaze"
+IJ_LOOT_NAME_60665 = "Deepblaze Signet"
+IJ_LOOT_NAME_60666 = "Sternrock Trudgers"
+IJ_LOOT_NAME_60667 = "Firepike's Lucky Trousers"
 
 -- Quest 40459
 IJ_QUEST_NAME_40459 = "Gaining Orvak's Trust"
@@ -5904,6 +6112,7 @@ IJ_QUEST_NAME_40468 = "Miners Union Mutiny II"
 IJ_QUEST_OBJECTIVE_40468 =
 "Slay 20 Hateforge Miners at the Hateforge Quarry and return to Morgrim Firepike at Blackrock Pass in Burning Steppes."
 IJ_NPC_NAME_60832 = "Morgrim Firepike"
+IJ_LOOT_NAME_60673 = "Cuffs of Justice"
 
 -- Quest 40458
 IJ_QUEST_NAME_40458 = "Rival Presence"
@@ -5918,6 +6127,7 @@ IJ_QUEST_OBJECTIVE_41373 = "Find The Cook in Lower Karazhan Halls."
 IJ_QUEST_NAME_41374 = "No Honor Among Chefs"
 IJ_QUEST_OBJECTIVE_41374 = "Slay the Ravenous Strigoi in Karazhan Crypts and return to The Cook in Lower Karazhan Halls."
 IJ_NPC_NAME_2020111 = "Recipes of Kezan"
+IJ_LOOT_NAME_92045 = "Recipe: Empowering Herbal Salad"
 
 -- Quest 40304
 IJ_QUEST_NAME_40304 = "The Depths of Karazhan I"
@@ -5952,6 +6162,9 @@ IJ_QUEST_OBJECTIVE_40310 =
 "Venture forth into the Karazhan Crypts, once inside slay Alarus, the watcher of the Crypts for Kor'gan in Stonard."
 IJ_NPC_NAME_1497 = "Gunther Arcanus"
 IJ_NPC_NAME_60607 = "Kor'gan"
+IJ_LOOT_NAME_60459 = "Charged Arcane Ring"
+IJ_LOOT_NAME_60460 = "Tusk of Gardon"
+IJ_LOOT_NAME_60461 = "Blackfire Orb"
 
 -- Quest 40311
 IJ_QUEST_NAME_40311 = "The Mystery of Karazhan I"
@@ -5979,6 +6192,7 @@ IJ_QUEST_OBJECTIVE_40315 =
 -- Quest 40316
 IJ_QUEST_NAME_40316 = "The Mystery of Karazhan VI"
 IJ_QUEST_OBJECTIVE_40316 = "Wait for Magus Ariden Dusktower to enfuse the energies of Karazhan into the key."
+IJ_LOOT_NAME_51356 = "Karazhan Crypt Key"
 
 -- Quest 40317
 IJ_QUEST_NAME_40317 = "The Mystery of Karazhan VII"
@@ -5986,6 +6200,9 @@ IJ_QUEST_OBJECTIVE_40317 =
 "Venture forth into the Karazhan Crypts, once inside slay Alarus, the watcher of the Crypts for Magus Ariden Dusktower in Deadwind Pass."
 IJ_NPC_NAME_2543 = "Archmage Ansirem Runeweaver"
 IJ_NPC_NAME_60606 = "Magus Ariden Dusktower"
+IJ_LOOT_NAME_60463 = "Arcane Charged Pendant"
+IJ_LOOT_NAME_60464 = "Orb of Kaladoon"
+IJ_LOOT_NAME_60465 = "Arcane Strengthened Band"
 
 -- Quest 40505
 IJ_QUEST_NAME_40505 = "Protecting Fresh Blood"
@@ -6010,6 +6227,7 @@ IJ_QUEST_NAME_40509 = "The Final Crack"
 IJ_QUEST_OBJECTIVE_40509 =
 "Slay Quartermaster Zigris deep in the Blackrock Spire for Karfang at Karfang Hold in Burning Steppes."
 IJ_NPC_NAME_60769 = "Molk"
+IJ_LOOT_NAME_60739 = "Tarnished Lancelot Ring"
 
 -- Quest 40496
 IJ_QUEST_NAME_40496 = "Raider's Revenge"
@@ -6023,6 +6241,9 @@ IJ_QUEST_OBJECTIVE_40497 = "Catch a Young Blackrock Worg and bring him back to R
 IJ_QUEST_NAME_40498 = "Raider's Raid"
 IJ_QUEST_OBJECTIVE_40498 = "Slay Gizrul the Slavener in Blackrock Spire, then report to Raider Fargosh in Karfang Hold."
 IJ_NPC_NAME_60765 = "Raider Fargosh"
+IJ_LOOT_NAME_60717 = "Worg Rider Sash"
+IJ_LOOT_NAME_60718 = "Sootwalker Sandals"
+IJ_LOOT_NAME_60719 = "Axe of Fargosh"
 
 -- Quest 40494
 IJ_QUEST_NAME_40494 = "The Firegut Task"
@@ -6034,6 +6255,7 @@ IJ_QUEST_NAME_40495 = "Forest Troll Scum"
 IJ_QUEST_OBJECTIVE_40495 =
 "Kill War Master Voone in Lower Blackrock Spire and bring his tusks back to Taskmaster Ok'gog at Karfang Hold in Burning Steppes."
 IJ_NPC_NAME_60774 = "Taskmaster Ok'gog"
+IJ_LOOT_NAME_60715 = "Taskmaster Whip"
 
 -- Quest 40755
 IJ_QUEST_NAME_40755 = "Operation Screwfuse 1000"
@@ -6061,6 +6283,8 @@ IJ_QUEST_OBJECTIVE_40759 = "Bring Bixxle's Expensive Parts to Bixxle Screwfuse a
 IJ_QUEST_NAME_40760 = "Operation Final Repairs"
 IJ_QUEST_OBJECTIVE_40760 =
 "Gather 6 Thorium Bars, 1 Gold Power Core, 1 Fused Wiring, and 1 Thorium Widget for Bixxle Screwfuse at Bixxle's Storehouse in Tel'Abim."
+IJ_LOOT_NAME_60996 = "Bixxle's Necklace of Control"
+IJ_LOOT_NAME_60997 = "Bixxle's Necklace of Mastery"
 
 -- Quest 40761
 IJ_QUEST_NAME_40761 = "Secrets of the Dark Iron Desecrator"
@@ -6073,6 +6297,7 @@ IJ_QUEST_OBJECTIVE_40762 =
 "Collect a Dark Iron Rifle, a Magma Condensor, a Intricate Arcanite Barrel and a Molten Fragment for Bixxle Screwfuse at Bixxle's Storehouse in Tel'Abim."
 IJ_NPC_NAME_61101 = "Bixxle Screwfuse"
 IJ_NPC_NAME_8139 = "Jabbey"
+IJ_LOOT_NAME_61068 = "Dark Iron Desecrator"
 
 -- Quest 40993
 IJ_QUEST_NAME_40993 = "Through Greater Magic"
@@ -6094,6 +6319,8 @@ IJ_QUEST_NAME_41758 = "Tainted Brambleheart"
 IJ_QUEST_OBJECTIVE_41758 =
 "Destroy the living embodiment of natural corruption within the depths of Razorfen Kraul, and bring the Tainted Brambleheart to Kym Wildmane in Thunderbluff."
 IJ_NPC_NAME_3036 = "Kym Wildmane"
+IJ_LOOT_NAME_41854 = "Wildbranch Leggings"
+IJ_LOOT_NAME_41855 = "Fenweave Gloves"
 
 -- Quest 41380
 IJ_QUEST_NAME_41380 = "Scythe of the Goddess"
@@ -6131,6 +6358,7 @@ IJ_QUEST_OBJECTIVE_41067 = "Retrieve a copy of \"Vorgendor: Myths from the Blood
 -- Quest 41087
 IJ_QUEST_NAME_41087 = "Scythe of the Goddess"
 IJ_QUEST_OBJECTIVE_41087 = "Retrieve a copy of \"Vorgendor: Myths from the Blood Dimension\" from Upper Karazhan."
+IJ_LOOT_NAME_9550 = "Encrypted Rune"
 
 -- Quest 41377
 IJ_QUEST_NAME_41377 = "Scythe of the Goddess"
@@ -6155,6 +6383,7 @@ IJ_QUEST_OBJECTIVE_41366 = "Slay Prelate Ironmane and return to Father Brightcop
 IJ_NPC_NAME_6389 = "Deathguard Podrig"
 IJ_NPC_NAME_91726 = "Father Brightcopf"
 IJ_NPC_NAME_91730 = "Deathguard Markus"
+IJ_LOOT_NAME_70225 = "Necklace of Redemption"
 
 -- Quest 40278
 IJ_QUEST_NAME_40278 = "Darlthos Heritage"
@@ -6180,6 +6409,9 @@ IJ_NPC_NAME_91753 = "Vathras Millson"
 IJ_QUEST_NAME_41279 = "The Lifeblood"
 IJ_QUEST_OBJECTIVE_41279 =
 "Search for the auburn giant east of the Ruins of Corthan and return to Thegren with your findings."
+IJ_LOOT_NAME_70156 = "Plans: Sharpened Citrine Gemstone"
+IJ_LOOT_NAME_70157 = "Plans: Radiant Ember Gemstone"
+IJ_LOOT_NAME_70158 = "Plans: Glowing Ruby Gemstone"
 
 -- Quest 41280
 IJ_QUEST_NAME_41280 = "Demonstration"
@@ -6222,11 +6454,14 @@ IJ_QUEST_NAME_41052 = "Harness of Chimaeran"
 IJ_QUEST_OBJECTIVE_41052 =
 "Retrieve the Harness of Chimaeran from Maraudon and bring it back to Velos Sharpstrike at Chimaera Roost Vale in Feralas."
 IJ_NPC_NAME_61588 = "Velos Sharpstrike"
+IJ_LOOT_NAME_61517 = "Chimaera's Eye"
 
 -- Quest 41368
 IJ_QUEST_NAME_41368 = "Reminiscent of Steel"
 IJ_QUEST_OBJECTIVE_41368 = "Slay Armory Quartermaster Daghelm and return Basil's journal to him in Undercity."
 IJ_NPC_NAME_4605 = "Basil Frye"
+IJ_LOOT_NAME_7964 = "Solid Sharpening Stone"
+IJ_LOOT_NAME_7965 = "Solid Weightstone"
 
 -- Quest 40934
 IJ_QUEST_NAME_40934 = "Allies Against Undeath"
@@ -6238,6 +6473,7 @@ IJ_QUEST_NAME_40935 = "Scarlet Corruption"
 IJ_QUEST_OBJECTIVE_40935 =
 "Discover the truth about the fate of High Inquisitor Fairbanks for Brother Elias at Shademore Tavern in Gilneas."
 IJ_NPC_NAME_61387 = "Brother Elias"
+IJ_LOOT_NAME_61478 = "Ring of Holy Sacrament"
 
 -- Quest 40095
 IJ_QUEST_NAME_40095 = "Tales of the Past"
@@ -6258,6 +6494,9 @@ IJ_QUEST_OBJECTIVE_40233 =
 "Venture within the Scarlet Monastery and find the Orb of Kaladus, retrieve it, and return to Watch Paladin Janathos at Sorrowguard Keep."
 IJ_NPC_NAME_1284 = "Archbishop Benedictus"
 IJ_NPC_NAME_92017 = "Watch Paladin Janathos"
+IJ_LOOT_NAME_60316 = "Truthkeeper Mantle"
+IJ_LOOT_NAME_60317 = "Lightgraced Mallet"
+IJ_LOOT_NAME_60318 = "Sorrowguard Clutch"
 
 -- Quest 60117
 IJ_QUEST_NAME_60117 = "Scarlet with Rage"
@@ -6269,6 +6508,9 @@ IJ_QUEST_OBJECTIVE_60116 =
 "Eliminate the Scarlet forces outside the Scarlet Monastery, then return to Deathguard Burgess in Brill."
 IJ_NPC_NAME_1652 = "Deathguard Burgess"
 IJ_NPC_NAME_6741 = "Innkeeper Norman"
+IJ_LOOT_NAME_51832 = "Nathrezim Wedge"
+IJ_LOOT_NAME_51833 = "Femur Staff"
+IJ_LOOT_NAME_51834 = "Scarlet Pillar"
 
 -- Quest 40027
 IJ_QUEST_NAME_40027 = "The Sanv Charm"
@@ -6472,12 +6714,17 @@ IJ_QUEST_OBJECTIVE_80401 =
 "Acquire Thorium Tuned Servo from the Scarlet Monastery's Armory, obtain the Perfect Golem Core in the Blackrocks Depths from Golem Lord Argelmach, find the Adamantite Rod in Stratholme. Return to Oglethorpe Obnoticus."
 IJ_NPC_NAME_7406 = "Oglethorpe Obnoticus"
 IJ_LOOT_NAME_81275 = "Intact Pounder Mainframe"
+IJ_LOOT_NAME_81253 = "Reinforced Red Pounder"
+IJ_LOOT_NAME_81252 = "Reinforced Green Pounder"
+IJ_LOOT_NAME_81251 = "Reinforced Blue Pounder"
+IJ_LOOT_NAME_81250 = "Reinforced Black Pounder"
 
 -- Quest 40425
 IJ_QUEST_NAME_40425 = "The Tome of Arcane Intricacies and Magical Phenomenon IX"
 IJ_QUEST_OBJECTIVE_40425 =
 "Recover the Tome of Arcane Intricacies and Magical Phenomenon IX for Mazen Mac'Nadir in Stormwind."
 IJ_NPC_NAME_338 = "Mazen Mac'Nadir"
+IJ_LOOT_NAME_60622 = "Ring of the Academy"
 
 -- Quest 41353
 IJ_QUEST_NAME_41353 = "Cold is the Night"
@@ -6505,6 +6752,9 @@ IJ_QUEST_NAME_40427 = "Ending Arc'Tiras"
 IJ_QUEST_OBJECTIVE_40427 =
 "Venture deep within The Stormwind Vault, find Arc'tiras, and slay him. When done, return to Pepin Ainsworth."
 IJ_NPC_NAME_80451 = "Koli Steamheart"
+IJ_LOOT_NAME_60624 = "Goldplated Royal Crossbow"
+IJ_LOOT_NAME_60625 = "Golden Gauntlets of Stormwind"
+IJ_LOOT_NAME_60626 = "Regal Goldthreaded Sash"
 
 -- Quest 40426
 IJ_QUEST_NAME_40426 = "Recovering Vault Shackles"
@@ -6522,6 +6772,8 @@ IJ_QUEST_OBJECTIVE_41841 = "Deliver the Bloodstone Pendant to Lady Sylvanas Wind
 IJ_NPC_NAME_10181 = "Lady Sylvanas Windrunner"
 IJ_NPC_NAME_2410 = "Magus Wordeen Voidglare"
 IJ_LOOT_NAME_41939 = "Bloodstone Pendant"
+IJ_LOOT_NAME_58277 = "Lady Winter's Touch"
+IJ_LOOT_NAME_58278 = "Ring of Judgement"
 
 -- Quest 41830
 IJ_QUEST_NAME_41830 = "Deep in the Mines"
@@ -6591,10 +6843,15 @@ IJ_LOOT_NAME_41938 = "Etched Toy Sword"
 IJ_QUEST_NAME_41879 = "Crystal Clear Impression"
 IJ_QUEST_OBJECTIVE_41879 = "Find a Stormwrought Crystal for Grukson Slatebeard at Slatebeard's Forge."
 IJ_NPC_NAME_62419 = "Grukson Slatebeard"
+IJ_LOOT_NAME_41980 = "Slatebeard Amulet"
 
 -- Quest 41787
 IJ_QUEST_NAME_41787 = "Heart of Darkness"
 IJ_QUEST_OBJECTIVE_41787 = "Stop the Shadow Council in the Stormwrought Ruins."
+IJ_LOOT_NAME_58080 = "Rufus' Trusty Tankard"
+IJ_LOOT_NAME_58081 = "Kinrial's Scalpel"
+IJ_LOOT_NAME_58082 = "Noppsy's Compendium"
+IJ_LOOT_NAME_58083 = "Nippsy's Precision Rifle"
 
 -- Quest 41692
 IJ_QUEST_NAME_41692 = "Assessing The Situation"
@@ -6608,6 +6865,8 @@ IJ_QUEST_OBJECTIVE_41693 = "Search for more clues at Sorrowmore Lake on Balor."
 IJ_QUEST_NAME_41694 = "To The Darkest Places"
 IJ_QUEST_OBJECTIVE_41694 =
 "Find Agent Deryl's comrades and potential information about your enemies using the clues he gave you. Return to Verona Gillian at the SI:7 Outpost on Balor afterwards."
+IJ_LOOT_NAME_58062 = "Half-dissolved Wedding Ring"
+IJ_LOOT_NAME_58063 = "Pantaloons of Torture"
 
 -- Quest 41695
 IJ_QUEST_NAME_41695 = "Noppsy Spickerspan"
@@ -6621,10 +6880,12 @@ IJ_QUEST_OBJECTIVE_41696 = "Acquire Stormreaver Writings for Noppsy Spickerspan 
 IJ_QUEST_NAME_41697 = "Demons Galore"
 IJ_QUEST_OBJECTIVE_41697 =
 "Clear out the demons in the cave on the western side of Balor for Nippsy Spickerspan at the SI:7 Outpost."
+IJ_LOOT_NAME_58064 = "Harelyss' Whip"
 
 -- Quest 41698
 IJ_QUEST_NAME_41698 = "Explosives Make My Heart Go BOOM!"
 IJ_QUEST_OBJECTIVE_41698 = "Return to Rufus Hammerstrike at the SI:7 Outpost after placing the explosives on Balor."
+IJ_LOOT_NAME_6714 = "Ez-Thro Dynamite"
 
 -- Quest 41699
 IJ_QUEST_NAME_41699 = "Harrowing News"
@@ -6634,6 +6895,8 @@ IJ_QUEST_OBJECTIVE_41699 = "Give Verona Gillian on Balor the report by Noppsy Sp
 IJ_QUEST_NAME_41761 = "Into The Hornet's Nest"
 IJ_QUEST_OBJECTIVE_41761 =
 "Infiltrate Stormwrought Castle on Balor and find out who is conspiring with the Stormreaver orcs. Report to Verona Gillian in the SI:7 Outpost on Balor when done."
+IJ_LOOT_NAME_58065 = "Clasps of Subterfuge"
+IJ_LOOT_NAME_58066 = "Seabreeze Mantle"
 
 -- Quest 41843
 IJ_QUEST_NAME_41843 = "Assassin In Training"
@@ -6650,6 +6913,8 @@ IJ_NPC_NAME_62556 = "Agent Deryl"
 IJ_QUEST_NAME_41842 = "Antiquities"
 IJ_QUEST_OBJECTIVE_41842 =
 "Recover ‘Compendium of Successful Trade’ within Stormwrought Castle for Noppsy Spickerspan at the SI:7 Outpost on Balor."
+IJ_LOOT_NAME_58279 = "Antiquated Slasher"
+IJ_LOOT_NAME_58280 = "Chainmail of Many Pockets"
 
 -- Quest 41845
 IJ_QUEST_NAME_41845 = "The Will of Balor"
@@ -6662,17 +6927,21 @@ IJ_QUEST_NAME_41844 = "The Dead Can’t Complain"
 IJ_QUEST_OBJECTIVE_41844 =
 "Rikki Fizmask wants you to pillage the Stormwrought Ruins on Balor and return to her at the Gullwing Wreckage."
 IJ_NPC_NAME_62520 = "Rikki Fizmask"
+IJ_LOOT_NAME_58281 = "Trusty Goblin Shiv"
 
 -- Quest 41760
 IJ_QUEST_NAME_41760 = "Skull And Bones"
 IJ_QUEST_OBJECTIVE_41760 =
 "Enter Stormwrought Castle and retrieve the Balor Sigil Ring for Lord Olivert Grahan in his estate on western Balor."
 IJ_NPC_NAME_62467 = "Lord Olivert Grahan"
+IJ_LOOT_NAME_58073 = "Grahan Family Seal"
 
 -- Quest 41814
 IJ_QUEST_NAME_41814 = "The Late Duke Balor"
 IJ_QUEST_OBJECTIVE_41814 = "Return the Crown of Balor to Olmir Halfhorn."
 IJ_NPC_NAME_62470 = "Olmir Halfhorn"
+IJ_LOOT_NAME_58261 = "Drinking Halfhorn"
+IJ_LOOT_NAME_58262 = "Enchanted Glass Kopis"
 
 -- Quest 41011
 IJ_QUEST_NAME_41011 = "The Upper Binding I"
@@ -6695,6 +6964,7 @@ IJ_QUEST_NAME_41367 = "Against the Kolkar Dream"
 IJ_QUEST_OBJECTIVE_41367 =
 "Slay Zandara Windhoof within Wailing Caverns, and bring her head back to Nalpak in the Barrens."
 IJ_NPC_NAME_5767 = "Nalpak"
+IJ_LOOT_NAME_70224 = "Kolkar Drape"
 
 -- Quest 80311
 IJ_QUEST_NAME_80311 = "Mastering the Arcane"
@@ -6706,22 +6976,30 @@ IJ_QUEST_OBJECTIVE_80312 =
 "Bring Chok'Garok 5 pieces of Moontouched Wood, a Crystal of the Serpent, and an Everchanging Essence from Wailing Caverns."
 IJ_NPC_NAME_80831 = "Chok'Garok"
 IJ_NPC_NAME_80857 = "Ureda"
+IJ_LOOT_NAME_80860 = "Staff of the Arcane Path"
+IJ_LOOT_NAME_80861 = "Spellweaving Dagger"
 
 -- Quest 41363
 IJ_QUEST_NAME_41363 = "Rampant Weeds"
 IJ_QUEST_OBJECTIVE_41363 =
 "Thundris Windweaver in Auberdine needs samples of the Unnatural Overgrowths in the Wailing Caverns."
 IJ_NPC_NAME_3649 = "Thundris Windweaver"
+IJ_LOOT_NAME_3827 = "Mana Potion"
+IJ_LOOT_NAME_1710 = "Greater Healing Potion"
 
 -- Quest 60124
 IJ_QUEST_NAME_60124 = "Trapped in the Nightmare"
 IJ_QUEST_OBJECTIVE_60124 =
 "Alanndarian Nightsong wants you to venture into the Wailing Caverns in the Northern Barrens and free Naralex from the Nightmare. Find his Disciple in the caverns to learn how. Return to her when you free Naralex."
 IJ_NPC_NAME_3702 = "Alanndarian Nightsong"
+IJ_LOOT_NAME_51848 = "Ancient Elven Robes"
+IJ_LOOT_NAME_51849 = "Thunderhorn"
 
 -- Quest 60125
 IJ_QUEST_NAME_60125 = "Serpentbloom"
 IJ_QUEST_OBJECTIVE_60125 = "Alanndarian Nightsong in Auberdine has tasked you with the collection on 10 Serpentblooms."
+IJ_LOOT_NAME_51850 = "Greenweave Sash"
+IJ_LOOT_NAME_51851 = "Verdant Boots"
 
 -- Quest 40522
 IJ_QUEST_NAME_40522 = "Sandfury Redemption I"
@@ -6752,18 +7030,23 @@ IJ_NPC_NAME_10540 = "Vol'jin"
 IJ_NPC_NAME_60749 = "Champion Taza'go"
 IJ_NPC_NAME_60752 = "Seer Maz'ek"
 IJ_NPC_NAME_7724 = "Senior Surveyor Fizzledowser"
+IJ_LOOT_NAME_60764 = "The Dune Blade"
+IJ_LOOT_NAME_60765 = "Sandmoon Greaves"
 
 -- Quest 41811
 IJ_QUEST_NAME_41811 = "The Farraki Ancient"
 IJ_QUEST_OBJECTIVE_41811 =
 "Venture in Zul'Farrak, and slay Zel'jeb the Ancient, then return to Zalsu the Wanderer, who can be found south of Zul'Farrak."
 IJ_NPC_NAME_62726 = "Zalsu the Wanderer"
+IJ_LOOT_NAME_41916 = "Dune Wanderer's Hauberk"
+IJ_LOOT_NAME_41917 = "Desert Seeker's Pants"
 
 -- Quest 40519
 IJ_QUEST_NAME_40519 = "Drifting Across the Sand"
 IJ_QUEST_OBJECTIVE_40519 =
 "Venture into Zul'Farrak and find the Ancient Troll Remains, then return them to Hansu Go'sha at the Southmoon Ruins in Tanaris."
 IJ_NPC_NAME_60856 = "Hansu Go'sha"
+IJ_LOOT_NAME_60759 = "Southmoon Pendant"
 
 -- Quest 8227
 IJ_QUEST_NAME_8227 = "Nat's Measuring Tape"
@@ -8131,7 +8414,6 @@ IJ_LOOT_NAME_1490 = "Guardian Talisman"
 IJ_QUEST_NAME_1448 = "In Search of The Temple"
 IJ_QUEST_OBJECTIVE_1448 =
 "Brohann Caskbelly in Stormwind wants you to search for the Temple of Atal'Hakkar."
-IJ_NPC_NAME_5384 = "Brohann Caskbelly"
 
 -- Quest 1449
 IJ_QUEST_NAME_1449 = "To The Hinterlands"
@@ -8385,7 +8667,6 @@ IJ_QUEST_OBJECTIVE_5728 = "Kill Bazzalan and Jergosh the Invoker before returnin
 IJ_QUEST_NAME_5722 = "Searching for the Lost Satchel"
 IJ_QUEST_OBJECTIVE_5722 =
 "Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest."
-IJ_NPC_NAME_11833 = "Rahauro"
 IJ_NPC_NAME_11834 = "Maur Grimtotem"
 
 -- Quest 5725
