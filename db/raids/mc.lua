@@ -1382,6 +1382,10 @@ MC.Bosses = {
                 IJDB.I[18703],
                 DropChance = 50,
             },
+            [13] = {
+                IJDB.I[42178],
+                DropChance = 30,
+            },
         },
     },
     [12] = { -- NOTE: Missing abilities

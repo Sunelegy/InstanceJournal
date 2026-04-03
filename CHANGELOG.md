@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.2.5] - 2026-04-03
+
+### Added
+
+- Added Rite of Resurrection to Majodormo
+
 ## [1.2.4] - 2026-04-02
 
 ### Added

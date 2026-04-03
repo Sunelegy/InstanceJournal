@@ -3515,6 +3515,7 @@ IJ_DB_RAID_MC_BOSS_STORY_11502 =
 "Lying at the bottom of Blackrock Mountain, Ragnaros is striving to find a way home, as well as to gather his strength once again so he can burn away Azeroth and take it for his own. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance. He and his dwarven minions took control of the Blackrock mountain's volcanic depths and made war on the orcs in the Upper Blackrock Spire, which served as the seat of power for Nefarian the black dragon. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain."
 
 -- MC Loot
+IJ_LOOT_NAME_42178 = "Rite of Resurrection"
 IJ_LOOT_NAME_16812 = "Gloves of Prophecy"
 IJ_LOOT_NAME_16826 = "Nightslayer Gloves"
 IJ_LOOT_NAME_16839 = "Earthfury Gloves"

@@ -8,6 +8,14 @@ local IC = IJLib.Challenges
 
 local I = {}
 
+I[42178] = {
+    Id = "42178",
+    Icon = "INV_Misc_StoneTablet_04",
+    Name = IJ_LOOT_NAME_42178,
+    Quality = IQ.Epic,
+    Tag = 1
+}
+
 I[60759] = {
     Id = "60759",
     Icon = "inv_jewelry_necklace_13",
