@@ -30,6 +30,7 @@ MC.Entrances = {
     },
     [2] = {
         MapContinentId = IMI.BlackrockDepths,
+        MapZoneId = 1,
         MapCoordinateX = 66.5,
         MapCoordinateY = 29.3,
     },
