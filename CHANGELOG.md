@@ -2,6 +2,20 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.1] - 2026-04-09
+
+### Added
+
+- Added mage class requirement to Mastering the Arcane and Arcane Arms
+
+### Changed
+
+- Changed Ureda's position to be inside of Orgrimmar
+
+### Fixed
+
+- Fixed nested quest chain with identical name being skipped
+
 ## [1.3.0] - 2026-04-06
 
 ### Added
