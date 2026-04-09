@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.4] - 2026-04-09
+
+### Fixed
+
+- Fixed polearm being filtered for Druids
+
 ## [1.3.3] - 2026-04-09
 
 ### Added
