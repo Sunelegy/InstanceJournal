@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.5] - 2026-04-10
+
+### Fixed
+
+- Fixed Vangros medias using the wrong model
+
 ## [1.3.4] - 2026-04-09
 
 ### Fixed
