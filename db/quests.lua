@@ -2578,23 +2578,6 @@ Q[1446] = {
     },
 }
 
-Q[3447] = {
-    Id = "3447",
-    Name = IJ_QUEST_NAME_3447,
-    Objective = IJ_QUEST_OBJECTIVE_3447,
-    RequiredLevel = 46,
-    Level = 51,
-    IsSharable = true,
-    StartingPoints = { NPC[7771] },
-    EndingPoints = { NPC[148838] },
-    RequiredFaction = { IF.Alliance, IF.Horde },
-    RewardExperience = 6100,
-    RewardItems = {
-        { IJDB.I[10773] },
-    },
-    RequiredQuests = { Q[3444] },
-}
-
 Q[3380] = {
     Id = "3380",
     Name = IJ_QUEST_NAME_3380,
@@ -13562,6 +13545,23 @@ Q[41976] = {
     RewardExperience = 2350,
     RewardCoin = 14100,
     RewardReputations = { { Name = IR.Ironforge, Amount = 350 } },
+}
+
+Q[3447] = {
+    Id = "3447",
+    Name = IJ_QUEST_NAME_3447,
+    Objective = IJ_QUEST_OBJECTIVE_3447,
+    RequiredLevel = 46,
+    Level = 51,
+    IsSharable = true,
+    StartingPoints = { NPC[7771] },
+    EndingPoints = { NPC[148838] },
+    RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 6100,
+    RewardItems = {
+        { IJDB.I[10773] },
+    },
+    RequiredQuests = { Q[3444] },
 }
 
 IJDB.Q = Q

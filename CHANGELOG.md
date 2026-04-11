@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.7] - 2026-04-12
+
+### Fixed
+
+- Fixed Secret of the Circle pre-requisite quests order
+
 ## [1.3.6] - 2026-04-10
 
 ### Changed
