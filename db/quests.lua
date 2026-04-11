@@ -13561,7 +13561,7 @@ Q[3447] = {
     RewardItems = {
         { IJDB.I[10773] },
     },
-    RequiredQuests = { Q[3444] },
+    RequiredQuests = { Q[3446] },
 }
 
 IJDB.Q = Q
