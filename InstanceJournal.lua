@@ -1,6 +1,6 @@
 IJ_VERSION_MAJOR = "1"
 IJ_VERSION_MINOR = "3"
-IJ_VERSION_PATCH = "8"
+IJ_VERSION_PATCH = "9"
 
 InstanceJournal = InstanceJournal or {}
 
